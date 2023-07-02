@@ -1,0 +1,7 @@
+papers:
+  - title: Overview of navigation based on camera
+    date: 2023-04
+    summary: >
+      Summary on the state of autonomous navigation based on camera.
+    link: /assets/pdf/MV_Pfleiderer.pdf
+
