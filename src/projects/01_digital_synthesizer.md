@@ -1,6 +1,6 @@
 ---
 title: Digital Synthesiser
-date: 2023-06
+date: Juni 2023
 repo: florianpfleiderer/SimpleSynth
 topics: ["C++", "Synthesizer", "Imnodes"]
 lead: making a simple digital synthesizer
