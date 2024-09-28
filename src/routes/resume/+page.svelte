@@ -26,6 +26,19 @@
   <h2 class="heading2">Education</h2>
 
   <Uni
+    title="MSc Computer Science"
+    uni="University of St Andrews"
+    url="https://www.st-andrews.ac.uk/"
+    dates="09/2024 - 08/2025"
+    location="St Andrews, Scotland"
+  >
+    <li>
+      Coursework: Artificial Intelligence, Computer Security,
+      Software Engineering, Multi-Core Architectures, Data-Intensive Systems
+    </li>
+  </Uni>
+
+  <Uni
     title="BA Electrical Engineering"
     uni="Vienna University of Technology"
     url="https://www.tuwien.at/en/"
@@ -33,7 +46,7 @@
     location="Vienna, Austria"
   >
     <li>
-      Coursework: Robotics and Computer Vision, Object Oriented Programming,
+      Coursework: Robotics and Computer Vision, Software Engineering,
       Microcomputers, Signals and Systems I/II
     </li>
   </Uni>
@@ -55,13 +68,22 @@
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
+    title="Head of Control Unit Development"
+    company="TU Wien Racing"
+    url="https://www.tuwienracing.at/"
+    dates="03/2022 - 10/2023"
+    location="Vienna, Austria"
+  >
+    <li>I led the embedded software development of the racecar's electronic control unit and helped the team secure a top 25 place among over 200 competing teams.</li>
+  </Workplace>
+  <Workplace
     title="Civil Service - Children's Care"
-    company="TG"
+    company="Therapeutische Gemeinschaften"
     url=""
     dates="10/2016 - 06/2017"
     location="Vienna, Austria"
   >
-    <li>was fun</li>
+    <li>Worked with children from households with various difficulties to bring their families back together.</li>
   </Workplace>
 </section>
 
@@ -73,8 +95,7 @@
       OpenCV, ROS, SQL
     </li>
     <li>
-      <b>Miscellaneous</b> <br /> Linux, STM32, LaTeX, Microsoft
-      Office, git
+      <b>Systems</b> <br /> Linux, STM32, LaTeX, Docker, Git, CI/CD, Agile
     </li>
     <li>
       <b>Languages</b> <br /> <b>German</b>: C2, <b>English</b>: C2,
