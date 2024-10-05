@@ -60,10 +60,7 @@
   let sortOrder: "date" | "stars" = "date";
 </script>
 
-<Seo
-  title="Florian Pfleiderer – Projects"
-  description="Projects TODO"
-/>
+<Seo title="Florian Pfleiderer – Projects" description="Projects TODO" />
 
 <div class="bg-gray-900 text-neutral-200 dark">
   <section class="layout-md py-12">
@@ -77,7 +74,6 @@
     </ul>
   </section>
 </div>
-
 
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
   <section class="py-10" id={trimName(id)}>

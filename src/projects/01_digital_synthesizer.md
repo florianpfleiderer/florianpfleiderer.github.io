@@ -7,4 +7,6 @@ lead: making a simple digital synthesizer
 image: simplesynth.png
 ---
 
-[`simplesynth`](https://github.com/florianpfleiderer/SimpleSynth) - This project involves adding two external libraries for the ui and the sound manipulation and building the logic inbetween. 
+[`simplesynth`](https://github.com/florianpfleiderer/SimpleSynth) - This project
+involves adding two external libraries for the ui and the sound manipulation and
+building the logic inbetween.

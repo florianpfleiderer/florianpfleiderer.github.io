@@ -2,17 +2,22 @@
   <div class="row">
     <span>GitHub</span>
     <hr />
-    <a class="link" href="https://github.com/florianpfleiderer">@florianpfleiderer</a>
+    <a class="link" href="https://github.com/florianpfleiderer"
+      >@florianpfleiderer</a
+    >
   </div>
   <div class="row">
     <span>LinkedIn</span>
     <hr />
-    <a class="link" href="https://www.linkedin.com/in/florianpfleiderer/">@florianpfleiderer</a>
+    <a class="link" href="https://www.linkedin.com/in/florianpfleiderer/"
+      >@florianpfleiderer</a
+    >
   </div>
   <div class="row">
     <span>Email</span>
     <hr />
-    <a class="link" href="mailto:florian@pfleiderer.at">florian@pfleiderer.at</a>
+    <a class="link" href="mailto:florian@pfleiderer.at">florian@pfleiderer.at</a
+    >
   </div>
 </footer>
 

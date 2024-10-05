@@ -12,9 +12,7 @@
 <section class="layout-md py-0">
   <div class="flex justify-between items-end">
     <h2>
-      <a
-        class="link"
-        href="https://github.com/florianpfleiderer"
+      <a class="link" href="https://github.com/florianpfleiderer"
         >Curriculum Vitae</a
       >
     </h2>
@@ -33,8 +31,8 @@
     location="St Andrews, Scotland"
   >
     <li>
-      Coursework: Artificial Intelligence, Computer Security,
-      Software Engineering, Multi-Core Architectures, Data-Intensive Systems
+      Coursework: Artificial Intelligence, Computer Security, Software
+      Engineering, Multi-Core Architectures, Data-Intensive Systems
     </li>
   </Uni>
 
@@ -58,9 +56,7 @@
     dates=""
     location=""
   >
-    <li>
-      Blundell's School, Tiverton, UK: exchange year 09/2013-07/2014
-    </li>
+    <li>Blundell's School, Tiverton, UK: exchange year 09/2013-07/2014</li>
   </Uni>
 </section>
 
@@ -74,7 +70,11 @@
     dates="03/2022 - 10/2023"
     location="Vienna, Austria"
   >
-    <li>I led the embedded software development of the racecar's electronic control unit and helped the team secure a top 25 place among over 200 competing teams.</li>
+    <li>
+      I led the embedded software development of the racecar's electronic
+      control unit and helped the team secure a top 25 place among over 200
+      competing teams.
+    </li>
   </Workplace>
   <Workplace
     title="Civil Service - Children's Care"
@@ -83,7 +83,10 @@
     dates="10/2016 - 06/2017"
     location="Vienna, Austria"
   >
-    <li>Worked with children from households with various difficulties to bring their families back together.</li>
+    <li>
+      Worked with children from households with various difficulties to bring
+      their families back together.
+    </li>
   </Workplace>
 </section>
 

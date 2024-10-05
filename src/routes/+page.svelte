@@ -9,14 +9,11 @@
       href: "/projects#01_digital_synthesizer",
       desc: "simple synthesizer written in c++",
       aside: "used by distributed databases & security systems",
-    }
+    },
   ];
 </script>
 
-<Seo
-  title="Florian Pfleiderer"
-  description="Bachelor student"
-/>
+<Seo title="Florian Pfleiderer" description="Bachelor student" />
 
 <p
   class="layout-md text-black text-xl leading-tight font-light mb-16"
@@ -30,13 +27,11 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I'm an Electrical Engineering student at TU Wien.
-      I am also part of TU Wien racing, where I work in Vehicle Dynamics.
+      I'm an Electrical Engineering student at TU Wien. I am also part of TU
+      Wien racing, where I work in Vehicle Dynamics.
     </p>
 
-    <p>
-      I am currently looking for Master Courses.
-    </p>
+    <p>I am currently looking for Master Courses.</p>
   </div>
 
   <div class="leading-snug space-y-4">

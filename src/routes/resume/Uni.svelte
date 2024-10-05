@@ -19,14 +19,16 @@
 >
   <div>
     <div class="flex justify-between items-end">
-      <h2 class="text-black text-lg leading-tight mb-1"> <a class="link" href={url}>{uni}</a> </h2>
+      <h2 class="text-black text-lg leading-tight mb-1">
+        <a class="link" href={url}>{uni}</a>
+      </h2>
       <div class="text-neutral-500 mb-1">{dates}</div>
     </div>
     <div class="flex justify-between items-end">
-       <h3>
-            {title}
-        </h3>
-        <span class="text-neutral-500 mb-1">{location}</span>
+      <h3>
+        {title}
+      </h3>
+      <span class="text-neutral-500 mb-1">{location}</span>
     </div>
   </div>
 
