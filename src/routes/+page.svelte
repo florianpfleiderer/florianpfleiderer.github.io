@@ -8,7 +8,7 @@
       name: "Simple Digital Synthesizer",
       href: "/projects#01_digital_synthesizer",
       desc: "simple synthesizer written in c++",
-      // aside: "6000+ stars on GitHub",
+      aside: "used by distributed databases & security systems",
     }
   ];
 </script>
