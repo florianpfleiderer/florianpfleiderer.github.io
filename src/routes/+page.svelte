@@ -7,7 +7,8 @@
     {
       name: "Simple Digital Synthesizer",
       href: "/projects#01_digital_synthesizer",
-      desc: "simple synthesizer written in c++"
+      desc: "simple synthesizer written in c++",
+      aside: "used by distributed databases & security systems",
     }
   ];
 </script>
