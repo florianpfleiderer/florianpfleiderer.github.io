@@ -33,11 +33,9 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      <em
-        >I'm a Masters student in Computer Science at <a
-          href="https://www.st-andrews.ac.uk/">University of St. Andrews</a
+      I'm a Masters student in Computer Science at <em
+        ><a href="https://www.st-andrews.ac.uk/">University of St. Andrews</a
         ></em
-      >
       >. <br />
       Among top 15% of my student cohort during undergraduate time at the
       <a href="https://www.tuwien.at/en/">Technical University of Vienna</a>, I
