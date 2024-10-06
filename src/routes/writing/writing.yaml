@@ -9,3 +9,16 @@ papers:
     summary: >
       Summary on the state of autonomous navigation based on camera.
     link: /assets/pdf/MV_Pfleiderer.pdf
+
+thesis:
+  - title:
+      Model Optimisation and Comparison for Improved Change Detection in
+      Autonomous Systems
+    date: 2024-07
+    summary: >
+      This thesis enhances change detection in indoor mobile robots by directly
+      applying the CYWS-3D model to camera data, eliminating the reconstruction
+      step. This approach addresses issues with occluded objects and search area
+      definitions, serving as an indicator for objects missed by existing
+      pipelines, thus improving unsupervised home assistance applications.
+    link: /assets/pdf/BA.pdf
