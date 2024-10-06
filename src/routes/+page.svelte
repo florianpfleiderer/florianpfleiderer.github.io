@@ -33,18 +33,16 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I'm a Masters student in Computer Science at <a
-        href="https://www.st-andrews.ac.uk/"
-        ><em>University of St. Andrews</em></a
+      I'm a Masters student in Computer Science at <em
+        ><a href="https://www.st-andrews.ac.uk/">University of St. Andrews</a
+        ></em
       >. <br />
       Among top 15% of my student cohort during undergraduate time at the
-      <a href="https://www.tuwien.at/en/"
-        ><em>Technical University of Vienna</em></a
-      >, I was following an individual study plan, taking courses in Robotics,
+      <a href="https://www.tuwien.at/en/">Technical University of Vienna</a>, I
+      was following an individual study plan, taking courses in Robotics,
       Machine Vision and Software Engineering. <br />
-      I was part of
-      <a href="https://www.tuwienracing.at/"><em>TU Wien racing</em></a>, where
-      I led the embedded software development of the racecar's electronic
+      I was part of <a href="https://www.tuwienracing.at/">TU Wien racing</a>,
+      where I led the embedded software development of the racecar's electronic
       control unit and helped the team secure a top 25 place among over 200
       competing teams.
     </p>
