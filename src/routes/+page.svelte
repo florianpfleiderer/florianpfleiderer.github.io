@@ -7,8 +7,14 @@
     {
       name: "Simple Digital Synthesizer",
       href: "/projects#01_digital_synthesizer",
-      desc: "simple synthesizer written in c++",
-      aside: "used by distributed databases & security systems",
+      desc: "making a simple digital synthesizer",
+      aside: "C++, ImNodes, ImGui, Cmake",
+    },
+    {
+      name: "Change Detection in Autonomous Systems",
+      href: "/projects#02_cyws3d",
+      desc: "using scene differencing to improve change detection",
+      aside: "Python, Machine-Vision, Neural-Networks",
     },
   ];
 </script>
@@ -27,11 +33,20 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I'm an Electrical Engineering student at TU Wien. I am also part of TU
-      Wien racing, where I work in Vehicle Dynamics.
+      I'm a Masters student in Computer Science at <a
+        href="https://www.st-andrews.ac.uk/">University of St. Andrews</a
+      >. <br />
+      Among top 15% of my student cohort during undergraduate time at the
+      <a href="https://www.tuwien.at/en/">Technical University of Vienna</a>, I
+      was following an individual study plan, taking courses in Robotics,
+      Machine Vision and Software Engineering. <br />
+      I was part of <a href="https://www.tuwienracing.at/">TU Wien racing</a>,
+      where I led the embedded software development of the racecar's electronic
+      control unit and helped the team secure a top 25 place among over 200
+      competing teams.
     </p>
 
-    <p>I am currently looking for Master Courses.</p>
+    <p>I am currently pursuing my Masters Degree.</p>
   </div>
 
   <div class="leading-snug space-y-4">
@@ -54,7 +69,10 @@
   </div>
 
   <div class="space-y-5">
-    <p>Other interests: math, coding, tennis.</p>
+    <p>
+      Other interests: Coding, Emerging Technologies in Electronics & IT,
+      European History
+    </p>
   </div>
 </div>
 

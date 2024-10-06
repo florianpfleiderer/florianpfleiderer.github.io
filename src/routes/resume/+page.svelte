@@ -50,13 +50,15 @@
   </Uni>
 
   <Uni
-    title=""
-    uni="Extracurricular Study Exchanges"
-    url=""
-    dates=""
-    location=""
+    title="Exchange Year"
+    uni="Blundell's School"
+    url="https://blundells.org/"
+    dates="09/2013 - 06/2014"
+    location="Tiverton, UK"
   >
-    <li>Blundell's School, Tiverton, UK: exchange year 09/2013-07/2014</li>
+    <li>
+      Coursework: Advanced Mathematics, Physics, Business Studies, History
+    </li>
   </Uni>
 </section>
 
