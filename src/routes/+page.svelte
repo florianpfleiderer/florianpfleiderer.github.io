@@ -19,15 +19,15 @@
   ];
 </script>
 
-<Seo title="Florian Pfleiderer" description="Bachelor student" />
+<Seo title="Florian Pfleiderer" description="Postgraduate taught student" />
 
 <p
   class="layout-md text-black text-xl leading-tight font-light mb-16"
   id="eric-is"
 >
-  <span class="g">is a</span> bachelor student <span class="g"> and </span><br
-  />
-  engineer <span class="g">.</span>
+  <span class="g">is a</span> postgraduate taught student
+  <span class="g"> and </span><br />
+  robotics enthusiast <span class="g">.</span>
 </p>
 
 <div class="layout-md text-lg space-y-14">
@@ -38,11 +38,14 @@
         ></em
       >. <br />
       Among top 15% of my student cohort during undergraduate time at the
-      <a href="https://www.tuwien.at/en/">Technical University of Vienna</a>, I
-      was following an individual study plan, taking courses in Robotics,
+      <em
+        ><a href="https://www.tuwien.at/en/">Technical University of Vienna</a
+        ></em
+      >, I was following an individual study plan, taking courses in Robotics,
       Machine Vision and Software Engineering. <br />
-      I was part of <a href="https://www.tuwienracing.at/">TU Wien racing</a>,
-      where I led the embedded software development of the racecar's electronic
+      I was part of
+      <em><a href="https://www.tuwienracing.at/">TU Wien racing</a></em>, where
+      I led the embedded software development of the racecar's electronic
       control unit and helped the team secure a top 25 place among over 200
       competing teams.
     </p>
