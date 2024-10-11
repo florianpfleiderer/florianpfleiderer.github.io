@@ -19,13 +19,13 @@
   ];
 </script>
 
-<Seo title="Florian Pfleiderer" description="Postgraduate taught student" />
+<Seo title="Florian Pfleiderer" description="PGT" />
 
 <p
   class="layout-md text-black text-xl leading-tight font-light mb-16"
-  id="eric-is"
+  id="florian-is"
 >
-  <span class="g">is a</span> postgraduate taught student
+  <span class="g">is a</span> PGT student
   <span class="g"> and </span><br />
   robotics enthusiast <span class="g">.</span>
 </p>
