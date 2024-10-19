@@ -5,10 +5,36 @@ on:
     branches:
       - main
 
+  workflow_dispatch:
+
 jobs:
+  format:
+    name: Format Code
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "18"
+
+      - run: npm ci
+
+      - run: npx prettier --write .
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Format code with Prettier' || echo "No changes to commit"
+          git push
+
   build:
     name: Build and Deploy
     runs-on: ubuntu-latest
+    needs: format # Ensures the build job runs only after the format job completes successfully
     steps:
       - uses: actions/checkout@v2
 
