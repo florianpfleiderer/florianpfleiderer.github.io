@@ -8,16 +8,10 @@
     date: Date;
     summary: string;
     link: string;
-
-
-    
   };
 
   export let data: Writing[];
 </script>
-
-
-
 
 <div class="grid gap-y-4">
   {#each data as item}
