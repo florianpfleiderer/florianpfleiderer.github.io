@@ -10,7 +10,7 @@
     <span>LinkedIn</span>
     <hr />
     <a class="link" href="https://www.linkedin.com/in/florianpfleiderer/"
-      >@florianpfleiderer</a
+      >@florian-pfleiderer</a
     >
   </div>
   <div class="row">
