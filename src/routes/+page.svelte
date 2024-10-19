@@ -16,6 +16,12 @@
       desc: "using scene differencing to improve change detection",
       aside: "Python, Machine-Vision, Neural-Networks",
     },
+    {
+      name: "Autonomous Robot Hockey System",
+      href: "/projects#03_arhs",
+      desc: "implemented motion planning, object detection and collision avoidance",
+      aside: "ROS, Motion-Planning, Collision-Avoidance",
+    },
   ];
 </script>
 
