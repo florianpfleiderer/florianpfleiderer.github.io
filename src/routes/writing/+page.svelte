@@ -13,3 +13,8 @@
   <h2 class="heading2">Academic Writing and Reports</h2>
   <WritingList data={writing.papers} />
 </section>
+
+<section class="layout-md py-12">
+  <h2 class="heading2">Thesis</h2>
+  <WritingList data={writing.thesis} />
+</section>
