@@ -10,6 +10,10 @@
     link: string;
   };
 
+
+
+
+  
   export let data: Writing[];
 </script>
 
