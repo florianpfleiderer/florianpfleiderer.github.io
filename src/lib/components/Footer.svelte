@@ -9,7 +9,7 @@
   <div class="row">
     <span>LinkedIn</span>
     <hr />
-    <a class="link" href="https://www.linkedin.com/in/florianpfleiderer/"
+    <a class="link" href="https://www.linkedin.com/in/florian-pfleiderer/"
       >@florian-pfleiderer</a
     >
   </div>
