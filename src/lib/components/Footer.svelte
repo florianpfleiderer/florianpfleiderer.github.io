@@ -3,14 +3,14 @@
     <span>GitHub</span>
     <hr />
     <a class="link" href="https://github.com/florianpfleiderer"
-      >@florianpfleiderer</a
+      >florianpfleiderer</a
     >
   </div>
   <div class="row">
     <span>LinkedIn</span>
     <hr />
     <a class="link" href="https://www.linkedin.com/in/florian-pfleiderer/"
-      >@florian-pfleiderer</a
+      >florian-pfleiderer</a
     >
   </div>
   <div class="row">

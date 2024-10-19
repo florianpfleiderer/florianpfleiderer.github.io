@@ -1,16 +1,4 @@
 papers:
-  - title: Is unregulated AI research a good idea?
-    date: 2024-05
-    summary: >
-      Evaluation on the evolution of unregulated AI research and its risks.
-    link: /assets/pdf/AI_research.pdf
-
-  - title: Overview of navigation based on camera
-    date: 2023-04
-    summary: >
-      Summary on the state of autonomous navigation based on camera.
-    link: /assets/pdf/MV_Pfleiderer.pdf
-
   - title:
       Model Optimisation and Comparison for Improved Change Detection in
       Autonomous Systems
@@ -22,3 +10,15 @@ papers:
       definitions, serving as an indicator for objects missed by existing
       pipelines, thus improving unsupervised home assistance applications.
     link: /assets/pdf/BA.pdf
+
+  - title: Is unregulated AI research a good idea?
+    date: 2024-05
+    summary: >
+      Evaluation on the evolution of unregulated AI research and its risks.
+    link: /assets/pdf/AI_research.pdf
+
+  - title: Overview of navigation based on camera
+    date: 2023-04
+    summary: >
+      Summary on the state of autonomous navigation based on camera.
+    link: /assets/pdf/MV_Pfleiderer.pdf
