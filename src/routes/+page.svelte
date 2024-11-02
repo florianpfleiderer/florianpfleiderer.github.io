@@ -80,8 +80,8 @@
 
   <div class="space-y-5">
     <p>
-      Other interests: Coding, Emerging Technologies in IT & AI,
-      European History
+      Other interests: Coding, Emerging Technologies in IT & AI, European
+      History
     </p>
   </div>
 </div>
