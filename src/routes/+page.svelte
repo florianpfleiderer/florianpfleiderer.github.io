@@ -31,7 +31,7 @@
   class="layout-md text-black text-xl leading-tight font-light mb-16"
   id="florian-is"
 >
-  <span class="g">is a</span> PGT student
+  <span class="g">is a</span> msc student
   <span class="g"> and </span><br />
   robotics enthusiast <span class="g">.</span>
 </p>
@@ -80,7 +80,7 @@
 
   <div class="space-y-5">
     <p>
-      Other interests: Coding, Emerging Technologies in Electronics & IT,
+      Other interests: Coding, Emerging Technologies in IT & AI,
       European History
     </p>
   </div>

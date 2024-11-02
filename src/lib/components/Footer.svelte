@@ -9,8 +9,8 @@
   <div class="row">
     <span>LinkedIn</span>
     <hr />
-    <a class="link" href="https://www.linkedin.com/in/florian-pfleiderer/"
-      >florian-pfleiderer</a
+    <a class="link" href="https://www.linkedin.com/in/fpfleiderer/"
+      >fpfleiderer</a
     >
   </div>
   <div class="row">
