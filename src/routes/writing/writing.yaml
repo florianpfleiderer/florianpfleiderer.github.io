@@ -1,4 +1,13 @@
 papers:
+  - title: Reinforcement Learning - The Development Towards General Purpose Robotics Since 2020
+    date: 2025-02
+    summary: >
+      This paper provides an overview of the development of reinforcement
+      learning in robotics since 2020, focusing on the transition from
+      simulation to real-world applications. It discusses the challenges and
+      opportunities of reinforcement learning in robotics and provides an
+      outlook on future research directions.
+    link: /assets/pdf/rl_essay.pdf
   - title:
       Model Optimisation and Comparison for Improved Change Detection in
       Autonomous Systems
