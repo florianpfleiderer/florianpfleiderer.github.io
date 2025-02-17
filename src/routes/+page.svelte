@@ -24,9 +24,6 @@
   ];
 </script>
 
-Here’s the updated `svelte` code integrating the information from your public
-GitHub README in an appealing and well-structured format: ### Updated Code:
-```svelte
 <Seo title="Florian Pfleiderer" description="PGT" />
 
 <p
