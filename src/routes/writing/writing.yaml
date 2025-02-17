@@ -1,5 +1,7 @@
 papers:
-  - title: Reinforcement Learning - The Development Towards General Purpose Robotics Since 2020
+  - title:
+      Reinforcement Learning - The Development Towards General Purpose Robotics
+      Since 2020
     date: 2025-02
     summary: >
       This paper provides an overview of the development of reinforcement
