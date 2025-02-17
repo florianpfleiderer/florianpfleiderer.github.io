@@ -170,3 +170,10 @@ Here’s the updated `svelte` code integrating the information from your public 
   /* Correction for vertical navigation links on mobile. */
   @media (max-width: 420px) {
     #florian-is {
+      text-align: center;
+      font-size: 1.125rem;
+      padding: 0 1rem;
+      line-height: 1.4;
+    }
+  }
+</style>
