@@ -9,10 +9,10 @@
 />
 
 <section class="layout-md py-0">
-  <iframe 
-    src={resumeData.pdf} 
-    width="100%" 
-    height="800px" 
+  <iframe
+    src={resumeData.pdf}
+    width="100%"
+    height="800px"
     frameborder="0"
     class="w-full"
   >

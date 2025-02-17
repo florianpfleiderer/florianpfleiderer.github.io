@@ -1,8 +1,3 @@
-Here’s the updated `svelte` code integrating the information from your public GitHub README in an appealing and well-structured format:
-
-### Updated Code:
-
-```svelte
 <script lang="ts">
   import { ArrowUpRight } from "lucide-svelte";
   import Seo from "$lib/components/Seo.svelte";
@@ -29,6 +24,9 @@ Here’s the updated `svelte` code integrating the information from your public 
   ];
 </script>
 
+Here’s the updated `svelte` code integrating the information from your public
+GitHub README in an appealing and well-structured format: ### Updated Code:
+```svelte
 <Seo title="Florian Pfleiderer" description="PGT" />
 
 <p
@@ -89,45 +87,108 @@ Here’s the updated `svelte` code integrating the information from your public 
       <div>
         <h4 class="font-semibold">Programming Languages:</h4>
         <div class="flex flex-wrap gap-2">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-          <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-          <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-          <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-          <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
-          <img src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white" alt="Haskell" />
+          <img
+            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
+            alt="Python"
+          />
+          <img
+            src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+            alt="C++"
+          />
+          <img
+            src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"
+            alt="C"
+          />
+          <img
+            src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"
+            alt="Rust"
+          />
+          <img
+            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
+            alt="Java"
+          />
+          <img
+            src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white"
+            alt="Haskell"
+          />
         </div>
       </div>
 
       <div>
         <h4 class="font-semibold">Technologies and Frameworks:</h4>
         <div class="flex flex-wrap gap-2">
-          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-          <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS" />
-          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-          <img src="https://img.shields.io/badge/SLAM-000000?style=for-the-badge&logo=slam&logoColor=white" alt="SLAM" />
-          <img src="https://img.shields.io/badge/Computer%20Vision-000000?style=for-the-badge&logo=computervision&logoColor=white" alt="Computer Vision" />
-          <img src="https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=machinelearning&logoColor=white" alt="Machine Learning" />
+          <img
+            src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
+            alt="Git"
+          />
+          <img
+            src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
+            alt="Docker"
+          />
+          <img
+            src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white"
+            alt="ROS"
+          />
+          <img
+            src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"
+            alt="OpenCV"
+          />
+          <img
+            src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"
+            alt="PyTorch"
+          />
+          <img
+            src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"
+            alt="TensorFlow"
+          />
+          <img
+            src="https://img.shields.io/badge/SLAM-000000?style=for-the-badge&logo=slam&logoColor=white"
+            alt="SLAM"
+          />
+          <img
+            src="https://img.shields.io/badge/Computer%20Vision-000000?style=for-the-badge&logo=computervision&logoColor=white"
+            alt="Computer Vision"
+          />
+          <img
+            src="https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=machinelearning&logoColor=white"
+            alt="Machine Learning"
+          />
         </div>
       </div>
 
       <div>
         <h4 class="font-semibold">Cryptography:</h4>
         <div class="flex flex-wrap gap-2">
-          <img src="https://img.shields.io/badge/RSA-000000?style=for-the-badge&logo=openssl&logoColor=white" alt="RSA" />
-          <img src="https://img.shields.io/badge/GPG-000000?style=for-the-badge&logo=gnu-privacy-guard&logoColor=white" alt="GPG" />
-          <img src="https://img.shields.io/badge/SSL%2FTLS-000000?style=for-the-badge&logo=let's-encrypt&logoColor=white" alt="SSL/TLS" />
-          <img src="https://img.shields.io/badge/PKI-000000?style=for-the-badge&logo=keybase&logoColor=white" alt="PKI" />
+          <img
+            src="https://img.shields.io/badge/RSA-000000?style=for-the-badge&logo=openssl&logoColor=white"
+            alt="RSA"
+          />
+          <img
+            src="https://img.shields.io/badge/GPG-000000?style=for-the-badge&logo=gnu-privacy-guard&logoColor=white"
+            alt="GPG"
+          />
+          <img
+            src="https://img.shields.io/badge/SSL%2FTLS-000000?style=for-the-badge&logo=let's-encrypt&logoColor=white"
+            alt="SSL/TLS"
+          />
+          <img
+            src="https://img.shields.io/badge/PKI-000000?style=for-the-badge&logo=keybase&logoColor=white"
+            alt="PKI"
+          />
         </div>
       </div>
 
       <div>
         <h4 class="font-semibold">Operational Security:</h4>
         <div class="flex flex-wrap gap-2">
-          <img src="https://img.shields.io/badge/Secure%20Authentication%20Methods-000000?style=for-the-badge&logo=auth0&logoColor=white" alt="Secure Authentication Methods" />
-          <img src="https://img.shields.io/badge/Threat%20Modeling-000000?style=for-the-badge&logo=the-movie-database&logoColor=white" alt="Threat Modeling" />
+          <img
+            src="https://img.shields.io/badge/Secure%20Authentication%20Methods-000000?style=for-the-badge&logo=auth0&logoColor=white"
+            alt="Secure Authentication Methods"
+          />
+          <img
+            src="https://img.shields.io/badge/Threat%20Modeling-000000?style=for-the-badge&logo=the-movie-database&logoColor=white"
+            alt="Threat Modeling"
+          />
         </div>
       </div>
     </div>
@@ -135,8 +196,8 @@ Here’s the updated `svelte` code integrating the information from your public 
 
   <div class="space-y-5">
     <p>
-      Other interests: Coding, Emerging Technologies in IT & AI,
-      European History
+      Other interests: Coding, Emerging Technologies in IT & AI, European
+      History
     </p>
 
     <p>
