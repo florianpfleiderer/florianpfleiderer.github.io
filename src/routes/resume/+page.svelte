@@ -36,7 +36,7 @@
 
   /* Add dark mode styles */
   :global(.dark) .resume-wrapper {
-    background: var(--dark-surface, #1E1E1E);
+    background: var(--dark-surface, #1e1e1e);
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
   }
 

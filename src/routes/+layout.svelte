@@ -15,7 +15,7 @@
   const reducedMotion =
     browser && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  $: showHeader = $page.url.pathname !== '/';
+  $: showHeader = $page.url.pathname !== "/";
 </script>
 
 <svelte:head>
