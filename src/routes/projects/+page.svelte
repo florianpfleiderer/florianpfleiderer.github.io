@@ -63,9 +63,9 @@
 <Seo title="Florian Pfleiderer – Projects" description="Projects TODO" />
 
 <div class="bg-gray-900 text-neutral-200 dark">
-  <section class="layout-md py-12">
+  <section class="layout-sm py-12">
     <h2 class="heading2 text-white">Table of Contents</h2>
-    <ul class="sm:columns-2">
+    <ul>
       {#each projectsByDate as id (id)}
         <li>
           <a class="link" href="#{trimName(id)}">{projects[id].title}</a>
@@ -77,7 +77,7 @@
 
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
   <section class="py-10" id={trimName(id)}>
-    <div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+    <div class="mx-auto max-w-[900px] px-4 sm:px-6">
       <Project data={projects[id]} {images} {stars} />
     </div>
   </section>
