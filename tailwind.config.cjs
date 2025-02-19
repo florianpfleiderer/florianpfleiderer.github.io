@@ -14,11 +14,11 @@ const config = {
       },
       colors: {
         dark: {
-          bg: '#121212',
-          surface: '#1E1E1E',
-          text: '#E0E0E0',
-        }
-      }
+          bg: "#121212",
+          surface: "#1E1E1E",
+          text: "#E0E0E0",
+        },
+      },
     },
   },
 
