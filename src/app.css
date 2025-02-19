@@ -22,9 +22,11 @@
 
 @layer components {
   .link {
-    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
-    @apply hover:text-black hover:decoration-black transition-colors;
-    @apply dark:hover:text-white dark:hover:decoration-white;
+    @apply relative inline-block;
+    @apply after:absolute after:bottom-0 after:left-0 after:w-full;
+    @apply after:h-[1px] after:bg-current after:origin-right after:scale-x-0;
+    @apply hover:after:origin-left hover:after:scale-x-100;
+    @apply after:transition-transform after:duration-300;
   }
 
   .layout-md {
@@ -33,6 +35,13 @@
 
   .heading2 {
     @apply text-black text-xl font-semibold mb-4;
+  }
+
+  .project-card {
+    @apply p-6 rounded-lg transition-all duration-200;
+    @apply hover:shadow-lg hover:-translate-y-1;
+    @apply border border-neutral-200;
+    @apply bg-white hover:bg-neutral-50;
   }
 }
 

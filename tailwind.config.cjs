@@ -12,6 +12,13 @@ const config = {
         sans: [...defaultTheme.fontFamily.sans],
         serif: ["Newsreader", ...defaultTheme.fontFamily.serif],
       },
+      colors: {
+        dark: {
+          bg: '#121212',
+          surface: '#1E1E1E',
+          text: '#E0E0E0',
+        }
+      }
     },
   },
 
