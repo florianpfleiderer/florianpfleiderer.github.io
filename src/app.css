@@ -18,15 +18,20 @@
   p {
     @apply leading-relaxed;
   }
+  body {
+    @apply bg-white dark:bg-dark-bg text-neutral-700 dark:text-neutral-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-black dark:text-white;
+  }
 }
 
 @layer components {
   .link {
-    @apply relative inline-block;
-    @apply after:absolute after:bottom-0 after:left-0 after:w-full;
-    @apply after:h-[1px] after:bg-current after:origin-right after:scale-x-0;
-    @apply hover:after:origin-left hover:after:scale-x-100;
-    @apply after:transition-transform after:duration-300;
+    @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+    @apply hover:text-black hover:decoration-black transition-colors;
+    @apply dark:hover:text-white dark:hover:decoration-white;
   }
 
   .layout-md {
@@ -40,8 +45,8 @@
   .project-card {
     @apply p-6 rounded-lg transition-all duration-200;
     @apply hover:shadow-lg hover:-translate-y-1;
-    @apply border border-neutral-200;
-    @apply bg-white hover:bg-neutral-50;
+    @apply border-neutral-200 dark:border-neutral-700;
+    @apply bg-white dark:bg-dark-surface hover:bg-neutral-50 dark:hover:bg-neutral-800;
   }
 }
 
