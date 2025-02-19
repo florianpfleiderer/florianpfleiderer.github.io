@@ -6,6 +6,18 @@
   hr {
     @apply border-neutral-200;
   }
+  h1 {
+    @apply text-3xl font-bold tracking-tight;
+  }
+  h2 {
+    @apply text-2xl font-semibold tracking-tight;
+  }
+  h3 {
+    @apply text-xl font-medium;
+  }
+  p {
+    @apply leading-relaxed;
+  }
 }
 
 @layer components {
