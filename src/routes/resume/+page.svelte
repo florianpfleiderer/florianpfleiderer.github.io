@@ -15,7 +15,11 @@
       title="Florian Pfleiderer's Resume"
       class="pdf-frame"
     >
-      <p>Your browser does not support iframes. You can <a href={resumeData.pdf}>download the PDF here</a>.</p>
+      <p>
+        Your browser does not support iframes. You can <a href={resumeData.pdf}
+          >download the PDF here</a
+        >.
+      </p>
     </iframe>
   </div>
 </section>
