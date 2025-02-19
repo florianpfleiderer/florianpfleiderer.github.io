@@ -63,9 +63,9 @@
 <Seo title="Florian Pfleiderer – Projects" description="Projects TODO" />
 
 <div class="bg-gray-900 text-neutral-200 dark">
-  <section class="layout-sm py-12">
+  <section class="layout-sm py-12 flex flex-col items-center">
     <h2 class="heading2 text-white">Table of Contents</h2>
-    <ul>
+    <ul class="text-center">
       {#each projectsByDate as id (id)}
         <li>
           <a class="link" href="#{trimName(id)}">{projects[id].title}</a>
