@@ -36,10 +36,8 @@
   {/if}
 </svelte:head>
 
-<div class="min-h-screen">
-  {#if showHeader}
-    <Header />
-  {/if}
+<div class="min-h-screen pt-16">
+  <Header />
   <main>
     <slot />
   </main>
