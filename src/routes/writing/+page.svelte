@@ -13,3 +13,9 @@
   <h2 class="heading2">Academic Writing and Reports</h2>
   <WritingList data={writing.papers} />
 </section>
+
+<style lang="postcss">
+  .layout-sm {
+    @apply max-w-screen-sm mx-auto px-4 sm:px-6;
+  }
+</style>

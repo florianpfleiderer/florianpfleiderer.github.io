@@ -34,12 +34,23 @@
     overflow: hidden;
   }
 
+  /* Add dark mode styles */
+  :global(.dark) .resume-wrapper {
+    background: var(--dark-surface, #1E1E1E);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  }
+
   .pdf-container {
     position: relative;
     width: 100%;
     height: 0;
     padding-bottom: 141.4%; /* Aspect ratio for A4 (1:1.414) */
     background: #f5f5f5;
+  }
+
+  /* Add dark mode styles for the container */
+  :global(.dark) .pdf-container {
+    background: #2a2a2a;
   }
 
   .pdf-frame {

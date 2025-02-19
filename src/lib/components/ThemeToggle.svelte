@@ -26,8 +26,8 @@
   aria-label="Toggle theme"
 >
   {#if darkMode}
-    <Sun class="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
+    <Sun class="w-5 h-5 text-neutral-700 dark:text-blue-300" />
   {:else}
-    <Moon class="w-5 h-5 text-neutral-700 dark:text-neutral-300" />
+    <Moon class="w-5 h-5 text-neutral-700 dark:text-blue-300" />
   {/if}
 </button> 

@@ -1,20 +1,9 @@
 <script lang="ts">
   import { ArrowUpRight } from "lucide-svelte";
   import Seo from "$lib/components/Seo.svelte";
+  import ThemeToggle from "$lib/components/ThemeToggle.svelte";
 
   const featuredProjects = [
-    {
-      name: "Simple Digital Synthesizer",
-      href: "/projects#01_digital_synthesizer",
-      desc: "making a simple digital synthesizer",
-      aside: "C++, ImNodes, ImGui, Cmake",
-    },
-    {
-      name: "Change Detection in Autonomous Systems",
-      href: "/projects#02_cyws3d",
-      desc: "using scene differencing to improve change detection",
-      aside: "Python, Machine-Vision, Neural-Networks",
-    },
     {
       name: "Autonomous Robot Hockey System",
       href: "/projects#03_arhs",
@@ -24,214 +13,144 @@
   ];
 </script>
 
-<Seo title="Florian Pfleiderer" description="PGT" />
+<Seo title="Florian Pfleiderer" description="MSc Student & Robotics Enthusiast" />
 
-<p
-  class="layout-md text-black text-xl leading-tight font-light mb-16"
-  id="florian-is"
->
-  <span class="g">is a</span> msc student
-  <span class="g"> and </span><br />
-  robotics enthusiast <span class="g">.</span>
-</p>
-
-<div class="layout-md text-lg space-y-14">
-  <div class="space-y-5">
-    <p>
-      I'm a Masters student in Computer Science at <em
-        ><a href="https://www.st-andrews.ac.uk/">University of St. Andrews</a
-        ></em
-      >. <br />
-      Among top 15% of my student cohort during undergraduate time at the
-      <em
-        ><a href="https://www.tuwien.at/en/">Technical University of Vienna</a
-        ></em
-      >, I was following an individual study plan, taking courses in Robotics,
-      Machine Vision and Software Engineering. <br />
-      I was part of
-      <em><a href="https://www.tuwienracing.at/">TU Wien racing</a></em>, where
-      I led the embedded software development of the racecar's electronic
-      control unit and helped the team secure a top 25 place among over 200
-      competing teams.
-    </p>
-
-    <p>I am currently pursuing my Masters Degree.</p>
+<div class="landing-page">
+  <div class="fixed top-4 right-4 z-10">
+    <ThemeToggle />
   </div>
 
-  <div class="leading-snug space-y-4">
-    <p class="pb-2">Notable projects:</p>
+  <div class="fixed inset-0 flex items-center justify-center">
+    <!-- Hero Section -->
+    <section class="w-full max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-16">
+      <!-- Left Column: Main Info -->
+      <div class="flex-1 space-y-8 lg:pr-8">
+        <div class="space-y-6">
+          <h1 class="text-5xl lg:text-6xl font-bold text-black dark:text-blue-300">
+            Florian Pfleiderer
+          </h1>
+          
+          <p class="text-xl lg:text-2xl">
+            <span class="text-neutral-400">is a</span>
+            <span class="text-black dark:text-blue-300">MSc student</span>
+            <span class="text-neutral-400">and</span>
+            <span class="text-black dark:text-blue-300">robotics enthusiast</span>
+          </p>
 
-    {#each featuredProjects as project}
-      <a class="project-pair" href={project.href}>
-        <div class="text-black font-medium">
-          {project.name}
-          <ArrowUpRight size={18} class="inline text-neutral-400" />
+          <p class="text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed">
+            Currently pursuing Computer Science at the University of St. Andrews, 
+            with a focus on Robotics, Machine Vision, and Software Engineering.
+          </p>
         </div>
-        <div>
-          <p>{project.desc}</p>
-          {#if project.aside}
-            <aside>{project.aside}</aside>
-          {/if}
-        </div>
-      </a>
-    {/each}
-  </div>
 
-  <div class="leading-snug space-y-4">
-    <p class="pb-2">Skills and Proficiencies:</p>
+        <!-- Navigation Buttons -->
+        <div class="space-y-6">
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="/projects" class="action-button">
+              Projects
+              <ArrowUpRight size={18} class="inline" />
+            </a>
+            <a href="/writing" class="action-button-secondary">
+              Writing
+              <ArrowUpRight size={18} class="inline" />
+            </a>
+            <a href="/resume" class="action-button-outline">
+              Resume
+              <ArrowUpRight size={18} class="inline" />
+            </a>
+          </div>
 
-    <div class="badge-container space-y-4">
-      <div>
-        <h4 class="font-semibold">Programming Languages:</h4>
-        <div class="flex flex-wrap gap-2">
-          <img
-            src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
-            alt="Python"
-          />
-          <img
-            src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
-            alt="C++"
-          />
-          <img
-            src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"
-            alt="C"
-          />
-          <img
-            src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"
-            alt="Rust"
-          />
-          <img
-            src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"
-            alt="Java"
-          />
-          <img
-            src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white"
-            alt="Haskell"
-          />
-        </div>
-      </div>
-
-      <div>
-        <h4 class="font-semibold">Technologies and Frameworks:</h4>
-        <div class="flex flex-wrap gap-2">
-          <img
-            src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
-            alt="Git"
-          />
-          <img
-            src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
-            alt="Docker"
-          />
-          <img
-            src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white"
-            alt="ROS"
-          />
-          <img
-            src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"
-            alt="OpenCV"
-          />
-          <img
-            src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"
-            alt="PyTorch"
-          />
-          <img
-            src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"
-            alt="TensorFlow"
-          />
-          <img
-            src="https://img.shields.io/badge/SLAM-000000?style=for-the-badge&logo=slam&logoColor=white"
-            alt="SLAM"
-          />
-          <img
-            src="https://img.shields.io/badge/Computer%20Vision-000000?style=for-the-badge&logo=computervision&logoColor=white"
-            alt="Computer Vision"
-          />
-          <img
-            src="https://img.shields.io/badge/Machine%20Learning-000000?style=for-the-badge&logo=machinelearning&logoColor=white"
-            alt="Machine Learning"
-          />
+          <!-- Social Links -->
+          <div class="flex items-center gap-6">
+            <a
+              href="https://github.com/florianpfleiderer"
+              target="_blank"
+              rel="noopener"
+              class="social-link"
+            >
+              <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fpfleiderer"
+              target="_blank"
+              rel="noopener"
+              class="social-link"
+            >
+              <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <a
+              href="mailto:florian@pfleiderer.at"
+              class="social-link"
+            >
+              <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-20.728c-.904 0-1.636-.732-1.636-1.636v-13.909c0-.904.732-1.636 1.636-1.636h20.728c.904 0 1.636.732 1.636 1.636zm-2.025 1.687l-7.975 6.957-7.975-6.957v10.781h15.95v-10.781zm-.299-1.687h-15.352l7.975 6.957 7.377-6.957z"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
-      <div>
-        <h4 class="font-semibold">Cryptography:</h4>
-        <div class="flex flex-wrap gap-2">
-          <img
-            src="https://img.shields.io/badge/RSA-000000?style=for-the-badge&logo=openssl&logoColor=white"
-            alt="RSA"
-          />
-          <img
-            src="https://img.shields.io/badge/GPG-000000?style=for-the-badge&logo=gnu-privacy-guard&logoColor=white"
-            alt="GPG"
-          />
-          <img
-            src="https://img.shields.io/badge/SSL%2FTLS-000000?style=for-the-badge&logo=let's-encrypt&logoColor=white"
-            alt="SSL/TLS"
-          />
-          <img
-            src="https://img.shields.io/badge/PKI-000000?style=for-the-badge&logo=keybase&logoColor=white"
-            alt="PKI"
-          />
+      <!-- Right Column: Key Skills -->
+      <div class="flex-1 lg:min-w-[420px] backdrop-blur-sm bg-white/5 dark:bg-black/5 p-6 lg:p-8 rounded-xl border border-neutral-200 dark:border-neutral-800">
+        <h2 class="text-xl lg:text-2xl font-semibold text-black dark:text-blue-200 mb-4 lg:mb-6">Core Competencies</h2>
+        
+        <div class="grid grid-cols-2 gap-4 lg:gap-6">
+          <div class="skill-card">
+            <h3 class="text-lg font-medium text-black dark:text-blue-300">Robotics</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">ROS, Motion Planning, SLAM</p>
+          </div>
+          <div class="skill-card">
+            <h3 class="text-lg font-medium text-black dark:text-blue-300">Machine Vision</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">OpenCV, PyTorch, TensorFlow</p>
+          </div>
+          <div class="skill-card">
+            <h3 class="text-lg font-medium text-black dark:text-blue-300">Software Engineering</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">C++, Python, Rust</p>
+          </div>
+          <div class="skill-card">
+            <h3 class="text-lg font-medium text-black dark:text-blue-300">Security</h3>
+            <p class="text-sm text-neutral-600 dark:text-neutral-400">Cryptography, Authentication</p>
+          </div>
         </div>
       </div>
-
-      <div>
-        <h4 class="font-semibold">Operational Security:</h4>
-        <div class="flex flex-wrap gap-2">
-          <img
-            src="https://img.shields.io/badge/Secure%20Authentication%20Methods-000000?style=for-the-badge&logo=auth0&logoColor=white"
-            alt="Secure Authentication Methods"
-          />
-          <img
-            src="https://img.shields.io/badge/Threat%20Modeling-000000?style=for-the-badge&logo=the-movie-database&logoColor=white"
-            alt="Threat Modeling"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="space-y-5">
-    <p>
-      Other interests: Coding, Emerging Technologies in IT & AI, European
-      History
-    </p>
-
-    <p>
-      <strong>Languages:</strong> German (C2), English (C2), French (B2)
-    </p>
+    </section>
   </div>
 </div>
 
 <style lang="postcss">
-  .g {
-    @apply text-neutral-400;
+  /* Remove the global body style and make it specific to the landing page */
+  .landing-page {
+    @apply h-screen overflow-hidden;
   }
 
-  em {
-    @apply font-serif text-[110%] leading-[100%];
+  .action-button {
+    @apply px-8 py-3 bg-black dark:bg-blue-500 text-white rounded-full 
+           transition-all hover:scale-105 hover:shadow-lg flex items-center gap-2 text-lg 
+           justify-center;
   }
 
-  .project-pair {
-    @apply grid sm:grid-cols-[1fr,2fr] gap-y-1 -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors;
+  .action-button-secondary {
+    @apply px-8 py-3 bg-neutral-800 dark:bg-blue-600 text-white rounded-full 
+           transition-all hover:scale-105 hover:shadow-lg flex items-center gap-2 text-lg
+           justify-center;
   }
 
-  aside {
-    @apply mt-0.5 text-base text-neutral-500;
+  .action-button-outline {
+    @apply px-8 py-3 border-2 border-black dark:border-blue-500 text-black dark:text-blue-500 
+           rounded-full transition-all hover:scale-105 hover:shadow-lg flex items-center gap-2 text-lg
+           justify-center;
   }
 
-  .badge-container img {
-    height: auto;
-    display: inline;
+  .skill-card {
+    @apply p-5 rounded-lg bg-neutral-50 dark:bg-neutral-900/50 hover:scale-[1.02] transition-transform;
   }
 
-  /* Correction for vertical navigation links on mobile. */
-  @media (max-width: 420px) {
-    #florian-is {
-      text-align: center;
-      font-size: 1.125rem;
-      padding: 0 1rem;
-      line-height: 1.4;
-    }
+  .social-link {
+    @apply text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-blue-300 
+           transition-colors hover:scale-110 transform duration-200;
   }
 </style>
