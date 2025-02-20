@@ -7,8 +7,8 @@ lead: using scene differencing to improve change detection
 image: arhs.png
 ---
 
-[`arhs`](https://github.com/florianpfleiderer/ARHS) - This project focuses on
-developing ROS-based software for autonomous robots to play a hockey-like game.
+This project focuses on developing ROS-based software for autonomous robots 
+to play a hockey-like game.
 Key objectives include motion control using ROS navigation stacks, obstacle
 avoidance via sensor fusion (LIDAR, cameras), and field component detection
 (pucks, poles, goals) with computer vision and point cloud processing.

@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
 
   import { onMount } from "svelte";
-  import { CalendarDays, Star } from "lucide-svelte";
+  import { CalendarDays, Star, ArrowUpDown } from "lucide-svelte";
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
@@ -19,7 +19,7 @@
   }
 
   $: projectsByDate = Object.keys(projects).sort(
-    (a, b) => projects[b].date - projects[a].date
+    (a, b) => new Date(projects[b].date).getTime() - new Date(projects[a].date).getTime()
   );
   $: projectsByTitle = Object.keys(projects).sort((a, b) => {
     const titleA = projects[a].title.toLowerCase();
@@ -60,28 +60,61 @@
   let sortOrder: "date" | "stars" = "date";
 </script>
 
-<Seo title="Florian Pfleiderer – Projects" description="Projects TODO" />
+<Seo
+  title="Florian Pfleiderer - Projects"
+  description="A collection of my software projects and research work."
+/>
 
-<div class="bg-gray-900 text-neutral-200 dark">
-  <section class="layout-sm py-12 flex flex-col items-center">
-    <h2 class="heading2 text-white">Table of Contents</h2>
-    <ul class="text-center">
-      {#each projectsByDate as id (id)}
-        <li>
-          <a class="link" href="#{trimName(id)}">{projects[id].title}</a>
-        </li>
-      {/each}
-    </ul>
-  </section>
-</div>
+<div class="max-w-5xl mx-auto px-4 py-12">
+  <!-- Header -->
+  <div class="mb-12">
+    <h1 class="text-3xl font-bold mb-4">Projects</h1>
+    <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
+      A showcase of my work in robotics, computer vision, and software engineering. Each project represents a unique challenge and learning experience.
+    </p>
+  </div>
 
-{#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
-  <section class="py-10" id={trimName(id)}>
-    <div class="mx-auto max-w-[900px] px-4 sm:px-6">
-      <Project data={projects[id]} {images} {stars} />
+  <!-- Table of Contents -->
+  <section class="mb-16">
+    <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 border border-neutral-200 dark:border-neutral-800">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-xl font-semibold text-black dark:text-blue-300">
+          Table of Contents
+        </h2>
+        <button
+          class="flex items-center gap-2 px-3 py-1.5 text-sm text-neutral-600 dark:text-neutral-400 
+                 hover:bg-neutral-200 dark:hover:bg-neutral-800 rounded-lg transition-colors"
+          on:click={() => sortOrder = sortOrder === "date" ? "stars" : "date"}
+        >
+          <ArrowUpDown size={16} />
+          Sort by {sortOrder === "date" ? "Stars" : "Date"}
+        </button>
+      </div>
+      <ul class="space-y-2">
+        {#each projectsByDate as id}
+          <li>
+            <a
+              href="#{id}"
+              class="block py-2 px-3 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800/50 
+                     text-neutral-800 dark:text-neutral-200 transition-colors"
+            >
+              {projects[id].title}
+            </a>
+          </li>
+        {/each}
+      </ul>
     </div>
   </section>
-{/each}
+
+  <!-- Project List -->
+  <div class="space-y-24">
+    {#each sortOrder === "date" ? projectsByDate : projectsByDate as id}
+      <section {id} class="scroll-mt-8">
+        <Project data={projects[id]} {images} {stars} />
+      </section>
+    {/each}
+  </div>
+</div>
 
 <style lang="postcss">
   button {

@@ -13,31 +13,31 @@
   export let data: Writing[];
 </script>
 
-<div class="grid gap-y-4">
+<div class="space-y-4">
   {#each data as item}
     <a
       href={item.link}
-      class="block -mx-3 px-3 py-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+      class="block p-4 -mx-4 rounded-xl hover:bg-neutral-50 dark:hover:bg-neutral-900/50 
+             border border-transparent hover:border-neutral-200 dark:hover:border-neutral-800 
+             transition-all duration-200"
       target="_blank"
       rel="noreferrer"
     >
-      <div class="flex flex-col sm:flex-row sm:items-end mb-1.5">
-        <div class="text-lg text-black dark:text-blue-300">
+      <div class="flex flex-col sm:flex-row sm:items-baseline gap-2 mb-2">
+        <h3 class="text-lg font-medium text-black dark:text-blue-300 flex items-center gap-2">
           {item.title}
           <ArrowUpRight
             size={18}
-            class="inline text-neutral-400 dark:text-neutral-500"
+            class="text-neutral-400 dark:text-neutral-500 flex-shrink-0"
           />
-        </div>
-        <div class="sm:ml-auto mb-0.5 text-neutral-500 dark:text-neutral-400">
+        </h3>
+        <div class="sm:ml-auto text-sm text-neutral-500 dark:text-neutral-400 flex-shrink-0">
           {formatTime("%B %-d, %Y", item.date)}
         </div>
       </div>
-      <div
-        class="text-lg leading-snug font-serif italic text-neutral-700 dark:text-neutral-300"
-      >
+      <p class="text-neutral-600 dark:text-neutral-300 leading-relaxed">
         {item.summary}
-      </div>
+      </p>
     </a>
   {/each}
 </div>
