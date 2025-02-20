@@ -39,10 +39,14 @@
 <div class="min-h-screen bg-neutral-100 dark:bg-neutral-900">
   <!-- Header in the background layer -->
   <Header />
-  
+
   <!-- Floating content container - centered vertically with minimal padding -->
-  <div class="px-4 sm:px-5 lg:px-6 min-h-[calc(100vh-4rem)] py-4 flex items-center">
-    <div class="w-full min-h-[calc(100vh-6rem)] bg-white dark:bg-dark-bg rounded-2xl shadow-xl relative overflow-hidden">
+  <div
+    class="px-4 sm:px-5 lg:px-6 min-h-[calc(100vh-4rem)] py-4 flex items-center"
+  >
+    <div
+      class="w-full min-h-[calc(100vh-6rem)] bg-white dark:bg-dark-bg rounded-2xl shadow-xl relative overflow-hidden"
+    >
       <main>
         <slot />
       </main>
