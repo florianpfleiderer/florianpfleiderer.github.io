@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
   import ThemeToggle from "./ThemeToggle.svelte";
   import { Github, Linkedin, Mail, Menu, X } from "lucide-svelte";
-  import { fade } from 'svelte/transition';
+  import { fade } from "svelte/transition";
 
   const links = [
     { name: "home", href: "/" },
@@ -26,20 +26,20 @@
 
   function toggleMenu() {
     isMenuOpen = !isMenuOpen;
-    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
   }
 
   function closeMenu() {
     isMenuOpen = false;
-    document.body.style.overflow = '';
+    document.body.style.overflow = "";
   }
 </script>
 
 <header class="bg-neutral-100 dark:bg-neutral-900 relative z-50">
   <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
     <!-- Left side: Logo with link -->
-    <a 
-      href="/" 
+    <a
+      href="/"
       class="w-8 h-8 bg-neutral-200 dark:bg-neutral-800 rounded-lg hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors"
       aria-label="Home"
     >
@@ -49,7 +49,7 @@
     <!-- Right side: Actions -->
     <div class="flex items-center gap-2">
       <ThemeToggle />
-      
+
       <a
         href="mailto:your.email@example.com"
         class="header-icon-button"
@@ -78,8 +78,8 @@
         <Linkedin class="w-5 h-5" />
       </a>
 
-      <button 
-        class="header-icon-button" 
+      <button
+        class="header-icon-button"
         aria-label="Menu"
         on:click={toggleMenu}
       >
@@ -94,13 +94,15 @@
 </header>
 
 {#if isMenuOpen}
-  <div 
+  <div
     class="fixed inset-0 z-40 backdrop-blur-sm"
     transition:fade={{ duration: 200 }}
   >
     <!-- Light mode gradient -->
     <div class="absolute inset-0 bg-white">
-      <div class="absolute inset-0" style="
+      <div
+        class="absolute inset-0"
+        style="
         background: linear-gradient(
           45deg,
           rgba(59, 130, 246, 0.15) 0%,
@@ -108,12 +110,15 @@
           rgba(239, 68, 68, 0.15) 66%,
           rgba(249, 115, 22, 0.15) 100%
         );
-      "></div>
+      "
+      />
     </div>
 
     <!-- Dark mode gradient -->
     <div class="absolute inset-0 bg-dark-bg opacity-0 dark:opacity-100">
-      <div class="absolute inset-0" style="
+      <div
+        class="absolute inset-0"
+        style="
         background: linear-gradient(
           45deg,
           rgba(59, 130, 246, 0.05) 0%,
@@ -121,7 +126,8 @@
           rgba(239, 68, 68, 0.05) 66%,
           rgba(249, 115, 22, 0.05) 100%
         );
-      "></div>
+      "
+      />
     </div>
 
     <div class="h-screen w-full flex items-center justify-center relative">

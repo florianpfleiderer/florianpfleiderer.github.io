@@ -73,10 +73,16 @@
       </div>
 
       <!-- Right Column: Key Skills -->
-      <div class="flex-1 lg:min-w-[420px] backdrop-blur-sm bg-white/5 dark:bg-black/5 p-6 lg:p-8 rounded-xl border border-neutral-200 dark:border-neutral-800 relative overflow-hidden">
+      <div
+        class="flex-1 lg:min-w-[420px] backdrop-blur-sm bg-white/5 dark:bg-black/5 p-6 lg:p-8 rounded-xl border border-neutral-200 dark:border-neutral-800 relative overflow-hidden"
+      >
         <!-- Add gradient overlay for dark mode -->
-        <div class="absolute inset-0 pointer-events-none opacity-0 dark:opacity-100">
-          <div class="w-full h-full" style="
+        <div
+          class="absolute inset-0 pointer-events-none opacity-0 dark:opacity-100"
+        >
+          <div
+            class="w-full h-full"
+            style="
             background: linear-gradient(
               45deg,
               rgba(59, 130, 246, 0.05) 0%,
@@ -84,11 +90,16 @@
               rgba(239, 68, 68, 0.05) 66%,
               rgba(249, 115, 22, 0.05) 100%
             );
-          "></div>
+          "
+          />
         </div>
-        
-        <h2 class="text-xl lg:text-2xl font-semibold text-black dark:text-blue-200 mb-4 lg:mb-6 relative">Core Competencies</h2>
-        
+
+        <h2
+          class="text-xl lg:text-2xl font-semibold text-black dark:text-blue-200 mb-4 lg:mb-6 relative"
+        >
+          Core Competencies
+        </h2>
+
         <div class="grid grid-cols-2 gap-4 lg:gap-6 relative">
           <div class="skill-card">
             <h3 class="text-lg font-medium text-black dark:text-blue-300">
