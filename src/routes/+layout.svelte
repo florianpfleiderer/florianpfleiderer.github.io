@@ -43,9 +43,35 @@
   <!-- Floating content container - centered vertically with minimal padding -->
   <div class="px-4 sm:px-5 lg:px-6 min-h-[calc(100vh-4rem)] py-4 flex items-center">
     <div class="w-full min-h-[calc(100vh-6rem)] bg-white dark:bg-dark-bg rounded-2xl shadow-xl relative overflow-hidden">
-      <main>
+      <!-- Global gradient overlay -->
+      <div class="gradient-overlay" />
+      
+      <main class="relative">
         <slot />
       </main>
     </div>
   </div>
 </div>
+
+<style lang="postcss">
+  .gradient-overlay {
+    @apply absolute inset-0 pointer-events-none;
+    background: linear-gradient(
+      45deg,
+      rgba(59, 130, 246, 0.15) 0%,
+      rgba(147, 51, 234, 0.15) 33%,
+      rgba(239, 68, 68, 0.15) 66%,
+      rgba(249, 115, 22, 0.15) 100%
+    );
+  }
+
+  :global(.dark) .gradient-overlay {
+    background: linear-gradient(
+      45deg,
+      rgba(59, 130, 246, 0.05) 0%,
+      rgba(147, 51, 234, 0.05) 33%,
+      rgba(239, 68, 68, 0.05) 66%,
+      rgba(249, 115, 22, 0.05) 100%
+    );
+  }
+</style>

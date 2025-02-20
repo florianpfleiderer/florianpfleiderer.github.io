@@ -19,8 +19,6 @@
 />
 
 <div class="landing-page min-h-[calc(100vh-6rem)]">
-  <div class="gradient-overlay" />
-
   <div class="relative flex items-center justify-center h-full">
     <!-- Hero Section -->
     <section
@@ -142,27 +140,6 @@
 <style lang="postcss">
   .landing-page {
     @apply relative overflow-hidden;
-  }
-
-  .gradient-overlay {
-    @apply absolute inset-0 pointer-events-none;
-    background: linear-gradient(
-      45deg,
-      rgba(59, 130, 246, 0.15) 0%,
-      rgba(147, 51, 234, 0.15) 33%,
-      rgba(239, 68, 68, 0.15) 66%,
-      rgba(249, 115, 22, 0.15) 100%
-    );
-  }
-
-  :global(.dark) .gradient-overlay {
-    background: linear-gradient(
-      45deg,
-      rgba(59, 130, 246, 0.05) 0%,
-      rgba(147, 51, 234, 0.05) 33%,
-      rgba(239, 68, 68, 0.05) 66%,
-      rgba(249, 115, 22, 0.05) 100%
-    );
   }
 
   .action-button {
