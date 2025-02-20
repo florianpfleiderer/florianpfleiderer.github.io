@@ -36,9 +36,16 @@
   {/if}
 </svelte:head>
 
-<div class="min-h-screen pt-16">
+<div class="min-h-screen bg-neutral-100 dark:bg-neutral-900">
+  <!-- Header in the background layer -->
   <Header />
-  <main>
-    <slot />
-  </main>
+  
+  <!-- Floating content container - minimal top padding -->
+  <div class="px-4 pt-2 sm:px-5 sm:pt-2.5 lg:px-6 lg:pt-3">
+    <div class="bg-white dark:bg-dark-bg rounded-2xl min-h-[calc(100vh-4.5rem)] shadow-xl relative overflow-hidden">
+      <main>
+        <slot />
+      </main>
+    </div>
+  </div>
 </div>

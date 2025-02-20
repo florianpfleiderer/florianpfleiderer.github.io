@@ -1,13 +1,18 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import ThemeToggle from "./ThemeToggle.svelte";
-  import { Github, Linkedin, Mail, Menu } from "lucide-svelte";
+  import { Github, Linkedin, Mail, Menu, X } from "lucide-svelte";
+  import { fade } from 'svelte/transition';
 
   const links = [
+    { name: "home", href: "/" },
     { name: "projects", href: "/projects" },
     { name: "writing", href: "/writing" },
     { name: "resume", href: "/resume" },
+    { name: "about", href: "/about" },
   ];
+
+  let isMenuOpen = false;
 
   let pageTitle: string | null = null;
   $: {
@@ -18,14 +23,28 @@
       pageTitle = null;
     }
   }
+
+  function toggleMenu() {
+    isMenuOpen = !isMenuOpen;
+    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+  }
+
+  function closeMenu() {
+    isMenuOpen = false;
+    document.body.style.overflow = '';
+  }
 </script>
 
-<header class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-dark-bg/80 backdrop-blur-sm border-b border-neutral-200 dark:border-neutral-800">
-  <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-    <!-- Left side: Logo placeholder -->
-    <div class="w-8 h-8 bg-neutral-200 dark:bg-neutral-800 rounded-lg">
+<header class="bg-neutral-100 dark:bg-neutral-900 relative z-50">
+  <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+    <!-- Left side: Logo with link -->
+    <a 
+      href="/" 
+      class="w-8 h-8 bg-neutral-200 dark:bg-neutral-800 rounded-lg hover:bg-neutral-300 dark:hover:bg-neutral-700 transition-colors"
+      aria-label="Home"
+    >
       <!-- Placeholder for your icon -->
-    </div>
+    </a>
 
     <!-- Right side: Actions -->
     <div class="flex items-center gap-2">
@@ -59,12 +78,67 @@
         <Linkedin class="w-5 h-5" />
       </a>
 
-      <button class="header-icon-button" aria-label="Menu">
-        <Menu class="w-5 h-5" />
+      <button 
+        class="header-icon-button" 
+        aria-label="Menu"
+        on:click={toggleMenu}
+      >
+        {#if isMenuOpen}
+          <X class="w-5 h-5" />
+        {:else}
+          <Menu class="w-5 h-5" />
+        {/if}
       </button>
     </div>
   </div>
 </header>
+
+{#if isMenuOpen}
+  <div 
+    class="fixed inset-0 z-40 backdrop-blur-sm"
+    transition:fade={{ duration: 200 }}
+  >
+    <!-- Light mode gradient -->
+    <div class="absolute inset-0 bg-white">
+      <div class="absolute inset-0" style="
+        background: linear-gradient(
+          45deg,
+          rgba(59, 130, 246, 0.15) 0%,
+          rgba(147, 51, 234, 0.15) 33%,
+          rgba(239, 68, 68, 0.15) 66%,
+          rgba(249, 115, 22, 0.15) 100%
+        );
+      "></div>
+    </div>
+
+    <!-- Dark mode gradient -->
+    <div class="absolute inset-0 bg-dark-bg opacity-0 dark:opacity-100">
+      <div class="absolute inset-0" style="
+        background: linear-gradient(
+          45deg,
+          rgba(59, 130, 246, 0.05) 0%,
+          rgba(147, 51, 234, 0.05) 33%,
+          rgba(239, 68, 68, 0.05) 66%,
+          rgba(249, 115, 22, 0.05) 100%
+        );
+      "></div>
+    </div>
+
+    <div class="h-screen w-full flex items-center justify-center relative">
+      <div class="menu-links flex flex-col items-center">
+        {#each links as link}
+          <a
+            href={link.href}
+            class="py-4 text-4xl font-bold text-black dark:text-blue-300 hover:text-neutral-600 dark:hover:text-blue-400 transition-colors capitalize"
+            on:click={closeMenu}
+          >
+            {link.name}
+          </a>
+        {/each}
+      </div>
+    </div>
+  </div>
+{/if}
 
 <style lang="postcss">
   nav {
@@ -93,8 +167,21 @@
 
   .header-icon-button {
     @apply p-2 rounded-lg text-neutral-600 dark:text-neutral-400
-           hover:bg-neutral-100 dark:hover:bg-neutral-800/50
+           hover:bg-neutral-200 dark:hover:bg-neutral-800
            hover:text-black dark:hover:text-blue-300
            transition-all duration-200;
+  }
+
+  /* Add styles for menu links */
+  nav a {
+    @apply text-black dark:text-white font-medium;
+  }
+
+  .menu-links {
+    @apply text-center w-full;
+  }
+
+  .menu-links a {
+    @apply w-full;
   }
 </style>
