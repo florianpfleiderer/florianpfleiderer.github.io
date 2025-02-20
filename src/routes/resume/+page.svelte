@@ -14,14 +14,15 @@
   <div class="mb-8">
     <h1 class="text-3xl font-bold mb-4">Resume</h1>
     <p class="text-neutral-600 dark:text-neutral-400 mb-6">
-      Here's my professional background and experience. Feel free to download the PDF version.
+      Here's my professional background and experience. Feel free to download
+      the PDF version.
     </p>
-    
+
     <!-- Download button -->
     <a
       href={resumeData.pdf}
       download
-      class="inline-flex items-center px-6 py-3 bg-black dark:bg-blue-500 text-white rounded-lg 
+      class="inline-flex items-center px-6 py-3 bg-black dark:bg-blue-500 text-white rounded-lg
              hover:bg-neutral-800 dark:hover:bg-blue-600 transition-colors"
     >
       <ArrowDown class="w-5 h-5 mr-2" />
@@ -30,7 +31,9 @@
   </div>
 
   <!-- Resume viewer -->
-  <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800">
+  <div
+    class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800"
+  >
     <div class="pdf-container">
       <iframe
         src={`${resumeData.pdf}#view=FitH`}

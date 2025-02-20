@@ -14,7 +14,9 @@
   <div class="mb-12">
     <h1 class="text-3xl font-bold mb-4">Writing</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
-      A collection of my academic papers, technical writing, and research work. These pieces cover topics in robotics, computer vision, and software engineering.
+      A collection of my academic papers, technical writing, and research work.
+      These pieces cover topics in robotics, computer vision, and software
+      engineering.
     </p>
   </div>
 

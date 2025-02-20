@@ -7,8 +7,8 @@ lead: using scene differencing to improve change detection
 image: cyws3d.png
 ---
 
-This project enhances change detection in indoor mobile robots by directly applying
-the CYWS-3D model to camera data, eliminating the reconstruction step. This
-approach addresses issues with occluded objects and search area definitions,
-serving as an indicator for objects missed by existing pipelines, thus improving
-unsupervised home assistance applications
+This project enhances change detection in indoor mobile robots by directly
+applying the CYWS-3D model to camera data, eliminating the reconstruction step.
+This approach addresses issues with occluded objects and search area
+definitions, serving as an indicator for objects missed by existing pipelines,
+thus improving unsupervised home assistance applications

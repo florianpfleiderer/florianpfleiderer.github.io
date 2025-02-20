@@ -19,7 +19,9 @@
   }
 
   $: projectsByDate = Object.keys(projects).sort(
-    (a, b) => new Date(projects[b].date).getTime() - new Date(projects[a].date).getTime()
+    (a, b) =>
+      new Date(projects[b].date).getTime() -
+      new Date(projects[a].date).getTime()
   );
   $: projectsByTitle = Object.keys(projects).sort((a, b) => {
     const titleA = projects[a].title.toLowerCase();
@@ -70,21 +72,25 @@
   <div class="mb-12">
     <h1 class="text-3xl font-bold mb-4">Projects</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
-      A showcase of my work in robotics, computer vision, and software engineering. Each project represents a unique challenge and learning experience.
+      A showcase of my work in robotics, computer vision, and software
+      engineering. Each project represents a unique challenge and learning
+      experience.
     </p>
   </div>
 
   <!-- Table of Contents -->
   <section class="mb-16">
-    <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 border border-neutral-200 dark:border-neutral-800">
+    <div
+      class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 border border-neutral-200 dark:border-neutral-800"
+    >
       <div class="flex items-center justify-between mb-4">
         <h2 class="text-xl font-semibold text-black dark:text-blue-300">
           Table of Contents
         </h2>
         <button
-          class="flex items-center gap-2 px-3 py-1.5 text-sm text-neutral-600 dark:text-neutral-400 
+          class="flex items-center gap-2 px-3 py-1.5 text-sm text-neutral-600 dark:text-neutral-400
                  hover:bg-neutral-200 dark:hover:bg-neutral-800 rounded-lg transition-colors"
-          on:click={() => sortOrder = sortOrder === "date" ? "stars" : "date"}
+          on:click={() => (sortOrder = sortOrder === "date" ? "stars" : "date")}
         >
           <ArrowUpDown size={16} />
           Sort by {sortOrder === "date" ? "Stars" : "Date"}
@@ -95,7 +101,7 @@
           <li>
             <a
               href="#{id}"
-              class="block py-2 px-3 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800/50 
+              class="block py-2 px-3 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800/50
                      text-neutral-800 dark:text-neutral-200 transition-colors"
             >
               {projects[id].title}

@@ -42,7 +42,9 @@
   </div>
   <div class="flex flex-wrap gap-2 mb-6">
     {#each data.topics as topic}
-      <span class="px-3 py-1 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm text-neutral-800 dark:text-neutral-200">
+      <span
+        class="px-3 py-1 bg-neutral-100 dark:bg-neutral-800 rounded-full text-sm text-neutral-800 dark:text-neutral-200"
+      >
         {topic}
       </span>
     {/each}
@@ -57,10 +59,12 @@
     </p>
     <Markdown source={data.content} />
   </div>
-  
+
   <div class="space-y-6">
-    <div class="rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800">
-      <a 
+    <div
+      class="rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800"
+    >
+      <a
         href={images[`../../projects/${data.image}`]?.default}
         rel="external"
         class="block hover:opacity-90 transition-opacity"
@@ -73,11 +77,13 @@
         />
       </a>
     </div>
-    
+
     {#if data.subimages}
       {#each data.subimages as image}
-        <div class="rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800">
-          <a 
+        <div
+          class="rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800"
+        >
+          <a
             href={images[`../../projects/${image}`]?.default}
             rel="external"
             class="block hover:opacity-90 transition-opacity"
