@@ -6,9 +6,9 @@ import path from 'path';
 async function generateFavicons() {
   const imageAdapter = await getNodeImageAdapter();
 
-  // Load the master icon from static/favicon.svg
+  // Load the master icon from static/assets/favicon.svg
   const masterIcon: MasterIcon = {
-    icon: await loadAndConvertToSvg("static/favicon.svg"),
+    icon: await loadAndConvertToSvg("static/assets/favicon.svg"),
   }
 
   const faviconSettings: FaviconSettings = {
