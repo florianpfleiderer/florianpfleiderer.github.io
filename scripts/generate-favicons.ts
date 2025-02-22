@@ -17,7 +17,7 @@ async function generateFavicons() {
   // Load the master icon from static/assets/favicon.svg
   const masterIcon: MasterIcon = {
     icon: await loadAndConvertToSvg("static/assets/favicon.svg"),
-  }
+  };
 
   const faviconSettings: FaviconSettings = {
     icon: {
