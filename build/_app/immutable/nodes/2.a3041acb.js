@@ -1,11 +1,574 @@
-import{S as yt,i as _t,s as Et,y as ie,a as o,k as s,q as i,z as de,c,l,m as r,r as d,h as a,n as t,p as qt,A as fe,b as kt,M as e,R as $t,g as ue,d as ve,B as he}from"../chunks/index.6f50c499.js";import{A as et}from"../chunks/arrow-up-right.b9f96a9c.js";import{S as wt}from"../chunks/Seo.9c5a7d66.js";function St(tt){let b,te,P,I,x,g,v,D,pe,be,f,R,xe,ge,M,me,ke,H,ye,_e,j,Ee,qe,F,$e,we,N,h,m,Se,V,Pe,k,Ve,A,Ae,y,Ce,C,Ie,p,O,T,De,z,Re,Me,u,_,U,He,je,L,Fe,Ne,E,W,Oe,Te,B,ze,Ue,q,G,Le,We,J,Be,Ge,$,K,Je,Ke,Q,Qe,ae;return b=new wt({props:{title:"Florian Pfleiderer",description:"MSc Student & Robotics Enthusiast"}}),V=new et({props:{size:18,class:"inline"}}),A=new et({props:{size:18,class:"inline"}}),C=new et({props:{size:18,class:"inline"}}),{c(){ie(b.$$.fragment),te=o(),P=s("div"),I=s("div"),x=s("section"),g=s("div"),v=s("div"),D=s("h1"),pe=i("Florian Pfleiderer"),be=o(),f=s("p"),R=s("span"),xe=i("is a"),ge=o(),M=s("span"),me=i("MSc student"),ke=o(),H=s("span"),ye=i("and"),_e=o(),j=s("span"),Ee=i("robotics enthusiast"),qe=o(),F=s("p"),$e=i(`Currently pursuing Computer Science at the University of St.
+import {
+  S as yt,
+  i as _t,
+  s as Et,
+  y as ie,
+  a as o,
+  k as s,
+  q as i,
+  z as de,
+  c,
+  l,
+  m as r,
+  r as d,
+  h as a,
+  n as t,
+  p as qt,
+  A as fe,
+  b as kt,
+  M as e,
+  R as $t,
+  g as ue,
+  d as ve,
+  B as he,
+} from "../chunks/index.6f50c499.js";
+import { A as et } from "../chunks/arrow-up-right.b9f96a9c.js";
+import { S as wt } from "../chunks/Seo.9c5a7d66.js";
+function St(tt) {
+  let b,
+    te,
+    P,
+    I,
+    x,
+    g,
+    v,
+    D,
+    pe,
+    be,
+    f,
+    R,
+    xe,
+    ge,
+    M,
+    me,
+    ke,
+    H,
+    ye,
+    _e,
+    j,
+    Ee,
+    qe,
+    F,
+    $e,
+    we,
+    N,
+    h,
+    m,
+    Se,
+    V,
+    Pe,
+    k,
+    Ve,
+    A,
+    Ae,
+    y,
+    Ce,
+    C,
+    Ie,
+    p,
+    O,
+    T,
+    De,
+    z,
+    Re,
+    Me,
+    u,
+    _,
+    U,
+    He,
+    je,
+    L,
+    Fe,
+    Ne,
+    E,
+    W,
+    Oe,
+    Te,
+    B,
+    ze,
+    Ue,
+    q,
+    G,
+    Le,
+    We,
+    J,
+    Be,
+    Ge,
+    $,
+    K,
+    Je,
+    Ke,
+    Q,
+    Qe,
+    ae;
+  return (
+    (b = new wt({
+      props: {
+        title: "Florian Pfleiderer",
+        description: "MSc Student & Robotics Enthusiast",
+      },
+    })),
+    (V = new et({ props: { size: 18, class: "inline" } })),
+    (A = new et({ props: { size: 18, class: "inline" } })),
+    (C = new et({ props: { size: 18, class: "inline" } })),
+    {
+      c() {
+        ie(b.$$.fragment),
+          (te = o()),
+          (P = s("div")),
+          (I = s("div")),
+          (x = s("section")),
+          (g = s("div")),
+          (v = s("div")),
+          (D = s("h1")),
+          (pe = i("Florian Pfleiderer")),
+          (be = o()),
+          (f = s("p")),
+          (R = s("span")),
+          (xe = i("is a")),
+          (ge = o()),
+          (M = s("span")),
+          (me = i("MSc student")),
+          (ke = o()),
+          (H = s("span")),
+          (ye = i("and")),
+          (_e = o()),
+          (j = s("span")),
+          (Ee = i("robotics enthusiast")),
+          (qe = o()),
+          (F = s("p")),
+          ($e = i(`Currently pursuing Computer Science at the University of St.
             Andrews, with a focus on Robotics, Machine Vision, and Software
-            Engineering.`),we=o(),N=s("div"),h=s("div"),m=s("a"),Se=i(`Projects
-              `),ie(V.$$.fragment),Pe=o(),k=s("a"),Ve=i(`Writing
-              `),ie(A.$$.fragment),Ae=o(),y=s("a"),Ce=i(`Resume
-              `),ie(C.$$.fragment),Ie=o(),p=s("div"),O=s("div"),T=s("div"),De=o(),z=s("h2"),Re=i("Core Competencies"),Me=o(),u=s("div"),_=s("div"),U=s("h3"),He=i("Robotics"),je=o(),L=s("p"),Fe=i("ROS, Motion Planning, SLAM"),Ne=o(),E=s("div"),W=s("h3"),Oe=i("Machine Vision"),Te=o(),B=s("p"),ze=i("OpenCV, PyTorch, TensorFlow"),Ue=o(),q=s("div"),G=s("h3"),Le=i("Software Engineering"),We=o(),J=s("p"),Be=i("C++, Python, Rust"),Ge=o(),$=s("div"),K=s("h3"),Je=i("Security"),Ke=o(),Q=s("p"),Qe=i("Cryptography, Authentication"),this.h()},l(n){de(b.$$.fragment,n),te=c(n),P=l(n,"DIV",{class:!0});var X=r(P);I=l(X,"DIV",{class:!0});var at=r(I);x=l(at,"SECTION",{class:!0});var se=r(x);g=l(se,"DIV",{class:!0});var le=r(g);v=l(le,"DIV",{class:!0});var Y=r(v);D=l(Y,"H1",{class:!0});var st=r(D);pe=d(st,"Florian Pfleiderer"),st.forEach(a),be=c(Y),f=l(Y,"P",{class:!0});var w=r(f);R=l(w,"SPAN",{class:!0});var lt=r(R);xe=d(lt,"is a"),lt.forEach(a),ge=c(w),M=l(w,"SPAN",{class:!0});var rt=r(M);me=d(rt,"MSc student"),rt.forEach(a),ke=c(w),H=l(w,"SPAN",{class:!0});var nt=r(H);ye=d(nt,"and"),nt.forEach(a),_e=c(w),j=l(w,"SPAN",{class:!0});var ot=r(j);Ee=d(ot,"robotics enthusiast"),ot.forEach(a),w.forEach(a),qe=c(Y),F=l(Y,"P",{class:!0});var ct=r(F);$e=d(ct,`Currently pursuing Computer Science at the University of St.
+            Engineering.`)),
+          (we = o()),
+          (N = s("div")),
+          (h = s("div")),
+          (m = s("a")),
+          (Se = i(`Projects
+              `)),
+          ie(V.$$.fragment),
+          (Pe = o()),
+          (k = s("a")),
+          (Ve = i(`Writing
+              `)),
+          ie(A.$$.fragment),
+          (Ae = o()),
+          (y = s("a")),
+          (Ce = i(`Resume
+              `)),
+          ie(C.$$.fragment),
+          (Ie = o()),
+          (p = s("div")),
+          (O = s("div")),
+          (T = s("div")),
+          (De = o()),
+          (z = s("h2")),
+          (Re = i("Core Competencies")),
+          (Me = o()),
+          (u = s("div")),
+          (_ = s("div")),
+          (U = s("h3")),
+          (He = i("Robotics")),
+          (je = o()),
+          (L = s("p")),
+          (Fe = i("ROS, Motion Planning, SLAM")),
+          (Ne = o()),
+          (E = s("div")),
+          (W = s("h3")),
+          (Oe = i("Machine Vision")),
+          (Te = o()),
+          (B = s("p")),
+          (ze = i("OpenCV, PyTorch, TensorFlow")),
+          (Ue = o()),
+          (q = s("div")),
+          (G = s("h3")),
+          (Le = i("Software Engineering")),
+          (We = o()),
+          (J = s("p")),
+          (Be = i("C++, Python, Rust")),
+          (Ge = o()),
+          ($ = s("div")),
+          (K = s("h3")),
+          (Je = i("Security")),
+          (Ke = o()),
+          (Q = s("p")),
+          (Qe = i("Cryptography, Authentication")),
+          this.h();
+      },
+      l(n) {
+        de(b.$$.fragment, n), (te = c(n)), (P = l(n, "DIV", { class: !0 }));
+        var X = r(P);
+        I = l(X, "DIV", { class: !0 });
+        var at = r(I);
+        x = l(at, "SECTION", { class: !0 });
+        var se = r(x);
+        g = l(se, "DIV", { class: !0 });
+        var le = r(g);
+        v = l(le, "DIV", { class: !0 });
+        var Y = r(v);
+        D = l(Y, "H1", { class: !0 });
+        var st = r(D);
+        (pe = d(st, "Florian Pfleiderer")),
+          st.forEach(a),
+          (be = c(Y)),
+          (f = l(Y, "P", { class: !0 }));
+        var w = r(f);
+        R = l(w, "SPAN", { class: !0 });
+        var lt = r(R);
+        (xe = d(lt, "is a")),
+          lt.forEach(a),
+          (ge = c(w)),
+          (M = l(w, "SPAN", { class: !0 }));
+        var rt = r(M);
+        (me = d(rt, "MSc student")),
+          rt.forEach(a),
+          (ke = c(w)),
+          (H = l(w, "SPAN", { class: !0 }));
+        var nt = r(H);
+        (ye = d(nt, "and")),
+          nt.forEach(a),
+          (_e = c(w)),
+          (j = l(w, "SPAN", { class: !0 }));
+        var ot = r(j);
+        (Ee = d(ot, "robotics enthusiast")),
+          ot.forEach(a),
+          w.forEach(a),
+          (qe = c(Y)),
+          (F = l(Y, "P", { class: !0 }));
+        var ct = r(F);
+        ($e = d(
+          ct,
+          `Currently pursuing Computer Science at the University of St.
             Andrews, with a focus on Robotics, Machine Vision, and Software
-            Engineering.`),ct.forEach(a),Y.forEach(a),we=c(le),N=l(le,"DIV",{class:!0});var it=r(N);h=l(it,"DIV",{class:!0});var Z=r(h);m=l(Z,"A",{href:!0,class:!0});var Xe=r(m);Se=d(Xe,`Projects
-              `),de(V.$$.fragment,Xe),Xe.forEach(a),Pe=c(Z),k=l(Z,"A",{href:!0,class:!0});var Ye=r(k);Ve=d(Ye,`Writing
-              `),de(A.$$.fragment,Ye),Ye.forEach(a),Ae=c(Z),y=l(Z,"A",{href:!0,class:!0});var Ze=r(y);Ce=d(Ze,`Resume
-              `),de(C.$$.fragment,Ze),Ze.forEach(a),Z.forEach(a),it.forEach(a),le.forEach(a),Ie=c(se),p=l(se,"DIV",{class:!0});var ee=r(p);O=l(ee,"DIV",{class:!0});var dt=r(O);T=l(dt,"DIV",{class:!0,style:!0}),r(T).forEach(a),dt.forEach(a),De=c(ee),z=l(ee,"H2",{class:!0});var ft=r(z);Re=d(ft,"Core Competencies"),ft.forEach(a),Me=c(ee),u=l(ee,"DIV",{class:!0});var S=r(u);_=l(S,"DIV",{class:!0});var re=r(_);U=l(re,"H3",{class:!0});var ut=r(U);He=d(ut,"Robotics"),ut.forEach(a),je=c(re),L=l(re,"P",{class:!0});var vt=r(L);Fe=d(vt,"ROS, Motion Planning, SLAM"),vt.forEach(a),re.forEach(a),Ne=c(S),E=l(S,"DIV",{class:!0});var ne=r(E);W=l(ne,"H3",{class:!0});var ht=r(W);Oe=d(ht,"Machine Vision"),ht.forEach(a),Te=c(ne),B=l(ne,"P",{class:!0});var pt=r(B);ze=d(pt,"OpenCV, PyTorch, TensorFlow"),pt.forEach(a),ne.forEach(a),Ue=c(S),q=l(S,"DIV",{class:!0});var oe=r(q);G=l(oe,"H3",{class:!0});var bt=r(G);Le=d(bt,"Software Engineering"),bt.forEach(a),We=c(oe),J=l(oe,"P",{class:!0});var xt=r(J);Be=d(xt,"C++, Python, Rust"),xt.forEach(a),oe.forEach(a),Ge=c(S),$=l(S,"DIV",{class:!0});var ce=r($);K=l(ce,"H3",{class:!0});var gt=r(K);Je=d(gt,"Security"),gt.forEach(a),Ke=c(ce),Q=l(ce,"P",{class:!0});var mt=r(Q);Qe=d(mt,"Cryptography, Authentication"),mt.forEach(a),ce.forEach(a),S.forEach(a),ee.forEach(a),se.forEach(a),at.forEach(a),X.forEach(a),this.h()},h(){t(D,"class","text-5xl lg:text-6xl font-bold text-black dark:text-blue-300 svelte-yfqbka"),t(R,"class","text-neutral-400 svelte-yfqbka"),t(M,"class","text-black dark:text-blue-300 svelte-yfqbka"),t(H,"class","text-neutral-400 svelte-yfqbka"),t(j,"class","text-black dark:text-blue-300 svelte-yfqbka"),t(f,"class","text-xl lg:text-2xl svelte-yfqbka"),t(F,"class","text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed svelte-yfqbka"),t(v,"class","space-y-6 svelte-yfqbka"),t(m,"href","/projects"),t(m,"class","action-button svelte-yfqbka"),t(k,"href","/writing"),t(k,"class","action-button-secondary svelte-yfqbka"),t(y,"href","/resume"),t(y,"class","action-button-outline svelte-yfqbka"),t(h,"class","flex flex-col sm:flex-row gap-4 svelte-yfqbka"),t(N,"class","space-y-6 svelte-yfqbka"),t(g,"class","flex-1 space-y-8 lg:pr-8 svelte-yfqbka"),t(T,"class","w-full h-full svelte-yfqbka"),qt(T,"background","linear-gradient( 45deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 51, 234, 0.05) 33%, rgba(239, 68, 68, 0.05) 66%, rgba(249, 115, 22, 0.05) 100% )"),t(O,"class","absolute inset-0 pointer-events-none opacity-0 dark:opacity-100 svelte-yfqbka"),t(z,"class","text-xl lg:text-2xl font-semibold text-black dark:text-blue-200 mb-4 lg:mb-6 relative svelte-yfqbka"),t(U,"class","text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"),t(L,"class","text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"),t(_,"class","skill-card svelte-yfqbka"),t(W,"class","text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"),t(B,"class","text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"),t(E,"class","skill-card svelte-yfqbka"),t(G,"class","text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"),t(J,"class","text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"),t(q,"class","skill-card svelte-yfqbka"),t(K,"class","text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"),t(Q,"class","text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"),t($,"class","skill-card svelte-yfqbka"),t(u,"class","grid grid-cols-2 gap-4 lg:gap-6 relative svelte-yfqbka"),t(p,"class","flex-1 lg:min-w-[420px] backdrop-blur-sm bg-white/5 dark:bg-black/5 p-6 lg:p-8 rounded-xl border border-neutral-200 dark:border-neutral-800 relative overflow-hidden svelte-yfqbka"),t(x,"class","w-full max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-16 svelte-yfqbka"),t(I,"class","relative flex items-center justify-center h-full pt-8 sm:pt-12 svelte-yfqbka"),t(P,"class","landing-page min-h-[calc(100vh-6rem)] svelte-yfqbka")},m(n,X){fe(b,n,X),kt(n,te,X),kt(n,P,X),e(P,I),e(I,x),e(x,g),e(g,v),e(v,D),e(D,pe),e(v,be),e(v,f),e(f,R),e(R,xe),e(f,ge),e(f,M),e(M,me),e(f,ke),e(f,H),e(H,ye),e(f,_e),e(f,j),e(j,Ee),e(v,qe),e(v,F),e(F,$e),e(g,we),e(g,N),e(N,h),e(h,m),e(m,Se),fe(V,m,null),e(h,Pe),e(h,k),e(k,Ve),fe(A,k,null),e(h,Ae),e(h,y),e(y,Ce),fe(C,y,null),e(x,Ie),e(x,p),e(p,O),e(O,T),e(p,De),e(p,z),e(z,Re),e(p,Me),e(p,u),e(u,_),e(_,U),e(U,He),e(_,je),e(_,L),e(L,Fe),e(u,Ne),e(u,E),e(E,W),e(W,Oe),e(E,Te),e(E,B),e(B,ze),e(u,Ue),e(u,q),e(q,G),e(G,Le),e(q,We),e(q,J),e(J,Be),e(u,Ge),e(u,$),e($,K),e(K,Je),e($,Ke),e($,Q),e(Q,Qe),ae=!0},p:$t,i(n){ae||(ue(b.$$.fragment,n),ue(V.$$.fragment,n),ue(A.$$.fragment,n),ue(C.$$.fragment,n),ae=!0)},o(n){ve(b.$$.fragment,n),ve(V.$$.fragment,n),ve(A.$$.fragment,n),ve(C.$$.fragment,n),ae=!1},d(n){he(b,n),n&&a(te),n&&a(P),he(V),he(A),he(C)}}}function Pt(tt){return[]}class It extends yt{constructor(b){super(),_t(this,b,Pt,St,Et,{})}}export{It as component};
+            Engineering.`
+        )),
+          ct.forEach(a),
+          Y.forEach(a),
+          (we = c(le)),
+          (N = l(le, "DIV", { class: !0 }));
+        var it = r(N);
+        h = l(it, "DIV", { class: !0 });
+        var Z = r(h);
+        m = l(Z, "A", { href: !0, class: !0 });
+        var Xe = r(m);
+        (Se = d(
+          Xe,
+          `Projects
+              `
+        )),
+          de(V.$$.fragment, Xe),
+          Xe.forEach(a),
+          (Pe = c(Z)),
+          (k = l(Z, "A", { href: !0, class: !0 }));
+        var Ye = r(k);
+        (Ve = d(
+          Ye,
+          `Writing
+              `
+        )),
+          de(A.$$.fragment, Ye),
+          Ye.forEach(a),
+          (Ae = c(Z)),
+          (y = l(Z, "A", { href: !0, class: !0 }));
+        var Ze = r(y);
+        (Ce = d(
+          Ze,
+          `Resume
+              `
+        )),
+          de(C.$$.fragment, Ze),
+          Ze.forEach(a),
+          Z.forEach(a),
+          it.forEach(a),
+          le.forEach(a),
+          (Ie = c(se)),
+          (p = l(se, "DIV", { class: !0 }));
+        var ee = r(p);
+        O = l(ee, "DIV", { class: !0 });
+        var dt = r(O);
+        (T = l(dt, "DIV", { class: !0, style: !0 })),
+          r(T).forEach(a),
+          dt.forEach(a),
+          (De = c(ee)),
+          (z = l(ee, "H2", { class: !0 }));
+        var ft = r(z);
+        (Re = d(ft, "Core Competencies")),
+          ft.forEach(a),
+          (Me = c(ee)),
+          (u = l(ee, "DIV", { class: !0 }));
+        var S = r(u);
+        _ = l(S, "DIV", { class: !0 });
+        var re = r(_);
+        U = l(re, "H3", { class: !0 });
+        var ut = r(U);
+        (He = d(ut, "Robotics")),
+          ut.forEach(a),
+          (je = c(re)),
+          (L = l(re, "P", { class: !0 }));
+        var vt = r(L);
+        (Fe = d(vt, "ROS, Motion Planning, SLAM")),
+          vt.forEach(a),
+          re.forEach(a),
+          (Ne = c(S)),
+          (E = l(S, "DIV", { class: !0 }));
+        var ne = r(E);
+        W = l(ne, "H3", { class: !0 });
+        var ht = r(W);
+        (Oe = d(ht, "Machine Vision")),
+          ht.forEach(a),
+          (Te = c(ne)),
+          (B = l(ne, "P", { class: !0 }));
+        var pt = r(B);
+        (ze = d(pt, "OpenCV, PyTorch, TensorFlow")),
+          pt.forEach(a),
+          ne.forEach(a),
+          (Ue = c(S)),
+          (q = l(S, "DIV", { class: !0 }));
+        var oe = r(q);
+        G = l(oe, "H3", { class: !0 });
+        var bt = r(G);
+        (Le = d(bt, "Software Engineering")),
+          bt.forEach(a),
+          (We = c(oe)),
+          (J = l(oe, "P", { class: !0 }));
+        var xt = r(J);
+        (Be = d(xt, "C++, Python, Rust")),
+          xt.forEach(a),
+          oe.forEach(a),
+          (Ge = c(S)),
+          ($ = l(S, "DIV", { class: !0 }));
+        var ce = r($);
+        K = l(ce, "H3", { class: !0 });
+        var gt = r(K);
+        (Je = d(gt, "Security")),
+          gt.forEach(a),
+          (Ke = c(ce)),
+          (Q = l(ce, "P", { class: !0 }));
+        var mt = r(Q);
+        (Qe = d(mt, "Cryptography, Authentication")),
+          mt.forEach(a),
+          ce.forEach(a),
+          S.forEach(a),
+          ee.forEach(a),
+          se.forEach(a),
+          at.forEach(a),
+          X.forEach(a),
+          this.h();
+      },
+      h() {
+        t(
+          D,
+          "class",
+          "text-5xl lg:text-6xl font-bold text-black dark:text-blue-300 svelte-yfqbka"
+        ),
+          t(R, "class", "text-neutral-400 svelte-yfqbka"),
+          t(M, "class", "text-black dark:text-blue-300 svelte-yfqbka"),
+          t(H, "class", "text-neutral-400 svelte-yfqbka"),
+          t(j, "class", "text-black dark:text-blue-300 svelte-yfqbka"),
+          t(f, "class", "text-xl lg:text-2xl svelte-yfqbka"),
+          t(
+            F,
+            "class",
+            "text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed svelte-yfqbka"
+          ),
+          t(v, "class", "space-y-6 svelte-yfqbka"),
+          t(m, "href", "/projects"),
+          t(m, "class", "action-button svelte-yfqbka"),
+          t(k, "href", "/writing"),
+          t(k, "class", "action-button-secondary svelte-yfqbka"),
+          t(y, "href", "/resume"),
+          t(y, "class", "action-button-outline svelte-yfqbka"),
+          t(h, "class", "flex flex-col sm:flex-row gap-4 svelte-yfqbka"),
+          t(N, "class", "space-y-6 svelte-yfqbka"),
+          t(g, "class", "flex-1 space-y-8 lg:pr-8 svelte-yfqbka"),
+          t(T, "class", "w-full h-full svelte-yfqbka"),
+          qt(
+            T,
+            "background",
+            "linear-gradient( 45deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 51, 234, 0.05) 33%, rgba(239, 68, 68, 0.05) 66%, rgba(249, 115, 22, 0.05) 100% )"
+          ),
+          t(
+            O,
+            "class",
+            "absolute inset-0 pointer-events-none opacity-0 dark:opacity-100 svelte-yfqbka"
+          ),
+          t(
+            z,
+            "class",
+            "text-xl lg:text-2xl font-semibold text-black dark:text-blue-200 mb-4 lg:mb-6 relative svelte-yfqbka"
+          ),
+          t(
+            U,
+            "class",
+            "text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"
+          ),
+          t(
+            L,
+            "class",
+            "text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"
+          ),
+          t(_, "class", "skill-card svelte-yfqbka"),
+          t(
+            W,
+            "class",
+            "text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"
+          ),
+          t(
+            B,
+            "class",
+            "text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"
+          ),
+          t(E, "class", "skill-card svelte-yfqbka"),
+          t(
+            G,
+            "class",
+            "text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"
+          ),
+          t(
+            J,
+            "class",
+            "text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"
+          ),
+          t(q, "class", "skill-card svelte-yfqbka"),
+          t(
+            K,
+            "class",
+            "text-lg font-medium text-black dark:text-blue-300 svelte-yfqbka"
+          ),
+          t(
+            Q,
+            "class",
+            "text-sm text-neutral-600 dark:text-neutral-400 svelte-yfqbka"
+          ),
+          t($, "class", "skill-card svelte-yfqbka"),
+          t(
+            u,
+            "class",
+            "grid grid-cols-2 gap-4 lg:gap-6 relative svelte-yfqbka"
+          ),
+          t(
+            p,
+            "class",
+            "flex-1 lg:min-w-[420px] backdrop-blur-sm bg-white/5 dark:bg-black/5 p-6 lg:p-8 rounded-xl border border-neutral-200 dark:border-neutral-800 relative overflow-hidden svelte-yfqbka"
+          ),
+          t(
+            x,
+            "class",
+            "w-full max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-16 svelte-yfqbka"
+          ),
+          t(
+            I,
+            "class",
+            "relative flex items-center justify-center h-full pt-8 sm:pt-12 svelte-yfqbka"
+          ),
+          t(P, "class", "landing-page min-h-[calc(100vh-6rem)] svelte-yfqbka");
+      },
+      m(n, X) {
+        fe(b, n, X),
+          kt(n, te, X),
+          kt(n, P, X),
+          e(P, I),
+          e(I, x),
+          e(x, g),
+          e(g, v),
+          e(v, D),
+          e(D, pe),
+          e(v, be),
+          e(v, f),
+          e(f, R),
+          e(R, xe),
+          e(f, ge),
+          e(f, M),
+          e(M, me),
+          e(f, ke),
+          e(f, H),
+          e(H, ye),
+          e(f, _e),
+          e(f, j),
+          e(j, Ee),
+          e(v, qe),
+          e(v, F),
+          e(F, $e),
+          e(g, we),
+          e(g, N),
+          e(N, h),
+          e(h, m),
+          e(m, Se),
+          fe(V, m, null),
+          e(h, Pe),
+          e(h, k),
+          e(k, Ve),
+          fe(A, k, null),
+          e(h, Ae),
+          e(h, y),
+          e(y, Ce),
+          fe(C, y, null),
+          e(x, Ie),
+          e(x, p),
+          e(p, O),
+          e(O, T),
+          e(p, De),
+          e(p, z),
+          e(z, Re),
+          e(p, Me),
+          e(p, u),
+          e(u, _),
+          e(_, U),
+          e(U, He),
+          e(_, je),
+          e(_, L),
+          e(L, Fe),
+          e(u, Ne),
+          e(u, E),
+          e(E, W),
+          e(W, Oe),
+          e(E, Te),
+          e(E, B),
+          e(B, ze),
+          e(u, Ue),
+          e(u, q),
+          e(q, G),
+          e(G, Le),
+          e(q, We),
+          e(q, J),
+          e(J, Be),
+          e(u, Ge),
+          e(u, $),
+          e($, K),
+          e(K, Je),
+          e($, Ke),
+          e($, Q),
+          e(Q, Qe),
+          (ae = !0);
+      },
+      p: $t,
+      i(n) {
+        ae ||
+          (ue(b.$$.fragment, n),
+          ue(V.$$.fragment, n),
+          ue(A.$$.fragment, n),
+          ue(C.$$.fragment, n),
+          (ae = !0));
+      },
+      o(n) {
+        ve(b.$$.fragment, n),
+          ve(V.$$.fragment, n),
+          ve(A.$$.fragment, n),
+          ve(C.$$.fragment, n),
+          (ae = !1);
+      },
+      d(n) {
+        he(b, n), n && a(te), n && a(P), he(V), he(A), he(C);
+      },
+    }
+  );
+}
+function Pt(tt) {
+  return [];
+}
+class It extends yt {
+  constructor(b) {
+    super(), _t(this, b, Pt, St, Et, {});
+  }
+}
+export { It as component };
