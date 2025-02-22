@@ -10,9 +10,20 @@
   import Modal from "$lib/components/Modal.svelte";
   import Markdown from "$lib/components/Markdown.svelte";
 
+  interface Project {
+    id: string;
+    title: string;
+    date: string;
+    repo: string;
+    topics: string[];
+    lead: string;
+    image: string;
+    content: string;
+  }
+
   const projects = import.meta.glob("../../projects/*.md", {
     eager: true,
-  }) as any;
+  }) as Record<string, Project>;
   const images = import.meta.glob("../../projects/*.{png,jpg,svg}", {
     eager: true,
   }) as any;
@@ -64,14 +75,19 @@
 
   let sortOrder: "date" | "stars" = "date";
 
-  let selectedProject: (typeof projects)[string] | null = null;
+  let selectedProject: Project | null = null;
 
-  function openProject(project: (typeof projects)[string]) {
-    selectedProject = project;
-    // Update URL without scrolling
-    const url = new URL(window.location.href);
-    url.hash = trimName(project.id);
-    history.pushState({}, "", url.toString());
+  function handleProjectClick(projectPath: string) {
+    const project = projects[projectPath];
+    if (project) {
+      const url = new URL(window.location.href);
+      const id = trimName(projectPath);
+      if (id) {
+        url.hash = id;
+        history.pushState({}, '', url.toString());
+        selectedProject = project;
+      }
+    }
   }
 
   function closeProject() {
@@ -100,13 +116,12 @@
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {#each projectsByDate as projectPath}
-      {@const id = trimName(projectPath)}
       {@const data = projects[projectPath]}
-      <ProjectTile
-        {id}
-        {data}
-        {images}
-        onClick={() => openProject(projects[projectPath])}
+      <ProjectTile 
+        id={trimName(projectPath) || ''}
+        data={data}
+        {images} 
+        onClick={() => handleProjectClick(projectPath)}
       />
     {/each}
   </div>
