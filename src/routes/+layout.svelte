@@ -50,7 +50,7 @@
       <!-- Global gradient overlay -->
       <div class="gradient-overlay" />
 
-      <main class="relative">
+      <main class="relative py-8 sm:py-12">
         <slot />
       </main>
     </div>

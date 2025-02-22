@@ -19,7 +19,7 @@
 />
 
 <div class="landing-page min-h-[calc(100vh-6rem)]">
-  <div class="relative flex items-center justify-center h-full">
+  <div class="relative flex items-center justify-center h-full pt-8 sm:pt-12">
     <!-- Hero Section -->
     <section
       class="w-full max-w-6xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-16"
