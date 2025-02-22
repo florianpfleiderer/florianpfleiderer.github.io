@@ -84,7 +84,7 @@
       const id = trimName(projectPath);
       if (id) {
         url.hash = id;
-        history.pushState({}, '', url.toString());
+        history.pushState({}, "", url.toString());
         selectedProject = project;
       }
     }
@@ -117,10 +117,10 @@
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {#each projectsByDate as projectPath}
       {@const data = projects[projectPath]}
-      <ProjectTile 
-        id={trimName(projectPath) || ''}
-        data={data}
-        {images} 
+      <ProjectTile
+        id={trimName(projectPath) || ""}
+        {data}
+        {images}
         onClick={() => handleProjectClick(projectPath)}
       />
     {/each}
