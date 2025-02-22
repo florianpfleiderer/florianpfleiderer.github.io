@@ -42,10 +42,19 @@
     <!-- Left side: Logo with link -->
     <a
       href="/"
-      class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-300/50 dark:hover:bg-neutral-700/50 transition-colors"
+      class="w-10 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-300/50 dark:hover:bg-neutral-700/50 transition-colors"
       aria-label="Home"
     >
-      <img src="/Vector.png" alt="Logo" class="w-6 h-6" />
+      <img
+        src="/assets/imgs/logo-dark.png"
+        alt="Logo"
+        class="w-8 h-6 block dark:hidden"
+      />
+      <img
+        src="/assets/imgs/logo-light.png"
+        alt="Logo"
+        class="w-8 h-6 hidden dark:block"
+      />
     </a>
 
     <!-- Right side: Actions -->
