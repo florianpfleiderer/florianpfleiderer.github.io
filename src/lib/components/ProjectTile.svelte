@@ -31,7 +31,9 @@
     <div class="flex-1">
       <!-- Title and Date -->
       <div class="flex justify-between items-start mb-2 gap-4">
-        <h3 class="text-xl font-semibold text-black dark:text-blue-300 max-w-[75%]">
+        <h3
+          class="text-xl font-semibold text-black dark:text-blue-300 max-w-[75%]"
+        >
           {data.title}
         </h3>
         <span class="text-sm text-neutral-500 flex-shrink-0">{data.date}</span>
@@ -78,4 +80,4 @@
            bg-neutral-100 dark:bg-neutral-800
            text-neutral-700 dark:text-neutral-300;
   }
-</style> 
+</style>

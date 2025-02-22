@@ -36,18 +36,16 @@
 </script>
 
 <header class="bg-neutral-100 dark:bg-neutral-900 relative z-50">
-  <div class="max-w-[1920px] mx-auto px-3 sm:px-4 h-16 flex items-center justify-between">
+  <div
+    class="max-w-[1920px] mx-auto px-3 sm:px-4 h-16 flex items-center justify-between"
+  >
     <!-- Left side: Logo with link -->
     <a
       href="/"
       class="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-neutral-300/50 dark:hover:bg-neutral-700/50 transition-colors"
       aria-label="Home"
     >
-      <img 
-        src="%sveltekit.assets%/Vector.png" 
-        alt="Logo" 
-        class="w-6 h-6"
-      />
+      <img src="%sveltekit.assets%/Vector.png" alt="Logo" class="w-6 h-6" />
     </a>
 
     <!-- Right side: Actions -->

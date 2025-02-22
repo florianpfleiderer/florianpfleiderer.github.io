@@ -64,20 +64,20 @@
 
   let sortOrder: "date" | "stars" = "date";
 
-  let selectedProject: typeof projects[string] | null = null;
+  let selectedProject: (typeof projects)[string] | null = null;
 
-  function openProject(project: typeof projects[string]) {
+  function openProject(project: (typeof projects)[string]) {
     selectedProject = project;
     // Update URL without scrolling
     const url = new URL(window.location.href);
     url.hash = trimName(project.id);
-    history.pushState({}, '', url.toString());
+    history.pushState({}, "", url.toString());
   }
 
   function closeProject() {
     selectedProject = null;
     // Remove hash from URL
-    history.pushState({}, '', window.location.pathname);
+    history.pushState({}, "", window.location.pathname);
   }
 </script>
 
@@ -91,21 +91,22 @@
   <div class="mb-12">
     <h1 class="text-3xl font-bold mb-4">Projects</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
-      A showcase of my work in robotics, computer vision, and software engineering. 
-      These projects represent my journey through various technologies and challenges, 
-      from autonomous systems to digital signal processing.
+      A showcase of my work in robotics, computer vision, and software
+      engineering. These projects represent my journey through various
+      technologies and challenges, from autonomous systems to digital signal
+      processing.
     </p>
   </div>
-  
+
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     {#each projectsByDate as projectPath}
       {@const id = trimName(projectPath)}
       {@const data = projects[projectPath]}
-      <ProjectTile 
-        {id} 
-        {data} 
-        {images} 
-        onClick={() => openProject(projects[projectPath])} 
+      <ProjectTile
+        {id}
+        {data}
+        {images}
+        onClick={() => openProject(projects[projectPath])}
       />
     {/each}
   </div>
