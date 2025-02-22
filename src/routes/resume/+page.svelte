@@ -35,18 +35,11 @@
     class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800"
   >
     <div class="pdf-container">
-      <iframe
-        src={`${resumeData.pdf}#view=FitH`}
-        title="Florian Pfleiderer's Resume"
+      <embed
+        src={`${resumeData.pdf}#toolbar=0`}
+        type="application/pdf"
         class="pdf-frame"
-      >
-        <p>
-          Your browser does not support iframes. You can
-          <a href={resumeData.pdf} class="text-blue-500 hover:text-blue-600">
-            view the PDF here
-          </a>.
-        </p>
-      </iframe>
+      />
     </div>
   </div>
 </section>
