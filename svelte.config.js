@@ -8,8 +8,8 @@ const config = {
   kit: {
     adapter: adapter(),
     prerender: {
-      handleHttpError: 'warn'  // Optional: helps with debugging
-    }
+      handleHttpError: "warn", // Optional: helps with debugging
+    },
   },
 };
 

@@ -1,70 +1,3299 @@
-var St=Object.defineProperty;var Tt=(r,t,n)=>t in r?St(r,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):r[t]=n;var Ae=(r,t,n)=>(Tt(r,typeof t!="symbol"?t+"":t,n),n);import{S as me,i as ke,s as _e,k as A,l as j,m as E,h as T,n as $,b as H,R as je,a as U,q as F,c as Z,r as J,L as pe,M as z,K as we,U as xe,u as le,g as C,v as oe,d as P,f as ae,Q as ye,y as Y,z as ee,A as te,B as ne,e as fe,G as Rt,H as It,I as At,J as jt,O as Et,P as Ee,V as qt,N as Ct,o as qe}from"../chunks/index.6f50c499.js";import{p as Dt}from"../chunks/stores.5b93300e.js";import{A as Xe}from"../chunks/arrow-up-right.b9f96a9c.js";import{S as Ot}from"../chunks/Seo.9c5a7d66.js";import"../chunks/utils.e5c79b42.js";import{X as Lt,f as Ce}from"../chunks/x.bd0ac2d2.js";var Ke="Digital Modular Synthesizer",Ye="Juni 2023",et="florianpfleiderer/SimpleSynth",tt=["C++","Synthesizer","Imnodes"],nt="making a simple digital synthesizer",st="simplesynth.png",it=`The motivation for this project was to develop a simple, modular synthesizer to
+var St = Object.defineProperty;
+var Tt = (r, t, n) =>
+  t in r
+    ? St(r, t, { enumerable: !0, configurable: !0, writable: !0, value: n })
+    : (r[t] = n);
+var Ae = (r, t, n) => (Tt(r, typeof t != "symbol" ? t + "" : t, n), n);
+import {
+  S as me,
+  i as ke,
+  s as _e,
+  k as A,
+  l as j,
+  m as E,
+  h as T,
+  n as $,
+  b as H,
+  R as je,
+  a as U,
+  q as F,
+  c as Z,
+  r as J,
+  L as pe,
+  M as z,
+  K as we,
+  U as xe,
+  u as le,
+  g as C,
+  v as oe,
+  d as P,
+  f as ae,
+  Q as ye,
+  y as Y,
+  z as ee,
+  A as te,
+  B as ne,
+  e as fe,
+  G as Rt,
+  H as It,
+  I as At,
+  J as jt,
+  O as Et,
+  P as Ee,
+  V as qt,
+  N as Ct,
+  o as qe,
+} from "../chunks/index.6f50c499.js";
+import { p as Dt } from "../chunks/stores.5b93300e.js";
+import { A as Xe } from "../chunks/arrow-up-right.b9f96a9c.js";
+import { S as Ot } from "../chunks/Seo.9c5a7d66.js";
+import "../chunks/utils.e5c79b42.js";
+import { X as Lt, f as Ce } from "../chunks/x.bd0ac2d2.js";
+var Ke = "Digital Modular Synthesizer",
+  Ye = "Juni 2023",
+  et = "florianpfleiderer/SimpleSynth",
+  tt = ["C++", "Synthesizer", "Imnodes"],
+  nt = "making a simple digital synthesizer",
+  st = "simplesynth.png",
+  it = `The motivation for this project was to develop a simple, modular synthesizer to
 produce different sounds and create short loops to use in music production. It
 utilises the ImNodes and ImGui libraries for generation and the Synthesis
-Toolkit (STK) for creating and processing sounds.`;const Pt={title:Ke,date:Ye,repo:et,topics:tt,lead:nt,image:st,content:it},Mt=Object.freeze(Object.defineProperty({__proto__:null,content:it,date:Ye,default:Pt,image:st,lead:nt,repo:et,title:Ke,topics:tt},Symbol.toStringTag,{value:"Module"}));var rt="Robot Change Detection Pipeline",lt="July 2024",ot="florianpfleiderer/CYWS-3D-pipeline",at=["Robotics","Machine-Vision","Neural-Networks"],ct="using scene differencing to improve change detection",ut="cyws3d.png",ht=`This project enhances change detection in indoor mobile robots by directly
+Toolkit (STK) for creating and processing sounds.`;
+const Pt = {
+    title: Ke,
+    date: Ye,
+    repo: et,
+    topics: tt,
+    lead: nt,
+    image: st,
+    content: it,
+  },
+  Mt = Object.freeze(
+    Object.defineProperty(
+      {
+        __proto__: null,
+        content: it,
+        date: Ye,
+        default: Pt,
+        image: st,
+        lead: nt,
+        repo: et,
+        title: Ke,
+        topics: tt,
+      },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  );
+var rt = "Robot Change Detection Pipeline",
+  lt = "July 2024",
+  ot = "florianpfleiderer/CYWS-3D-pipeline",
+  at = ["Robotics", "Machine-Vision", "Neural-Networks"],
+  ct = "using scene differencing to improve change detection",
+  ut = "cyws3d.png",
+  ht = `This project enhances change detection in indoor mobile robots by directly
 applying the CYWS-3D model to camera data, eliminating the reconstruction step.
 This approach addresses issues with occluded objects and search area
 definitions, serving as an indicator for objects missed by existing pipelines,
-thus improving unsupervised home assistance applications`;const Bt={title:rt,date:lt,repo:ot,topics:at,lead:ct,image:ut,content:ht},Vt=Object.freeze(Object.defineProperty({__proto__:null,content:ht,date:lt,default:Bt,image:ut,lead:ct,repo:ot,title:rt,topics:at},Symbol.toStringTag,{value:"Module"}));var pt="Autonomous Robot Hockey System",ft="June 2023",gt="florianpfleiderer/ARHS",dt=["ROS","Motion Planning","Collision Avoidance"],mt="using scene differencing to improve change detection",kt="arhs.png",_t=`This project focuses on developing ROS-based software for autonomous robots to
+thus improving unsupervised home assistance applications`;
+const Bt = {
+    title: rt,
+    date: lt,
+    repo: ot,
+    topics: at,
+    lead: ct,
+    image: ut,
+    content: ht,
+  },
+  Vt = Object.freeze(
+    Object.defineProperty(
+      {
+        __proto__: null,
+        content: ht,
+        date: lt,
+        default: Bt,
+        image: ut,
+        lead: ct,
+        repo: ot,
+        title: rt,
+        topics: at,
+      },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  );
+var pt = "Autonomous Robot Hockey System",
+  ft = "June 2023",
+  gt = "florianpfleiderer/ARHS",
+  dt = ["ROS", "Motion Planning", "Collision Avoidance"],
+  mt = "using scene differencing to improve change detection",
+  kt = "arhs.png",
+  _t = `This project focuses on developing ROS-based software for autonomous robots to
 play a hockey-like game. Key objectives include motion control using ROS
 navigation stacks, obstacle avoidance via sensor fusion (LIDAR, cameras), and
 field component detection (pucks, poles, goals) with computer vision and point
 cloud processing. Additional tasks involve field dimension detection,
 localization using SLAM techniques, and puck manipulation with robotic
 actuators. The robots interact with a referee node and autonomously score goals
-in a final competition.`;const Ut={title:pt,date:ft,repo:gt,topics:dt,lead:mt,image:kt,content:_t},Zt=Object.freeze(Object.defineProperty({__proto__:null,content:_t,date:ft,default:Ut,image:kt,lead:mt,repo:gt,title:pt,topics:dt},Symbol.toStringTag,{value:"Module"})),Nt=""+new URL("../assets/arhs.294734d9.png",import.meta.url).href,Ht=Object.freeze(Object.defineProperty({__proto__:null,default:Nt},Symbol.toStringTag,{value:"Module"})),Qt=""+new URL("../assets/cyws3d.965af4dc.png",import.meta.url).href,Gt=Object.freeze(Object.defineProperty({__proto__:null,default:Qt},Symbol.toStringTag,{value:"Module"})),Ft=""+new URL("../assets/simplesynth.f741c673.png",import.meta.url).href,Jt=Object.freeze(Object.defineProperty({__proto__:null,default:Ft},Symbol.toStringTag,{value:"Module"}));function bt(){return{async:!1,baseUrl:null,breaks:!1,extensions:null,gfm:!0,headerIds:!0,headerPrefix:"",highlight:null,hooks:null,langPrefix:"language-",mangle:!0,pedantic:!1,renderer:null,sanitize:!1,sanitizer:null,silent:!1,smartypants:!1,tokenizer:null,walkTokens:null,xhtml:!1}}let se=bt();function Wt(r){se=r}const wt=/[&<>"']/,Xt=new RegExp(wt.source,"g"),xt=/[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,Kt=new RegExp(xt.source,"g"),Yt={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"},De=r=>Yt[r];function B(r,t){if(t){if(wt.test(r))return r.replace(Xt,De)}else if(xt.test(r))return r.replace(Kt,De);return r}const en=/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/ig;function vt(r){return r.replace(en,(t,n)=>(n=n.toLowerCase(),n==="colon"?":":n.charAt(0)==="#"?n.charAt(1)==="x"?String.fromCharCode(parseInt(n.substring(2),16)):String.fromCharCode(+n.substring(1)):""))}const tn=/(^|[^\[])\^/g;function q(r,t){r=typeof r=="string"?r:r.source,t=t||"";const n={replace:(e,s)=>(s=s.source||s,s=s.replace(tn,"$1"),r=r.replace(e,s),n),getRegex:()=>new RegExp(r,t)};return n}const nn=/[^\w:]/g,sn=/^$|^[a-z][a-z0-9+.-]*:|^[?#]/i;function Oe(r,t,n){if(r){let e;try{e=decodeURIComponent(vt(n)).replace(nn,"").toLowerCase()}catch{return null}if(e.indexOf("javascript:")===0||e.indexOf("vbscript:")===0||e.indexOf("data:")===0)return null}t&&!sn.test(n)&&(n=an(t,n));try{n=encodeURI(n).replace(/%25/g,"%")}catch{return null}return n}const ue={},rn=/^[^:]+:\/*[^/]*$/,ln=/^([^:]+:)[\s\S]*$/,on=/^([^:]+:\/*[^/]*)[\s\S]*$/;function an(r,t){ue[" "+r]||(rn.test(r)?ue[" "+r]=r+"/":ue[" "+r]=he(r,"/",!0)),r=ue[" "+r];const n=r.indexOf(":")===-1;return t.substring(0,2)==="//"?n?t:r.replace(ln,"$1")+t:t.charAt(0)==="/"?n?t:r.replace(on,"$1")+t:r+t}const ge={exec:function(){}};function Le(r,t){const n=r.replace(/\|/g,(i,l,o)=>{let a=!1,h=l;for(;--h>=0&&o[h]==="\\";)a=!a;return a?"|":" |"}),e=n.split(/ \|/);let s=0;if(e[0].trim()||e.shift(),e.length>0&&!e[e.length-1].trim()&&e.pop(),e.length>t)e.splice(t);else for(;e.length<t;)e.push("");for(;s<e.length;s++)e[s]=e[s].trim().replace(/\\\|/g,"|");return e}function he(r,t,n){const e=r.length;if(e===0)return"";let s=0;for(;s<e;){const i=r.charAt(e-s-1);if(i===t&&!n)s++;else if(i!==t&&n)s++;else break}return r.slice(0,e-s)}function cn(r,t){if(r.indexOf(t[1])===-1)return-1;const n=r.length;let e=0,s=0;for(;s<n;s++)if(r[s]==="\\")s++;else if(r[s]===t[0])e++;else if(r[s]===t[1]&&(e--,e<0))return s;return-1}function un(r){r&&r.sanitize&&!r.silent&&console.warn("marked(): sanitize and sanitizer parameters are deprecated since version 0.7.0, should not be used and will be removed in the future. Read more here: https://marked.js.org/#/USING_ADVANCED.md#options")}function Pe(r,t){if(t<1)return"";let n="";for(;t>1;)t&1&&(n+=r),t>>=1,r+=r;return n+r}function Me(r,t,n,e){const s=t.href,i=t.title?B(t.title):null,l=r[1].replace(/\\([\[\]])/g,"$1");if(r[0].charAt(0)!=="!"){e.state.inLink=!0;const o={type:"link",raw:n,href:s,title:i,text:l,tokens:e.inlineTokens(l)};return e.state.inLink=!1,o}return{type:"image",raw:n,href:s,title:i,text:B(l)}}function hn(r,t){const n=r.match(/^(\s+)(?:```)/);if(n===null)return t;const e=n[1];return t.split(`
-`).map(s=>{const i=s.match(/^\s+/);if(i===null)return s;const[l]=i;return l.length>=e.length?s.slice(e.length):s}).join(`
-`)}class $e{constructor(t){this.options=t||se}space(t){const n=this.rules.block.newline.exec(t);if(n&&n[0].length>0)return{type:"space",raw:n[0]}}code(t){const n=this.rules.block.code.exec(t);if(n){const e=n[0].replace(/^ {1,4}/gm,"");return{type:"code",raw:n[0],codeBlockStyle:"indented",text:this.options.pedantic?e:he(e,`
-`)}}}fences(t){const n=this.rules.block.fences.exec(t);if(n){const e=n[0],s=hn(e,n[3]||"");return{type:"code",raw:e,lang:n[2]?n[2].trim().replace(this.rules.inline._escapes,"$1"):n[2],text:s}}}heading(t){const n=this.rules.block.heading.exec(t);if(n){let e=n[2].trim();if(/#$/.test(e)){const s=he(e,"#");(this.options.pedantic||!s||/ $/.test(s))&&(e=s.trim())}return{type:"heading",raw:n[0],depth:n[1].length,text:e,tokens:this.lexer.inline(e)}}}hr(t){const n=this.rules.block.hr.exec(t);if(n)return{type:"hr",raw:n[0]}}blockquote(t){const n=this.rules.block.blockquote.exec(t);if(n){const e=n[0].replace(/^ *>[ \t]?/gm,""),s=this.lexer.state.top;this.lexer.state.top=!0;const i=this.lexer.blockTokens(e);return this.lexer.state.top=s,{type:"blockquote",raw:n[0],tokens:i,text:e}}}list(t){let n=this.rules.block.list.exec(t);if(n){let e,s,i,l,o,a,h,p,g,x,c,_,b=n[1].trim();const d=b.length>1,S={type:"list",raw:"",ordered:d,start:d?+b.slice(0,-1):"",loose:!1,items:[]};b=d?`\\d{1,9}\\${b.slice(-1)}`:`\\${b}`,this.options.pedantic&&(b=d?b:"[*+-]");const u=new RegExp(`^( {0,3}${b})((?:[	 ][^\\n]*)?(?:\\n|$))`);for(;t&&(_=!1,!(!(n=u.exec(t))||this.rules.block.hr.test(t)));){if(e=n[0],t=t.substring(e.length),p=n[2].split(`
-`,1)[0].replace(/^\t+/,m=>" ".repeat(3*m.length)),g=t.split(`
-`,1)[0],this.options.pedantic?(l=2,c=p.trimLeft()):(l=n[2].search(/[^ ]/),l=l>4?1:l,c=p.slice(l),l+=n[1].length),a=!1,!p&&/^ *$/.test(g)&&(e+=g+`
-`,t=t.substring(g.length+1),_=!0),!_){const m=new RegExp(`^ {0,${Math.min(3,l-1)}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`),w=new RegExp(`^ {0,${Math.min(3,l-1)}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`),R=new RegExp(`^ {0,${Math.min(3,l-1)}}(?:\`\`\`|~~~)`),L=new RegExp(`^ {0,${Math.min(3,l-1)}}#`);for(;t&&(x=t.split(`
-`,1)[0],g=x,this.options.pedantic&&(g=g.replace(/^ {1,4}(?=( {4})*[^ ])/g,"  ")),!(R.test(g)||L.test(g)||m.test(g)||w.test(t)));){if(g.search(/[^ ]/)>=l||!g.trim())c+=`
-`+g.slice(l);else{if(a||p.search(/[^ ]/)>=4||R.test(p)||L.test(p)||w.test(p))break;c+=`
-`+g}!a&&!g.trim()&&(a=!0),e+=x+`
-`,t=t.substring(x.length+1),p=g.slice(l)}}S.loose||(h?S.loose=!0:/\n *\n *$/.test(e)&&(h=!0)),this.options.gfm&&(s=/^\[[ xX]\] /.exec(c),s&&(i=s[0]!=="[ ] ",c=c.replace(/^\[[ xX]\] +/,""))),S.items.push({type:"list_item",raw:e,task:!!s,checked:i,loose:!1,text:c}),S.raw+=e}S.items[S.items.length-1].raw=e.trimRight(),S.items[S.items.length-1].text=c.trimRight(),S.raw=S.raw.trimRight();const k=S.items.length;for(o=0;o<k;o++)if(this.lexer.state.top=!1,S.items[o].tokens=this.lexer.blockTokens(S.items[o].text,[]),!S.loose){const m=S.items[o].tokens.filter(R=>R.type==="space"),w=m.length>0&&m.some(R=>/\n.*\n/.test(R.raw));S.loose=w}if(S.loose)for(o=0;o<k;o++)S.items[o].loose=!0;return S}}html(t){const n=this.rules.block.html.exec(t);if(n){const e={type:"html",raw:n[0],pre:!this.options.sanitizer&&(n[1]==="pre"||n[1]==="script"||n[1]==="style"),text:n[0]};if(this.options.sanitize){const s=this.options.sanitizer?this.options.sanitizer(n[0]):B(n[0]);e.type="paragraph",e.text=s,e.tokens=this.lexer.inline(s)}return e}}def(t){const n=this.rules.block.def.exec(t);if(n){const e=n[1].toLowerCase().replace(/\s+/g," "),s=n[2]?n[2].replace(/^<(.*)>$/,"$1").replace(this.rules.inline._escapes,"$1"):"",i=n[3]?n[3].substring(1,n[3].length-1).replace(this.rules.inline._escapes,"$1"):n[3];return{type:"def",tag:e,raw:n[0],href:s,title:i}}}table(t){const n=this.rules.block.table.exec(t);if(n){const e={type:"table",header:Le(n[1]).map(s=>({text:s})),align:n[2].replace(/^ *|\| *$/g,"").split(/ *\| */),rows:n[3]&&n[3].trim()?n[3].replace(/\n[ \t]*$/,"").split(`
-`):[]};if(e.header.length===e.align.length){e.raw=n[0];let s=e.align.length,i,l,o,a;for(i=0;i<s;i++)/^ *-+: *$/.test(e.align[i])?e.align[i]="right":/^ *:-+: *$/.test(e.align[i])?e.align[i]="center":/^ *:-+ *$/.test(e.align[i])?e.align[i]="left":e.align[i]=null;for(s=e.rows.length,i=0;i<s;i++)e.rows[i]=Le(e.rows[i],e.header.length).map(h=>({text:h}));for(s=e.header.length,l=0;l<s;l++)e.header[l].tokens=this.lexer.inline(e.header[l].text);for(s=e.rows.length,l=0;l<s;l++)for(a=e.rows[l],o=0;o<a.length;o++)a[o].tokens=this.lexer.inline(a[o].text);return e}}}lheading(t){const n=this.rules.block.lheading.exec(t);if(n)return{type:"heading",raw:n[0],depth:n[2].charAt(0)==="="?1:2,text:n[1],tokens:this.lexer.inline(n[1])}}paragraph(t){const n=this.rules.block.paragraph.exec(t);if(n){const e=n[1].charAt(n[1].length-1)===`
-`?n[1].slice(0,-1):n[1];return{type:"paragraph",raw:n[0],text:e,tokens:this.lexer.inline(e)}}}text(t){const n=this.rules.block.text.exec(t);if(n)return{type:"text",raw:n[0],text:n[0],tokens:this.lexer.inline(n[0])}}escape(t){const n=this.rules.inline.escape.exec(t);if(n)return{type:"escape",raw:n[0],text:B(n[1])}}tag(t){const n=this.rules.inline.tag.exec(t);if(n)return!this.lexer.state.inLink&&/^<a /i.test(n[0])?this.lexer.state.inLink=!0:this.lexer.state.inLink&&/^<\/a>/i.test(n[0])&&(this.lexer.state.inLink=!1),!this.lexer.state.inRawBlock&&/^<(pre|code|kbd|script)(\s|>)/i.test(n[0])?this.lexer.state.inRawBlock=!0:this.lexer.state.inRawBlock&&/^<\/(pre|code|kbd|script)(\s|>)/i.test(n[0])&&(this.lexer.state.inRawBlock=!1),{type:this.options.sanitize?"text":"html",raw:n[0],inLink:this.lexer.state.inLink,inRawBlock:this.lexer.state.inRawBlock,text:this.options.sanitize?this.options.sanitizer?this.options.sanitizer(n[0]):B(n[0]):n[0]}}link(t){const n=this.rules.inline.link.exec(t);if(n){const e=n[2].trim();if(!this.options.pedantic&&/^</.test(e)){if(!/>$/.test(e))return;const l=he(e.slice(0,-1),"\\");if((e.length-l.length)%2===0)return}else{const l=cn(n[2],"()");if(l>-1){const a=(n[0].indexOf("!")===0?5:4)+n[1].length+l;n[2]=n[2].substring(0,l),n[0]=n[0].substring(0,a).trim(),n[3]=""}}let s=n[2],i="";if(this.options.pedantic){const l=/^([^'"]*[^\s])\s+(['"])(.*)\2/.exec(s);l&&(s=l[1],i=l[3])}else i=n[3]?n[3].slice(1,-1):"";return s=s.trim(),/^</.test(s)&&(this.options.pedantic&&!/>$/.test(e)?s=s.slice(1):s=s.slice(1,-1)),Me(n,{href:s&&s.replace(this.rules.inline._escapes,"$1"),title:i&&i.replace(this.rules.inline._escapes,"$1")},n[0],this.lexer)}}reflink(t,n){let e;if((e=this.rules.inline.reflink.exec(t))||(e=this.rules.inline.nolink.exec(t))){let s=(e[2]||e[1]).replace(/\s+/g," ");if(s=n[s.toLowerCase()],!s){const i=e[0].charAt(0);return{type:"text",raw:i,text:i}}return Me(e,s,e[0],this.lexer)}}emStrong(t,n,e=""){let s=this.rules.inline.emStrong.lDelim.exec(t);if(!s||s[3]&&e.match(/[\p{L}\p{N}]/u))return;const i=s[1]||s[2]||"";if(!i||i&&(e===""||this.rules.inline.punctuation.exec(e))){const l=s[0].length-1;let o,a,h=l,p=0;const g=s[0][0]==="*"?this.rules.inline.emStrong.rDelimAst:this.rules.inline.emStrong.rDelimUnd;for(g.lastIndex=0,n=n.slice(-1*t.length+l);(s=g.exec(n))!=null;){if(o=s[1]||s[2]||s[3]||s[4]||s[5]||s[6],!o)continue;if(a=o.length,s[3]||s[4]){h+=a;continue}else if((s[5]||s[6])&&l%3&&!((l+a)%3)){p+=a;continue}if(h-=a,h>0)continue;a=Math.min(a,a+h+p);const x=t.slice(0,l+s.index+(s[0].length-o.length)+a);if(Math.min(l,a)%2){const _=x.slice(1,-1);return{type:"em",raw:x,text:_,tokens:this.lexer.inlineTokens(_)}}const c=x.slice(2,-2);return{type:"strong",raw:x,text:c,tokens:this.lexer.inlineTokens(c)}}}}codespan(t){const n=this.rules.inline.code.exec(t);if(n){let e=n[2].replace(/\n/g," ");const s=/[^ ]/.test(e),i=/^ /.test(e)&&/ $/.test(e);return s&&i&&(e=e.substring(1,e.length-1)),e=B(e,!0),{type:"codespan",raw:n[0],text:e}}}br(t){const n=this.rules.inline.br.exec(t);if(n)return{type:"br",raw:n[0]}}del(t){const n=this.rules.inline.del.exec(t);if(n)return{type:"del",raw:n[0],text:n[2],tokens:this.lexer.inlineTokens(n[2])}}autolink(t,n){const e=this.rules.inline.autolink.exec(t);if(e){let s,i;return e[2]==="@"?(s=B(this.options.mangle?n(e[1]):e[1]),i="mailto:"+s):(s=B(e[1]),i=s),{type:"link",raw:e[0],text:s,href:i,tokens:[{type:"text",raw:s,text:s}]}}}url(t,n){let e;if(e=this.rules.inline.url.exec(t)){let s,i;if(e[2]==="@")s=B(this.options.mangle?n(e[0]):e[0]),i="mailto:"+s;else{let l;do l=e[0],e[0]=this.rules.inline._backpedal.exec(e[0])[0];while(l!==e[0]);s=B(e[0]),e[1]==="www."?i="http://"+e[0]:i=e[0]}return{type:"link",raw:e[0],text:s,href:i,tokens:[{type:"text",raw:s,text:s}]}}}inlineText(t,n){const e=this.rules.inline.text.exec(t);if(e){let s;return this.lexer.state.inRawBlock?s=this.options.sanitize?this.options.sanitizer?this.options.sanitizer(e[0]):B(e[0]):e[0]:s=B(this.options.smartypants?n(e[0]):e[0]),{type:"text",raw:e[0],text:s}}}}const y={newline:/^(?: *(?:\n|$))+/,code:/^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/,fences:/^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,hr:/^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,heading:/^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,blockquote:/^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/,list:/^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/,html:"^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$))",def:/^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/,table:ge,lheading:/^((?:.|\n(?!\n))+?)\n {0,3}(=+|-+) *(?:\n+|$)/,_paragraph:/^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,text:/^[^\n]+/};y._label=/(?!\s*\])(?:\\.|[^\[\]\\])+/;y._title=/(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/;y.def=q(y.def).replace("label",y._label).replace("title",y._title).getRegex();y.bullet=/(?:[*+-]|\d{1,9}[.)])/;y.listItemStart=q(/^( *)(bull) */).replace("bull",y.bullet).getRegex();y.list=q(y.list).replace(/bull/g,y.bullet).replace("hr","\\n+(?=\\1?(?:(?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$))").replace("def","\\n+(?="+y.def.source+")").getRegex();y._tag="address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|section|source|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul";y._comment=/<!--(?!-?>)[\s\S]*?(?:-->|$)/;y.html=q(y.html,"i").replace("comment",y._comment).replace("tag",y._tag).replace("attribute",/ +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/).getRegex();y.paragraph=q(y._paragraph).replace("hr",y.hr).replace("heading"," {0,3}#{1,6} ").replace("|lheading","").replace("|table","").replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",y._tag).getRegex();y.blockquote=q(y.blockquote).replace("paragraph",y.paragraph).getRegex();y.normal={...y};y.gfm={...y.normal,table:"^ *([^\\n ].*\\|.*)\\n {0,3}(?:\\| *)?(:?-+:? *(?:\\| *:?-+:? *)*)(?:\\| *)?(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)"};y.gfm.table=q(y.gfm.table).replace("hr",y.hr).replace("heading"," {0,3}#{1,6} ").replace("blockquote"," {0,3}>").replace("code"," {4}[^\\n]").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",y._tag).getRegex();y.gfm.paragraph=q(y._paragraph).replace("hr",y.hr).replace("heading"," {0,3}#{1,6} ").replace("|lheading","").replace("table",y.gfm.table).replace("blockquote"," {0,3}>").replace("fences"," {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n").replace("list"," {0,3}(?:[*+-]|1[.)]) ").replace("html","</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)").replace("tag",y._tag).getRegex();y.pedantic={...y.normal,html:q(`^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`).replace("comment",y._comment).replace(/tag/g,"(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b").getRegex(),def:/^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,heading:/^(#{1,6})(.*)(?:\n+|$)/,fences:ge,lheading:/^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,paragraph:q(y.normal._paragraph).replace("hr",y.hr).replace("heading",` *#{1,6} *[^
-]`).replace("lheading",y.lheading).replace("blockquote"," {0,3}>").replace("|fences","").replace("|list","").replace("|html","").getRegex()};const f={escape:/^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,autolink:/^<(scheme:[^\s\x00-\x1f<>]*|email)>/,url:ge,tag:"^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>",link:/^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/,reflink:/^!?\[(label)\]\[(ref)\]/,nolink:/^!?\[(ref)\](?:\[\])?/,reflinkSearch:"reflink|nolink(?!\\()",emStrong:{lDelim:/^(?:\*+(?:([punct_])|[^\s*]))|^_+(?:([punct*])|([^\s_]))/,rDelimAst:/^(?:[^_*\\]|\\.)*?\_\_(?:[^_*\\]|\\.)*?\*(?:[^_*\\]|\\.)*?(?=\_\_)|(?:[^*\\]|\\.)+(?=[^*])|[punct_](\*+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\*+)(?=[punct_\s]|$)|[punct_\s](\*+)(?=[^punct*_\s])|[\s](\*+)(?=[punct_])|[punct_](\*+)(?=[punct_])|(?:[^punct*_\s\\]|\\.)(\*+)(?=[^punct*_\s])/,rDelimUnd:/^(?:[^_*\\]|\\.)*?\*\*(?:[^_*\\]|\\.)*?\_(?:[^_*\\]|\\.)*?(?=\*\*)|(?:[^_\\]|\\.)+(?=[^_])|[punct*](\_+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\_+)(?=[punct*\s]|$)|[punct*\s](\_+)(?=[^punct*_\s])|[\s](\_+)(?=[punct*])|[punct*](\_+)(?=[punct*])/},code:/^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,br:/^( {2,}|\\)\n(?!\s*$)/,del:ge,text:/^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,punctuation:/^([\spunctuation])/};f._punctuation="!\"#$%&'()+\\-.,/:;<=>?@\\[\\]`^{|}~";f.punctuation=q(f.punctuation).replace(/punctuation/g,f._punctuation).getRegex();f.blockSkip=/\[[^\]]*?\]\([^\)]*?\)|`[^`]*?`|<[^>]*?>/g;f.escapedEmSt=/(?:^|[^\\])(?:\\\\)*\\[*_]/g;f._comment=q(y._comment).replace("(?:-->|$)","-->").getRegex();f.emStrong.lDelim=q(f.emStrong.lDelim).replace(/punct/g,f._punctuation).getRegex();f.emStrong.rDelimAst=q(f.emStrong.rDelimAst,"g").replace(/punct/g,f._punctuation).getRegex();f.emStrong.rDelimUnd=q(f.emStrong.rDelimUnd,"g").replace(/punct/g,f._punctuation).getRegex();f._escapes=/\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/g;f._scheme=/[a-zA-Z][a-zA-Z0-9+.-]{1,31}/;f._email=/[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/;f.autolink=q(f.autolink).replace("scheme",f._scheme).replace("email",f._email).getRegex();f._attribute=/\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/;f.tag=q(f.tag).replace("comment",f._comment).replace("attribute",f._attribute).getRegex();f._label=/(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/;f._href=/<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/;f._title=/"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/;f.link=q(f.link).replace("label",f._label).replace("href",f._href).replace("title",f._title).getRegex();f.reflink=q(f.reflink).replace("label",f._label).replace("ref",y._label).getRegex();f.nolink=q(f.nolink).replace("ref",y._label).getRegex();f.reflinkSearch=q(f.reflinkSearch,"g").replace("reflink",f.reflink).replace("nolink",f.nolink).getRegex();f.normal={...f};f.pedantic={...f.normal,strong:{start:/^__|\*\*/,middle:/^__(?=\S)([\s\S]*?\S)__(?!_)|^\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/,endAst:/\*\*(?!\*)/g,endUnd:/__(?!_)/g},em:{start:/^_|\*/,middle:/^()\*(?=\S)([\s\S]*?\S)\*(?!\*)|^_(?=\S)([\s\S]*?\S)_(?!_)/,endAst:/\*(?!\*)/g,endUnd:/_(?!_)/g},link:q(/^!?\[(label)\]\((.*?)\)/).replace("label",f._label).getRegex(),reflink:q(/^!?\[(label)\]\s*\[([^\]]*)\]/).replace("label",f._label).getRegex()};f.gfm={...f.normal,escape:q(f.escape).replace("])","~|])").getRegex(),_extended_email:/[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/,url:/^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,_backpedal:/(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,del:/^(~~?)(?=[^\s~])([\s\S]*?[^\s~])\1(?=[^~]|$)/,text:/^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/};f.gfm.url=q(f.gfm.url,"i").replace("email",f.gfm._extended_email).getRegex();f.breaks={...f.gfm,br:q(f.br).replace("{2,}","*").getRegex(),text:q(f.gfm.text).replace("\\b_","\\b_| {2,}\\n").replace(/\{2,\}/g,"*").getRegex()};function pn(r){return r.replace(/---/g,"—").replace(/--/g,"–").replace(/(^|[-\u2014/(\[{"\s])'/g,"$1‘").replace(/'/g,"’").replace(/(^|[-\u2014/(\[{\u2018\s])"/g,"$1“").replace(/"/g,"”").replace(/\.{3}/g,"…")}function Be(r){let t="",n,e;const s=r.length;for(n=0;n<s;n++)e=r.charCodeAt(n),Math.random()>.5&&(e="x"+e.toString(16)),t+="&#"+e+";";return t}class X{constructor(t){this.tokens=[],this.tokens.links=Object.create(null),this.options=t||se,this.options.tokenizer=this.options.tokenizer||new $e,this.tokenizer=this.options.tokenizer,this.tokenizer.options=this.options,this.tokenizer.lexer=this,this.inlineQueue=[],this.state={inLink:!1,inRawBlock:!1,top:!0};const n={block:y.normal,inline:f.normal};this.options.pedantic?(n.block=y.pedantic,n.inline=f.pedantic):this.options.gfm&&(n.block=y.gfm,this.options.breaks?n.inline=f.breaks:n.inline=f.gfm),this.tokenizer.rules=n}static get rules(){return{block:y,inline:f}}static lex(t,n){return new X(n).lex(t)}static lexInline(t,n){return new X(n).inlineTokens(t)}lex(t){t=t.replace(/\r\n|\r/g,`
-`),this.blockTokens(t,this.tokens);let n;for(;n=this.inlineQueue.shift();)this.inlineTokens(n.src,n.tokens);return this.tokens}blockTokens(t,n=[]){this.options.pedantic?t=t.replace(/\t/g,"    ").replace(/^ +$/gm,""):t=t.replace(/^( *)(\t+)/gm,(o,a,h)=>a+"    ".repeat(h.length));let e,s,i,l;for(;t;)if(!(this.options.extensions&&this.options.extensions.block&&this.options.extensions.block.some(o=>(e=o.call({lexer:this},t,n))?(t=t.substring(e.raw.length),n.push(e),!0):!1))){if(e=this.tokenizer.space(t)){t=t.substring(e.raw.length),e.raw.length===1&&n.length>0?n[n.length-1].raw+=`
-`:n.push(e);continue}if(e=this.tokenizer.code(t)){t=t.substring(e.raw.length),s=n[n.length-1],s&&(s.type==="paragraph"||s.type==="text")?(s.raw+=`
-`+e.raw,s.text+=`
-`+e.text,this.inlineQueue[this.inlineQueue.length-1].src=s.text):n.push(e);continue}if(e=this.tokenizer.fences(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.heading(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.hr(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.blockquote(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.list(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.html(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.def(t)){t=t.substring(e.raw.length),s=n[n.length-1],s&&(s.type==="paragraph"||s.type==="text")?(s.raw+=`
-`+e.raw,s.text+=`
-`+e.raw,this.inlineQueue[this.inlineQueue.length-1].src=s.text):this.tokens.links[e.tag]||(this.tokens.links[e.tag]={href:e.href,title:e.title});continue}if(e=this.tokenizer.table(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.lheading(t)){t=t.substring(e.raw.length),n.push(e);continue}if(i=t,this.options.extensions&&this.options.extensions.startBlock){let o=1/0;const a=t.slice(1);let h;this.options.extensions.startBlock.forEach(function(p){h=p.call({lexer:this},a),typeof h=="number"&&h>=0&&(o=Math.min(o,h))}),o<1/0&&o>=0&&(i=t.substring(0,o+1))}if(this.state.top&&(e=this.tokenizer.paragraph(i))){s=n[n.length-1],l&&s.type==="paragraph"?(s.raw+=`
-`+e.raw,s.text+=`
-`+e.text,this.inlineQueue.pop(),this.inlineQueue[this.inlineQueue.length-1].src=s.text):n.push(e),l=i.length!==t.length,t=t.substring(e.raw.length);continue}if(e=this.tokenizer.text(t)){t=t.substring(e.raw.length),s=n[n.length-1],s&&s.type==="text"?(s.raw+=`
-`+e.raw,s.text+=`
-`+e.text,this.inlineQueue.pop(),this.inlineQueue[this.inlineQueue.length-1].src=s.text):n.push(e);continue}if(t){const o="Infinite loop on byte: "+t.charCodeAt(0);if(this.options.silent){console.error(o);break}else throw new Error(o)}}return this.state.top=!0,n}inline(t,n=[]){return this.inlineQueue.push({src:t,tokens:n}),n}inlineTokens(t,n=[]){let e,s,i,l=t,o,a,h;if(this.tokens.links){const p=Object.keys(this.tokens.links);if(p.length>0)for(;(o=this.tokenizer.rules.inline.reflinkSearch.exec(l))!=null;)p.includes(o[0].slice(o[0].lastIndexOf("[")+1,-1))&&(l=l.slice(0,o.index)+"["+Pe("a",o[0].length-2)+"]"+l.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex))}for(;(o=this.tokenizer.rules.inline.blockSkip.exec(l))!=null;)l=l.slice(0,o.index)+"["+Pe("a",o[0].length-2)+"]"+l.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);for(;(o=this.tokenizer.rules.inline.escapedEmSt.exec(l))!=null;)l=l.slice(0,o.index+o[0].length-2)+"++"+l.slice(this.tokenizer.rules.inline.escapedEmSt.lastIndex),this.tokenizer.rules.inline.escapedEmSt.lastIndex--;for(;t;)if(a||(h=""),a=!1,!(this.options.extensions&&this.options.extensions.inline&&this.options.extensions.inline.some(p=>(e=p.call({lexer:this},t,n))?(t=t.substring(e.raw.length),n.push(e),!0):!1))){if(e=this.tokenizer.escape(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.tag(t)){t=t.substring(e.raw.length),s=n[n.length-1],s&&e.type==="text"&&s.type==="text"?(s.raw+=e.raw,s.text+=e.text):n.push(e);continue}if(e=this.tokenizer.link(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.reflink(t,this.tokens.links)){t=t.substring(e.raw.length),s=n[n.length-1],s&&e.type==="text"&&s.type==="text"?(s.raw+=e.raw,s.text+=e.text):n.push(e);continue}if(e=this.tokenizer.emStrong(t,l,h)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.codespan(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.br(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.del(t)){t=t.substring(e.raw.length),n.push(e);continue}if(e=this.tokenizer.autolink(t,Be)){t=t.substring(e.raw.length),n.push(e);continue}if(!this.state.inLink&&(e=this.tokenizer.url(t,Be))){t=t.substring(e.raw.length),n.push(e);continue}if(i=t,this.options.extensions&&this.options.extensions.startInline){let p=1/0;const g=t.slice(1);let x;this.options.extensions.startInline.forEach(function(c){x=c.call({lexer:this},g),typeof x=="number"&&x>=0&&(p=Math.min(p,x))}),p<1/0&&p>=0&&(i=t.substring(0,p+1))}if(e=this.tokenizer.inlineText(i,pn)){t=t.substring(e.raw.length),e.raw.slice(-1)!=="_"&&(h=e.raw.slice(-1)),a=!0,s=n[n.length-1],s&&s.type==="text"?(s.raw+=e.raw,s.text+=e.text):n.push(e);continue}if(t){const p="Infinite loop on byte: "+t.charCodeAt(0);if(this.options.silent){console.error(p);break}else throw new Error(p)}}return n}}class ze{constructor(t){this.options=t||se}code(t,n,e){const s=(n||"").match(/\S*/)[0];if(this.options.highlight){const i=this.options.highlight(t,s);i!=null&&i!==t&&(e=!0,t=i)}return t=t.replace(/\n$/,"")+`
-`,s?'<pre><code class="'+this.options.langPrefix+B(s)+'">'+(e?t:B(t,!0))+`</code></pre>
-`:"<pre><code>"+(e?t:B(t,!0))+`</code></pre>
-`}blockquote(t){return`<blockquote>
+in a final competition.`;
+const Ut = {
+    title: pt,
+    date: ft,
+    repo: gt,
+    topics: dt,
+    lead: mt,
+    image: kt,
+    content: _t,
+  },
+  Zt = Object.freeze(
+    Object.defineProperty(
+      {
+        __proto__: null,
+        content: _t,
+        date: ft,
+        default: Ut,
+        image: kt,
+        lead: mt,
+        repo: gt,
+        title: pt,
+        topics: dt,
+      },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  ),
+  Nt = "" + new URL("../assets/arhs.294734d9.png", import.meta.url).href,
+  Ht = Object.freeze(
+    Object.defineProperty(
+      { __proto__: null, default: Nt },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  ),
+  Qt = "" + new URL("../assets/cyws3d.965af4dc.png", import.meta.url).href,
+  Gt = Object.freeze(
+    Object.defineProperty(
+      { __proto__: null, default: Qt },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  ),
+  Ft = "" + new URL("../assets/simplesynth.f741c673.png", import.meta.url).href,
+  Jt = Object.freeze(
+    Object.defineProperty(
+      { __proto__: null, default: Ft },
+      Symbol.toStringTag,
+      { value: "Module" }
+    )
+  );
+function bt() {
+  return {
+    async: !1,
+    baseUrl: null,
+    breaks: !1,
+    extensions: null,
+    gfm: !0,
+    headerIds: !0,
+    headerPrefix: "",
+    highlight: null,
+    hooks: null,
+    langPrefix: "language-",
+    mangle: !0,
+    pedantic: !1,
+    renderer: null,
+    sanitize: !1,
+    sanitizer: null,
+    silent: !1,
+    smartypants: !1,
+    tokenizer: null,
+    walkTokens: null,
+    xhtml: !1,
+  };
+}
+let se = bt();
+function Wt(r) {
+  se = r;
+}
+const wt = /[&<>"']/,
+  Xt = new RegExp(wt.source, "g"),
+  xt = /[<>"']|&(?!(#\d{1,7}|#[Xx][a-fA-F0-9]{1,6}|\w+);)/,
+  Kt = new RegExp(xt.source, "g"),
+  Yt = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" },
+  De = (r) => Yt[r];
+function B(r, t) {
+  if (t) {
+    if (wt.test(r)) return r.replace(Xt, De);
+  } else if (xt.test(r)) return r.replace(Kt, De);
+  return r;
+}
+const en = /&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/gi;
+function vt(r) {
+  return r.replace(
+    en,
+    (t, n) => (
+      (n = n.toLowerCase()),
+      n === "colon"
+        ? ":"
+        : n.charAt(0) === "#"
+        ? n.charAt(1) === "x"
+          ? String.fromCharCode(parseInt(n.substring(2), 16))
+          : String.fromCharCode(+n.substring(1))
+        : ""
+    )
+  );
+}
+const tn = /(^|[^\[])\^/g;
+function q(r, t) {
+  (r = typeof r == "string" ? r : r.source), (t = t || "");
+  const n = {
+    replace: (e, s) => (
+      (s = s.source || s), (s = s.replace(tn, "$1")), (r = r.replace(e, s)), n
+    ),
+    getRegex: () => new RegExp(r, t),
+  };
+  return n;
+}
+const nn = /[^\w:]/g,
+  sn = /^$|^[a-z][a-z0-9+.-]*:|^[?#]/i;
+function Oe(r, t, n) {
+  if (r) {
+    let e;
+    try {
+      e = decodeURIComponent(vt(n)).replace(nn, "").toLowerCase();
+    } catch {
+      return null;
+    }
+    if (
+      e.indexOf("javascript:") === 0 ||
+      e.indexOf("vbscript:") === 0 ||
+      e.indexOf("data:") === 0
+    )
+      return null;
+  }
+  t && !sn.test(n) && (n = an(t, n));
+  try {
+    n = encodeURI(n).replace(/%25/g, "%");
+  } catch {
+    return null;
+  }
+  return n;
+}
+const ue = {},
+  rn = /^[^:]+:\/*[^/]*$/,
+  ln = /^([^:]+:)[\s\S]*$/,
+  on = /^([^:]+:\/*[^/]*)[\s\S]*$/;
+function an(r, t) {
+  ue[" " + r] ||
+    (rn.test(r) ? (ue[" " + r] = r + "/") : (ue[" " + r] = he(r, "/", !0))),
+    (r = ue[" " + r]);
+  const n = r.indexOf(":") === -1;
+  return t.substring(0, 2) === "//"
+    ? n
+      ? t
+      : r.replace(ln, "$1") + t
+    : t.charAt(0) === "/"
+    ? n
+      ? t
+      : r.replace(on, "$1") + t
+    : r + t;
+}
+const ge = { exec: function () {} };
+function Le(r, t) {
+  const n = r.replace(/\|/g, (i, l, o) => {
+      let a = !1,
+        h = l;
+      for (; --h >= 0 && o[h] === "\\"; ) a = !a;
+      return a ? "|" : " |";
+    }),
+    e = n.split(/ \|/);
+  let s = 0;
+  if (
+    (e[0].trim() || e.shift(),
+    e.length > 0 && !e[e.length - 1].trim() && e.pop(),
+    e.length > t)
+  )
+    e.splice(t);
+  else for (; e.length < t; ) e.push("");
+  for (; s < e.length; s++) e[s] = e[s].trim().replace(/\\\|/g, "|");
+  return e;
+}
+function he(r, t, n) {
+  const e = r.length;
+  if (e === 0) return "";
+  let s = 0;
+  for (; s < e; ) {
+    const i = r.charAt(e - s - 1);
+    if (i === t && !n) s++;
+    else if (i !== t && n) s++;
+    else break;
+  }
+  return r.slice(0, e - s);
+}
+function cn(r, t) {
+  if (r.indexOf(t[1]) === -1) return -1;
+  const n = r.length;
+  let e = 0,
+    s = 0;
+  for (; s < n; s++)
+    if (r[s] === "\\") s++;
+    else if (r[s] === t[0]) e++;
+    else if (r[s] === t[1] && (e--, e < 0)) return s;
+  return -1;
+}
+function un(r) {
+  r &&
+    r.sanitize &&
+    !r.silent &&
+    console.warn(
+      "marked(): sanitize and sanitizer parameters are deprecated since version 0.7.0, should not be used and will be removed in the future. Read more here: https://marked.js.org/#/USING_ADVANCED.md#options"
+    );
+}
+function Pe(r, t) {
+  if (t < 1) return "";
+  let n = "";
+  for (; t > 1; ) t & 1 && (n += r), (t >>= 1), (r += r);
+  return n + r;
+}
+function Me(r, t, n, e) {
+  const s = t.href,
+    i = t.title ? B(t.title) : null,
+    l = r[1].replace(/\\([\[\]])/g, "$1");
+  if (r[0].charAt(0) !== "!") {
+    e.state.inLink = !0;
+    const o = {
+      type: "link",
+      raw: n,
+      href: s,
+      title: i,
+      text: l,
+      tokens: e.inlineTokens(l),
+    };
+    return (e.state.inLink = !1), o;
+  }
+  return { type: "image", raw: n, href: s, title: i, text: B(l) };
+}
+function hn(r, t) {
+  const n = r.match(/^(\s+)(?:```)/);
+  if (n === null) return t;
+  const e = n[1];
+  return t
+    .split(
+      `
+`
+    )
+    .map((s) => {
+      const i = s.match(/^\s+/);
+      if (i === null) return s;
+      const [l] = i;
+      return l.length >= e.length ? s.slice(e.length) : s;
+    }).join(`
+`);
+}
+class $e {
+  constructor(t) {
+    this.options = t || se;
+  }
+  space(t) {
+    const n = this.rules.block.newline.exec(t);
+    if (n && n[0].length > 0) return { type: "space", raw: n[0] };
+  }
+  code(t) {
+    const n = this.rules.block.code.exec(t);
+    if (n) {
+      const e = n[0].replace(/^ {1,4}/gm, "");
+      return {
+        type: "code",
+        raw: n[0],
+        codeBlockStyle: "indented",
+        text: this.options.pedantic
+          ? e
+          : he(
+              e,
+              `
+`
+            ),
+      };
+    }
+  }
+  fences(t) {
+    const n = this.rules.block.fences.exec(t);
+    if (n) {
+      const e = n[0],
+        s = hn(e, n[3] || "");
+      return {
+        type: "code",
+        raw: e,
+        lang: n[2]
+          ? n[2].trim().replace(this.rules.inline._escapes, "$1")
+          : n[2],
+        text: s,
+      };
+    }
+  }
+  heading(t) {
+    const n = this.rules.block.heading.exec(t);
+    if (n) {
+      let e = n[2].trim();
+      if (/#$/.test(e)) {
+        const s = he(e, "#");
+        (this.options.pedantic || !s || / $/.test(s)) && (e = s.trim());
+      }
+      return {
+        type: "heading",
+        raw: n[0],
+        depth: n[1].length,
+        text: e,
+        tokens: this.lexer.inline(e),
+      };
+    }
+  }
+  hr(t) {
+    const n = this.rules.block.hr.exec(t);
+    if (n) return { type: "hr", raw: n[0] };
+  }
+  blockquote(t) {
+    const n = this.rules.block.blockquote.exec(t);
+    if (n) {
+      const e = n[0].replace(/^ *>[ \t]?/gm, ""),
+        s = this.lexer.state.top;
+      this.lexer.state.top = !0;
+      const i = this.lexer.blockTokens(e);
+      return (
+        (this.lexer.state.top = s),
+        { type: "blockquote", raw: n[0], tokens: i, text: e }
+      );
+    }
+  }
+  list(t) {
+    let n = this.rules.block.list.exec(t);
+    if (n) {
+      let e,
+        s,
+        i,
+        l,
+        o,
+        a,
+        h,
+        p,
+        g,
+        x,
+        c,
+        _,
+        b = n[1].trim();
+      const d = b.length > 1,
+        S = {
+          type: "list",
+          raw: "",
+          ordered: d,
+          start: d ? +b.slice(0, -1) : "",
+          loose: !1,
+          items: [],
+        };
+      (b = d ? `\\d{1,9}\\${b.slice(-1)}` : `\\${b}`),
+        this.options.pedantic && (b = d ? b : "[*+-]");
+      const u = new RegExp(`^( {0,3}${b})((?:[	 ][^\\n]*)?(?:\\n|$))`);
+      for (
+        ;
+        t && ((_ = !1), !(!(n = u.exec(t)) || this.rules.block.hr.test(t)));
+
+      ) {
+        if (
+          ((e = n[0]),
+          (t = t.substring(e.length)),
+          (p = n[2]
+            .split(
+              `
+`,
+              1
+            )[0]
+            .replace(/^\t+/, (m) => " ".repeat(3 * m.length))),
+          (g = t.split(
+            `
+`,
+            1
+          )[0]),
+          this.options.pedantic
+            ? ((l = 2), (c = p.trimLeft()))
+            : ((l = n[2].search(/[^ ]/)),
+              (l = l > 4 ? 1 : l),
+              (c = p.slice(l)),
+              (l += n[1].length)),
+          (a = !1),
+          !p &&
+            /^ *$/.test(g) &&
+            ((e +=
+              g +
+              `
+`),
+            (t = t.substring(g.length + 1)),
+            (_ = !0)),
+          !_)
+        ) {
+          const m = new RegExp(
+              `^ {0,${Math.min(
+                3,
+                l - 1
+              )}}(?:[*+-]|\\d{1,9}[.)])((?:[ 	][^\\n]*)?(?:\\n|$))`
+            ),
+            w = new RegExp(
+              `^ {0,${Math.min(
+                3,
+                l - 1
+              )}}((?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$)`
+            ),
+            R = new RegExp(`^ {0,${Math.min(3, l - 1)}}(?:\`\`\`|~~~)`),
+            L = new RegExp(`^ {0,${Math.min(3, l - 1)}}#`);
+          for (
+            ;
+            t &&
+            ((x = t.split(
+              `
+`,
+              1
+            )[0]),
+            (g = x),
+            this.options.pedantic &&
+              (g = g.replace(/^ {1,4}(?=( {4})*[^ ])/g, "  ")),
+            !(R.test(g) || L.test(g) || m.test(g) || w.test(t)));
+
+          ) {
+            if (g.search(/[^ ]/) >= l || !g.trim())
+              c +=
+                `
+` + g.slice(l);
+            else {
+              if (
+                a ||
+                p.search(/[^ ]/) >= 4 ||
+                R.test(p) ||
+                L.test(p) ||
+                w.test(p)
+              )
+                break;
+              c +=
+                `
+` + g;
+            }
+            !a && !g.trim() && (a = !0),
+              (e +=
+                x +
+                `
+`),
+              (t = t.substring(x.length + 1)),
+              (p = g.slice(l));
+          }
+        }
+        S.loose || (h ? (S.loose = !0) : /\n *\n *$/.test(e) && (h = !0)),
+          this.options.gfm &&
+            ((s = /^\[[ xX]\] /.exec(c)),
+            s && ((i = s[0] !== "[ ] "), (c = c.replace(/^\[[ xX]\] +/, "")))),
+          S.items.push({
+            type: "list_item",
+            raw: e,
+            task: !!s,
+            checked: i,
+            loose: !1,
+            text: c,
+          }),
+          (S.raw += e);
+      }
+      (S.items[S.items.length - 1].raw = e.trimRight()),
+        (S.items[S.items.length - 1].text = c.trimRight()),
+        (S.raw = S.raw.trimRight());
+      const k = S.items.length;
+      for (o = 0; o < k; o++)
+        if (
+          ((this.lexer.state.top = !1),
+          (S.items[o].tokens = this.lexer.blockTokens(S.items[o].text, [])),
+          !S.loose)
+        ) {
+          const m = S.items[o].tokens.filter((R) => R.type === "space"),
+            w = m.length > 0 && m.some((R) => /\n.*\n/.test(R.raw));
+          S.loose = w;
+        }
+      if (S.loose) for (o = 0; o < k; o++) S.items[o].loose = !0;
+      return S;
+    }
+  }
+  html(t) {
+    const n = this.rules.block.html.exec(t);
+    if (n) {
+      const e = {
+        type: "html",
+        raw: n[0],
+        pre:
+          !this.options.sanitizer &&
+          (n[1] === "pre" || n[1] === "script" || n[1] === "style"),
+        text: n[0],
+      };
+      if (this.options.sanitize) {
+        const s = this.options.sanitizer
+          ? this.options.sanitizer(n[0])
+          : B(n[0]);
+        (e.type = "paragraph"), (e.text = s), (e.tokens = this.lexer.inline(s));
+      }
+      return e;
+    }
+  }
+  def(t) {
+    const n = this.rules.block.def.exec(t);
+    if (n) {
+      const e = n[1].toLowerCase().replace(/\s+/g, " "),
+        s = n[2]
+          ? n[2]
+              .replace(/^<(.*)>$/, "$1")
+              .replace(this.rules.inline._escapes, "$1")
+          : "",
+        i = n[3]
+          ? n[3]
+              .substring(1, n[3].length - 1)
+              .replace(this.rules.inline._escapes, "$1")
+          : n[3];
+      return { type: "def", tag: e, raw: n[0], href: s, title: i };
+    }
+  }
+  table(t) {
+    const n = this.rules.block.table.exec(t);
+    if (n) {
+      const e = {
+        type: "table",
+        header: Le(n[1]).map((s) => ({ text: s })),
+        align: n[2].replace(/^ *|\| *$/g, "").split(/ *\| */),
+        rows:
+          n[3] && n[3].trim()
+            ? n[3].replace(/\n[ \t]*$/, "").split(`
+`)
+            : [],
+      };
+      if (e.header.length === e.align.length) {
+        e.raw = n[0];
+        let s = e.align.length,
+          i,
+          l,
+          o,
+          a;
+        for (i = 0; i < s; i++)
+          /^ *-+: *$/.test(e.align[i])
+            ? (e.align[i] = "right")
+            : /^ *:-+: *$/.test(e.align[i])
+            ? (e.align[i] = "center")
+            : /^ *:-+ *$/.test(e.align[i])
+            ? (e.align[i] = "left")
+            : (e.align[i] = null);
+        for (s = e.rows.length, i = 0; i < s; i++)
+          e.rows[i] = Le(e.rows[i], e.header.length).map((h) => ({ text: h }));
+        for (s = e.header.length, l = 0; l < s; l++)
+          e.header[l].tokens = this.lexer.inline(e.header[l].text);
+        for (s = e.rows.length, l = 0; l < s; l++)
+          for (a = e.rows[l], o = 0; o < a.length; o++)
+            a[o].tokens = this.lexer.inline(a[o].text);
+        return e;
+      }
+    }
+  }
+  lheading(t) {
+    const n = this.rules.block.lheading.exec(t);
+    if (n)
+      return {
+        type: "heading",
+        raw: n[0],
+        depth: n[2].charAt(0) === "=" ? 1 : 2,
+        text: n[1],
+        tokens: this.lexer.inline(n[1]),
+      };
+  }
+  paragraph(t) {
+    const n = this.rules.block.paragraph.exec(t);
+    if (n) {
+      const e =
+        n[1].charAt(n[1].length - 1) ===
+        `
+`
+          ? n[1].slice(0, -1)
+          : n[1];
+      return {
+        type: "paragraph",
+        raw: n[0],
+        text: e,
+        tokens: this.lexer.inline(e),
+      };
+    }
+  }
+  text(t) {
+    const n = this.rules.block.text.exec(t);
+    if (n)
+      return {
+        type: "text",
+        raw: n[0],
+        text: n[0],
+        tokens: this.lexer.inline(n[0]),
+      };
+  }
+  escape(t) {
+    const n = this.rules.inline.escape.exec(t);
+    if (n) return { type: "escape", raw: n[0], text: B(n[1]) };
+  }
+  tag(t) {
+    const n = this.rules.inline.tag.exec(t);
+    if (n)
+      return (
+        !this.lexer.state.inLink && /^<a /i.test(n[0])
+          ? (this.lexer.state.inLink = !0)
+          : this.lexer.state.inLink &&
+            /^<\/a>/i.test(n[0]) &&
+            (this.lexer.state.inLink = !1),
+        !this.lexer.state.inRawBlock &&
+        /^<(pre|code|kbd|script)(\s|>)/i.test(n[0])
+          ? (this.lexer.state.inRawBlock = !0)
+          : this.lexer.state.inRawBlock &&
+            /^<\/(pre|code|kbd|script)(\s|>)/i.test(n[0]) &&
+            (this.lexer.state.inRawBlock = !1),
+        {
+          type: this.options.sanitize ? "text" : "html",
+          raw: n[0],
+          inLink: this.lexer.state.inLink,
+          inRawBlock: this.lexer.state.inRawBlock,
+          text: this.options.sanitize
+            ? this.options.sanitizer
+              ? this.options.sanitizer(n[0])
+              : B(n[0])
+            : n[0],
+        }
+      );
+  }
+  link(t) {
+    const n = this.rules.inline.link.exec(t);
+    if (n) {
+      const e = n[2].trim();
+      if (!this.options.pedantic && /^</.test(e)) {
+        if (!/>$/.test(e)) return;
+        const l = he(e.slice(0, -1), "\\");
+        if ((e.length - l.length) % 2 === 0) return;
+      } else {
+        const l = cn(n[2], "()");
+        if (l > -1) {
+          const a = (n[0].indexOf("!") === 0 ? 5 : 4) + n[1].length + l;
+          (n[2] = n[2].substring(0, l)),
+            (n[0] = n[0].substring(0, a).trim()),
+            (n[3] = "");
+        }
+      }
+      let s = n[2],
+        i = "";
+      if (this.options.pedantic) {
+        const l = /^([^'"]*[^\s])\s+(['"])(.*)\2/.exec(s);
+        l && ((s = l[1]), (i = l[3]));
+      } else i = n[3] ? n[3].slice(1, -1) : "";
+      return (
+        (s = s.trim()),
+        /^</.test(s) &&
+          (this.options.pedantic && !/>$/.test(e)
+            ? (s = s.slice(1))
+            : (s = s.slice(1, -1))),
+        Me(
+          n,
+          {
+            href: s && s.replace(this.rules.inline._escapes, "$1"),
+            title: i && i.replace(this.rules.inline._escapes, "$1"),
+          },
+          n[0],
+          this.lexer
+        )
+      );
+    }
+  }
+  reflink(t, n) {
+    let e;
+    if (
+      (e = this.rules.inline.reflink.exec(t)) ||
+      (e = this.rules.inline.nolink.exec(t))
+    ) {
+      let s = (e[2] || e[1]).replace(/\s+/g, " ");
+      if (((s = n[s.toLowerCase()]), !s)) {
+        const i = e[0].charAt(0);
+        return { type: "text", raw: i, text: i };
+      }
+      return Me(e, s, e[0], this.lexer);
+    }
+  }
+  emStrong(t, n, e = "") {
+    let s = this.rules.inline.emStrong.lDelim.exec(t);
+    if (!s || (s[3] && e.match(/[\p{L}\p{N}]/u))) return;
+    const i = s[1] || s[2] || "";
+    if (!i || (i && (e === "" || this.rules.inline.punctuation.exec(e)))) {
+      const l = s[0].length - 1;
+      let o,
+        a,
+        h = l,
+        p = 0;
+      const g =
+        s[0][0] === "*"
+          ? this.rules.inline.emStrong.rDelimAst
+          : this.rules.inline.emStrong.rDelimUnd;
+      for (
+        g.lastIndex = 0, n = n.slice(-1 * t.length + l);
+        (s = g.exec(n)) != null;
+
+      ) {
+        if (((o = s[1] || s[2] || s[3] || s[4] || s[5] || s[6]), !o)) continue;
+        if (((a = o.length), s[3] || s[4])) {
+          h += a;
+          continue;
+        } else if ((s[5] || s[6]) && l % 3 && !((l + a) % 3)) {
+          p += a;
+          continue;
+        }
+        if (((h -= a), h > 0)) continue;
+        a = Math.min(a, a + h + p);
+        const x = t.slice(0, l + s.index + (s[0].length - o.length) + a);
+        if (Math.min(l, a) % 2) {
+          const _ = x.slice(1, -1);
+          return {
+            type: "em",
+            raw: x,
+            text: _,
+            tokens: this.lexer.inlineTokens(_),
+          };
+        }
+        const c = x.slice(2, -2);
+        return {
+          type: "strong",
+          raw: x,
+          text: c,
+          tokens: this.lexer.inlineTokens(c),
+        };
+      }
+    }
+  }
+  codespan(t) {
+    const n = this.rules.inline.code.exec(t);
+    if (n) {
+      let e = n[2].replace(/\n/g, " ");
+      const s = /[^ ]/.test(e),
+        i = /^ /.test(e) && / $/.test(e);
+      return (
+        s && i && (e = e.substring(1, e.length - 1)),
+        (e = B(e, !0)),
+        { type: "codespan", raw: n[0], text: e }
+      );
+    }
+  }
+  br(t) {
+    const n = this.rules.inline.br.exec(t);
+    if (n) return { type: "br", raw: n[0] };
+  }
+  del(t) {
+    const n = this.rules.inline.del.exec(t);
+    if (n)
+      return {
+        type: "del",
+        raw: n[0],
+        text: n[2],
+        tokens: this.lexer.inlineTokens(n[2]),
+      };
+  }
+  autolink(t, n) {
+    const e = this.rules.inline.autolink.exec(t);
+    if (e) {
+      let s, i;
+      return (
+        e[2] === "@"
+          ? ((s = B(this.options.mangle ? n(e[1]) : e[1])), (i = "mailto:" + s))
+          : ((s = B(e[1])), (i = s)),
+        {
+          type: "link",
+          raw: e[0],
+          text: s,
+          href: i,
+          tokens: [{ type: "text", raw: s, text: s }],
+        }
+      );
+    }
+  }
+  url(t, n) {
+    let e;
+    if ((e = this.rules.inline.url.exec(t))) {
+      let s, i;
+      if (e[2] === "@")
+        (s = B(this.options.mangle ? n(e[0]) : e[0])), (i = "mailto:" + s);
+      else {
+        let l;
+        do (l = e[0]), (e[0] = this.rules.inline._backpedal.exec(e[0])[0]);
+        while (l !== e[0]);
+        (s = B(e[0])), e[1] === "www." ? (i = "http://" + e[0]) : (i = e[0]);
+      }
+      return {
+        type: "link",
+        raw: e[0],
+        text: s,
+        href: i,
+        tokens: [{ type: "text", raw: s, text: s }],
+      };
+    }
+  }
+  inlineText(t, n) {
+    const e = this.rules.inline.text.exec(t);
+    if (e) {
+      let s;
+      return (
+        this.lexer.state.inRawBlock
+          ? (s = this.options.sanitize
+              ? this.options.sanitizer
+                ? this.options.sanitizer(e[0])
+                : B(e[0])
+              : e[0])
+          : (s = B(this.options.smartypants ? n(e[0]) : e[0])),
+        { type: "text", raw: e[0], text: s }
+      );
+    }
+  }
+}
+const y = {
+  newline: /^(?: *(?:\n|$))+/,
+  code: /^( {4}[^\n]+(?:\n(?: *(?:\n|$))*)?)+/,
+  fences:
+    /^ {0,3}(`{3,}(?=[^`\n]*(?:\n|$))|~{3,})([^\n]*)(?:\n|$)(?:|([\s\S]*?)(?:\n|$))(?: {0,3}\1[~`]* *(?=\n|$)|$)/,
+  hr: /^ {0,3}((?:-[\t ]*){3,}|(?:_[ \t]*){3,}|(?:\*[ \t]*){3,})(?:\n+|$)/,
+  heading: /^ {0,3}(#{1,6})(?=\s|$)(.*)(?:\n+|$)/,
+  blockquote: /^( {0,3}> ?(paragraph|[^\n]*)(?:\n|$))+/,
+  list: /^( {0,3}bull)([ \t][^\n]+?)?(?:\n|$)/,
+  html: "^ {0,3}(?:<(script|pre|style|textarea)[\\s>][\\s\\S]*?(?:</\\1>[^\\n]*\\n+|$)|comment[^\\n]*(\\n+|$)|<\\?[\\s\\S]*?(?:\\?>\\n*|$)|<![A-Z][\\s\\S]*?(?:>\\n*|$)|<!\\[CDATA\\[[\\s\\S]*?(?:\\]\\]>\\n*|$)|</?(tag)(?: +|\\n|/?>)[\\s\\S]*?(?:(?:\\n *)+\\n|$)|<(?!script|pre|style|textarea)([a-z][\\w-]*)(?:attribute)*? */?>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$)|</(?!script|pre|style|textarea)[a-z][\\w-]*\\s*>(?=[ \\t]*(?:\\n|$))[\\s\\S]*?(?:(?:\\n *)+\\n|$))",
+  def: /^ {0,3}\[(label)\]: *(?:\n *)?([^<\s][^\s]*|<.*?>)(?:(?: +(?:\n *)?| *\n *)(title))? *(?:\n+|$)/,
+  table: ge,
+  lheading: /^((?:.|\n(?!\n))+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
+  _paragraph:
+    /^([^\n]+(?:\n(?!hr|heading|lheading|blockquote|fences|list|html|table| +\n)[^\n]+)*)/,
+  text: /^[^\n]+/,
+};
+y._label = /(?!\s*\])(?:\\.|[^\[\]\\])+/;
+y._title = /(?:"(?:\\"?|[^"\\])*"|'[^'\n]*(?:\n[^'\n]+)*\n?'|\([^()]*\))/;
+y.def = q(y.def)
+  .replace("label", y._label)
+  .replace("title", y._title)
+  .getRegex();
+y.bullet = /(?:[*+-]|\d{1,9}[.)])/;
+y.listItemStart = q(/^( *)(bull) */)
+  .replace("bull", y.bullet)
+  .getRegex();
+y.list = q(y.list)
+  .replace(/bull/g, y.bullet)
+  .replace(
+    "hr",
+    "\\n+(?=\\1?(?:(?:- *){3,}|(?:_ *){3,}|(?:\\* *){3,})(?:\\n+|$))"
+  )
+  .replace("def", "\\n+(?=" + y.def.source + ")")
+  .getRegex();
+y._tag =
+  "address|article|aside|base|basefont|blockquote|body|caption|center|col|colgroup|dd|details|dialog|dir|div|dl|dt|fieldset|figcaption|figure|footer|form|frame|frameset|h[1-6]|head|header|hr|html|iframe|legend|li|link|main|menu|menuitem|meta|nav|noframes|ol|optgroup|option|p|param|section|source|summary|table|tbody|td|tfoot|th|thead|title|tr|track|ul";
+y._comment = /<!--(?!-?>)[\s\S]*?(?:-->|$)/;
+y.html = q(y.html, "i")
+  .replace("comment", y._comment)
+  .replace("tag", y._tag)
+  .replace(
+    "attribute",
+    / +[a-zA-Z:_][\w.:-]*(?: *= *"[^"\n]*"| *= *'[^'\n]*'| *= *[^\s"'=<>`]+)?/
+  )
+  .getRegex();
+y.paragraph = q(y._paragraph)
+  .replace("hr", y.hr)
+  .replace("heading", " {0,3}#{1,6} ")
+  .replace("|lheading", "")
+  .replace("|table", "")
+  .replace("blockquote", " {0,3}>")
+  .replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n")
+  .replace("list", " {0,3}(?:[*+-]|1[.)]) ")
+  .replace(
+    "html",
+    "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)"
+  )
+  .replace("tag", y._tag)
+  .getRegex();
+y.blockquote = q(y.blockquote).replace("paragraph", y.paragraph).getRegex();
+y.normal = { ...y };
+y.gfm = {
+  ...y.normal,
+  table:
+    "^ *([^\\n ].*\\|.*)\\n {0,3}(?:\\| *)?(:?-+:? *(?:\\| *:?-+:? *)*)(?:\\| *)?(?:\\n((?:(?! *\\n|hr|heading|blockquote|code|fences|list|html).*(?:\\n|$))*)\\n*|$)",
+};
+y.gfm.table = q(y.gfm.table)
+  .replace("hr", y.hr)
+  .replace("heading", " {0,3}#{1,6} ")
+  .replace("blockquote", " {0,3}>")
+  .replace("code", " {4}[^\\n]")
+  .replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n")
+  .replace("list", " {0,3}(?:[*+-]|1[.)]) ")
+  .replace(
+    "html",
+    "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)"
+  )
+  .replace("tag", y._tag)
+  .getRegex();
+y.gfm.paragraph = q(y._paragraph)
+  .replace("hr", y.hr)
+  .replace("heading", " {0,3}#{1,6} ")
+  .replace("|lheading", "")
+  .replace("table", y.gfm.table)
+  .replace("blockquote", " {0,3}>")
+  .replace("fences", " {0,3}(?:`{3,}(?=[^`\\n]*\\n)|~{3,})[^\\n]*\\n")
+  .replace("list", " {0,3}(?:[*+-]|1[.)]) ")
+  .replace(
+    "html",
+    "</?(?:tag)(?: +|\\n|/?>)|<(?:script|pre|style|textarea|!--)"
+  )
+  .replace("tag", y._tag)
+  .getRegex();
+y.pedantic = {
+  ...y.normal,
+  html: q(
+    `^ *(?:comment *(?:\\n|\\s*$)|<(tag)[\\s\\S]+?</\\1> *(?:\\n{2,}|\\s*$)|<tag(?:"[^"]*"|'[^']*'|\\s[^'"/>\\s]*)*?/?> *(?:\\n{2,}|\\s*$))`
+  )
+    .replace("comment", y._comment)
+    .replace(
+      /tag/g,
+      "(?!(?:a|em|strong|small|s|cite|q|dfn|abbr|data|time|code|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo|span|br|wbr|ins|del|img)\\b)\\w+(?!:|[^\\w\\s@]*@)\\b"
+    )
+    .getRegex(),
+  def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +(["(][^\n]+[")]))? *(?:\n+|$)/,
+  heading: /^(#{1,6})(.*)(?:\n+|$)/,
+  fences: ge,
+  lheading: /^(.+?)\n {0,3}(=+|-+) *(?:\n+|$)/,
+  paragraph: q(y.normal._paragraph)
+    .replace("hr", y.hr)
+    .replace(
+      "heading",
+      ` *#{1,6} *[^
+]`
+    )
+    .replace("lheading", y.lheading)
+    .replace("blockquote", " {0,3}>")
+    .replace("|fences", "")
+    .replace("|list", "")
+    .replace("|html", "")
+    .getRegex(),
+};
+const f = {
+  escape: /^\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/,
+  autolink: /^<(scheme:[^\s\x00-\x1f<>]*|email)>/,
+  url: ge,
+  tag: "^comment|^</[a-zA-Z][\\w:-]*\\s*>|^<[a-zA-Z][\\w-]*(?:attribute)*?\\s*/?>|^<\\?[\\s\\S]*?\\?>|^<![a-zA-Z]+\\s[\\s\\S]*?>|^<!\\[CDATA\\[[\\s\\S]*?\\]\\]>",
+  link: /^!?\[(label)\]\(\s*(href)(?:\s+(title))?\s*\)/,
+  reflink: /^!?\[(label)\]\[(ref)\]/,
+  nolink: /^!?\[(ref)\](?:\[\])?/,
+  reflinkSearch: "reflink|nolink(?!\\()",
+  emStrong: {
+    lDelim: /^(?:\*+(?:([punct_])|[^\s*]))|^_+(?:([punct*])|([^\s_]))/,
+    rDelimAst:
+      /^(?:[^_*\\]|\\.)*?\_\_(?:[^_*\\]|\\.)*?\*(?:[^_*\\]|\\.)*?(?=\_\_)|(?:[^*\\]|\\.)+(?=[^*])|[punct_](\*+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\*+)(?=[punct_\s]|$)|[punct_\s](\*+)(?=[^punct*_\s])|[\s](\*+)(?=[punct_])|[punct_](\*+)(?=[punct_])|(?:[^punct*_\s\\]|\\.)(\*+)(?=[^punct*_\s])/,
+    rDelimUnd:
+      /^(?:[^_*\\]|\\.)*?\*\*(?:[^_*\\]|\\.)*?\_(?:[^_*\\]|\\.)*?(?=\*\*)|(?:[^_\\]|\\.)+(?=[^_])|[punct*](\_+)(?=[\s]|$)|(?:[^punct*_\s\\]|\\.)(\_+)(?=[punct*\s]|$)|[punct*\s](\_+)(?=[^punct*_\s])|[\s](\_+)(?=[punct*])|[punct*](\_+)(?=[punct*])/,
+  },
+  code: /^(`+)([^`]|[^`][\s\S]*?[^`])\1(?!`)/,
+  br: /^( {2,}|\\)\n(?!\s*$)/,
+  del: ge,
+  text: /^(`+|[^`])(?:(?= {2,}\n)|[\s\S]*?(?:(?=[\\<!\[`*_]|\b_|$)|[^ ](?= {2,}\n)))/,
+  punctuation: /^([\spunctuation])/,
+};
+f._punctuation = "!\"#$%&'()+\\-.,/:;<=>?@\\[\\]`^{|}~";
+f.punctuation = q(f.punctuation)
+  .replace(/punctuation/g, f._punctuation)
+  .getRegex();
+f.blockSkip = /\[[^\]]*?\]\([^\)]*?\)|`[^`]*?`|<[^>]*?>/g;
+f.escapedEmSt = /(?:^|[^\\])(?:\\\\)*\\[*_]/g;
+f._comment = q(y._comment).replace("(?:-->|$)", "-->").getRegex();
+f.emStrong.lDelim = q(f.emStrong.lDelim)
+  .replace(/punct/g, f._punctuation)
+  .getRegex();
+f.emStrong.rDelimAst = q(f.emStrong.rDelimAst, "g")
+  .replace(/punct/g, f._punctuation)
+  .getRegex();
+f.emStrong.rDelimUnd = q(f.emStrong.rDelimUnd, "g")
+  .replace(/punct/g, f._punctuation)
+  .getRegex();
+f._escapes = /\\([!"#$%&'()*+,\-./:;<=>?@\[\]\\^_`{|}~])/g;
+f._scheme = /[a-zA-Z][a-zA-Z0-9+.-]{1,31}/;
+f._email =
+  /[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+(@)[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+(?![-_])/;
+f.autolink = q(f.autolink)
+  .replace("scheme", f._scheme)
+  .replace("email", f._email)
+  .getRegex();
+f._attribute =
+  /\s+[a-zA-Z:_][\w.:-]*(?:\s*=\s*"[^"]*"|\s*=\s*'[^']*'|\s*=\s*[^\s"'=<>`]+)?/;
+f.tag = q(f.tag)
+  .replace("comment", f._comment)
+  .replace("attribute", f._attribute)
+  .getRegex();
+f._label = /(?:\[(?:\\.|[^\[\]\\])*\]|\\.|`[^`]*`|[^\[\]\\`])*?/;
+f._href = /<(?:\\.|[^\n<>\\])+>|[^\s\x00-\x1f]*/;
+f._title = /"(?:\\"?|[^"\\])*"|'(?:\\'?|[^'\\])*'|\((?:\\\)?|[^)\\])*\)/;
+f.link = q(f.link)
+  .replace("label", f._label)
+  .replace("href", f._href)
+  .replace("title", f._title)
+  .getRegex();
+f.reflink = q(f.reflink)
+  .replace("label", f._label)
+  .replace("ref", y._label)
+  .getRegex();
+f.nolink = q(f.nolink).replace("ref", y._label).getRegex();
+f.reflinkSearch = q(f.reflinkSearch, "g")
+  .replace("reflink", f.reflink)
+  .replace("nolink", f.nolink)
+  .getRegex();
+f.normal = { ...f };
+f.pedantic = {
+  ...f.normal,
+  strong: {
+    start: /^__|\*\*/,
+    middle: /^__(?=\S)([\s\S]*?\S)__(?!_)|^\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/,
+    endAst: /\*\*(?!\*)/g,
+    endUnd: /__(?!_)/g,
+  },
+  em: {
+    start: /^_|\*/,
+    middle: /^()\*(?=\S)([\s\S]*?\S)\*(?!\*)|^_(?=\S)([\s\S]*?\S)_(?!_)/,
+    endAst: /\*(?!\*)/g,
+    endUnd: /_(?!_)/g,
+  },
+  link: q(/^!?\[(label)\]\((.*?)\)/)
+    .replace("label", f._label)
+    .getRegex(),
+  reflink: q(/^!?\[(label)\]\s*\[([^\]]*)\]/)
+    .replace("label", f._label)
+    .getRegex(),
+};
+f.gfm = {
+  ...f.normal,
+  escape: q(f.escape).replace("])", "~|])").getRegex(),
+  _extended_email:
+    /[A-Za-z0-9._+-]+(@)[a-zA-Z0-9-_]+(?:\.[a-zA-Z0-9-_]*[a-zA-Z0-9])+(?![-_])/,
+  url: /^((?:ftp|https?):\/\/|www\.)(?:[a-zA-Z0-9\-]+\.?)+[^\s<]*|^email/,
+  _backpedal:
+    /(?:[^?!.,:;*_'"~()&]+|\([^)]*\)|&(?![a-zA-Z0-9]+;$)|[?!.,:;*_'"~)]+(?!$))+/,
+  del: /^(~~?)(?=[^\s~])([\s\S]*?[^\s~])\1(?=[^~]|$)/,
+  text: /^([`~]+|[^`~])(?:(?= {2,}\n)|(?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)|[\s\S]*?(?:(?=[\\<!\[`*~_]|\b_|https?:\/\/|ftp:\/\/|www\.|$)|[^ ](?= {2,}\n)|[^a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-](?=[a-zA-Z0-9.!#$%&'*+\/=?_`{\|}~-]+@)))/,
+};
+f.gfm.url = q(f.gfm.url, "i")
+  .replace("email", f.gfm._extended_email)
+  .getRegex();
+f.breaks = {
+  ...f.gfm,
+  br: q(f.br).replace("{2,}", "*").getRegex(),
+  text: q(f.gfm.text)
+    .replace("\\b_", "\\b_| {2,}\\n")
+    .replace(/\{2,\}/g, "*")
+    .getRegex(),
+};
+function pn(r) {
+  return r
+    .replace(/---/g, "—")
+    .replace(/--/g, "–")
+    .replace(/(^|[-\u2014/(\[{"\s])'/g, "$1‘")
+    .replace(/'/g, "’")
+    .replace(/(^|[-\u2014/(\[{\u2018\s])"/g, "$1“")
+    .replace(/"/g, "”")
+    .replace(/\.{3}/g, "…");
+}
+function Be(r) {
+  let t = "",
+    n,
+    e;
+  const s = r.length;
+  for (n = 0; n < s; n++)
+    (e = r.charCodeAt(n)),
+      Math.random() > 0.5 && (e = "x" + e.toString(16)),
+      (t += "&#" + e + ";");
+  return t;
+}
+class X {
+  constructor(t) {
+    (this.tokens = []),
+      (this.tokens.links = Object.create(null)),
+      (this.options = t || se),
+      (this.options.tokenizer = this.options.tokenizer || new $e()),
+      (this.tokenizer = this.options.tokenizer),
+      (this.tokenizer.options = this.options),
+      (this.tokenizer.lexer = this),
+      (this.inlineQueue = []),
+      (this.state = { inLink: !1, inRawBlock: !1, top: !0 });
+    const n = { block: y.normal, inline: f.normal };
+    this.options.pedantic
+      ? ((n.block = y.pedantic), (n.inline = f.pedantic))
+      : this.options.gfm &&
+        ((n.block = y.gfm),
+        this.options.breaks ? (n.inline = f.breaks) : (n.inline = f.gfm)),
+      (this.tokenizer.rules = n);
+  }
+  static get rules() {
+    return { block: y, inline: f };
+  }
+  static lex(t, n) {
+    return new X(n).lex(t);
+  }
+  static lexInline(t, n) {
+    return new X(n).inlineTokens(t);
+  }
+  lex(t) {
+    (t = t.replace(
+      /\r\n|\r/g,
+      `
+`
+    )),
+      this.blockTokens(t, this.tokens);
+    let n;
+    for (; (n = this.inlineQueue.shift()); ) this.inlineTokens(n.src, n.tokens);
+    return this.tokens;
+  }
+  blockTokens(t, n = []) {
+    this.options.pedantic
+      ? (t = t.replace(/\t/g, "    ").replace(/^ +$/gm, ""))
+      : (t = t.replace(
+          /^( *)(\t+)/gm,
+          (o, a, h) => a + "    ".repeat(h.length)
+        ));
+    let e, s, i, l;
+    for (; t; )
+      if (
+        !(
+          this.options.extensions &&
+          this.options.extensions.block &&
+          this.options.extensions.block.some((o) =>
+            (e = o.call({ lexer: this }, t, n))
+              ? ((t = t.substring(e.raw.length)), n.push(e), !0)
+              : !1
+          )
+        )
+      ) {
+        if ((e = this.tokenizer.space(t))) {
+          (t = t.substring(e.raw.length)),
+            e.raw.length === 1 && n.length > 0
+              ? (n[n.length - 1].raw += `
+`)
+              : n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.code(t))) {
+          (t = t.substring(e.raw.length)),
+            (s = n[n.length - 1]),
+            s && (s.type === "paragraph" || s.type === "text")
+              ? ((s.raw +=
+                  `
+` + e.raw),
+                (s.text +=
+                  `
+` + e.text),
+                (this.inlineQueue[this.inlineQueue.length - 1].src = s.text))
+              : n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.fences(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.heading(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.hr(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.blockquote(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.list(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.html(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.def(t))) {
+          (t = t.substring(e.raw.length)),
+            (s = n[n.length - 1]),
+            s && (s.type === "paragraph" || s.type === "text")
+              ? ((s.raw +=
+                  `
+` + e.raw),
+                (s.text +=
+                  `
+` + e.raw),
+                (this.inlineQueue[this.inlineQueue.length - 1].src = s.text))
+              : this.tokens.links[e.tag] ||
+                (this.tokens.links[e.tag] = { href: e.href, title: e.title });
+          continue;
+        }
+        if ((e = this.tokenizer.table(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.lheading(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if (
+          ((i = t),
+          this.options.extensions && this.options.extensions.startBlock)
+        ) {
+          let o = 1 / 0;
+          const a = t.slice(1);
+          let h;
+          this.options.extensions.startBlock.forEach(function (p) {
+            (h = p.call({ lexer: this }, a)),
+              typeof h == "number" && h >= 0 && (o = Math.min(o, h));
+          }),
+            o < 1 / 0 && o >= 0 && (i = t.substring(0, o + 1));
+        }
+        if (this.state.top && (e = this.tokenizer.paragraph(i))) {
+          (s = n[n.length - 1]),
+            l && s.type === "paragraph"
+              ? ((s.raw +=
+                  `
+` + e.raw),
+                (s.text +=
+                  `
+` + e.text),
+                this.inlineQueue.pop(),
+                (this.inlineQueue[this.inlineQueue.length - 1].src = s.text))
+              : n.push(e),
+            (l = i.length !== t.length),
+            (t = t.substring(e.raw.length));
+          continue;
+        }
+        if ((e = this.tokenizer.text(t))) {
+          (t = t.substring(e.raw.length)),
+            (s = n[n.length - 1]),
+            s && s.type === "text"
+              ? ((s.raw +=
+                  `
+` + e.raw),
+                (s.text +=
+                  `
+` + e.text),
+                this.inlineQueue.pop(),
+                (this.inlineQueue[this.inlineQueue.length - 1].src = s.text))
+              : n.push(e);
+          continue;
+        }
+        if (t) {
+          const o = "Infinite loop on byte: " + t.charCodeAt(0);
+          if (this.options.silent) {
+            console.error(o);
+            break;
+          } else throw new Error(o);
+        }
+      }
+    return (this.state.top = !0), n;
+  }
+  inline(t, n = []) {
+    return this.inlineQueue.push({ src: t, tokens: n }), n;
+  }
+  inlineTokens(t, n = []) {
+    let e,
+      s,
+      i,
+      l = t,
+      o,
+      a,
+      h;
+    if (this.tokens.links) {
+      const p = Object.keys(this.tokens.links);
+      if (p.length > 0)
+        for (
+          ;
+          (o = this.tokenizer.rules.inline.reflinkSearch.exec(l)) != null;
+
+        )
+          p.includes(o[0].slice(o[0].lastIndexOf("[") + 1, -1)) &&
+            (l =
+              l.slice(0, o.index) +
+              "[" +
+              Pe("a", o[0].length - 2) +
+              "]" +
+              l.slice(this.tokenizer.rules.inline.reflinkSearch.lastIndex));
+    }
+    for (; (o = this.tokenizer.rules.inline.blockSkip.exec(l)) != null; )
+      l =
+        l.slice(0, o.index) +
+        "[" +
+        Pe("a", o[0].length - 2) +
+        "]" +
+        l.slice(this.tokenizer.rules.inline.blockSkip.lastIndex);
+    for (; (o = this.tokenizer.rules.inline.escapedEmSt.exec(l)) != null; )
+      (l =
+        l.slice(0, o.index + o[0].length - 2) +
+        "++" +
+        l.slice(this.tokenizer.rules.inline.escapedEmSt.lastIndex)),
+        this.tokenizer.rules.inline.escapedEmSt.lastIndex--;
+    for (; t; )
+      if (
+        (a || (h = ""),
+        (a = !1),
+        !(
+          this.options.extensions &&
+          this.options.extensions.inline &&
+          this.options.extensions.inline.some((p) =>
+            (e = p.call({ lexer: this }, t, n))
+              ? ((t = t.substring(e.raw.length)), n.push(e), !0)
+              : !1
+          )
+        ))
+      ) {
+        if ((e = this.tokenizer.escape(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.tag(t))) {
+          (t = t.substring(e.raw.length)),
+            (s = n[n.length - 1]),
+            s && e.type === "text" && s.type === "text"
+              ? ((s.raw += e.raw), (s.text += e.text))
+              : n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.link(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.reflink(t, this.tokens.links))) {
+          (t = t.substring(e.raw.length)),
+            (s = n[n.length - 1]),
+            s && e.type === "text" && s.type === "text"
+              ? ((s.raw += e.raw), (s.text += e.text))
+              : n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.emStrong(t, l, h))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.codespan(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.br(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.del(t))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if ((e = this.tokenizer.autolink(t, Be))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if (!this.state.inLink && (e = this.tokenizer.url(t, Be))) {
+          (t = t.substring(e.raw.length)), n.push(e);
+          continue;
+        }
+        if (
+          ((i = t),
+          this.options.extensions && this.options.extensions.startInline)
+        ) {
+          let p = 1 / 0;
+          const g = t.slice(1);
+          let x;
+          this.options.extensions.startInline.forEach(function (c) {
+            (x = c.call({ lexer: this }, g)),
+              typeof x == "number" && x >= 0 && (p = Math.min(p, x));
+          }),
+            p < 1 / 0 && p >= 0 && (i = t.substring(0, p + 1));
+        }
+        if ((e = this.tokenizer.inlineText(i, pn))) {
+          (t = t.substring(e.raw.length)),
+            e.raw.slice(-1) !== "_" && (h = e.raw.slice(-1)),
+            (a = !0),
+            (s = n[n.length - 1]),
+            s && s.type === "text"
+              ? ((s.raw += e.raw), (s.text += e.text))
+              : n.push(e);
+          continue;
+        }
+        if (t) {
+          const p = "Infinite loop on byte: " + t.charCodeAt(0);
+          if (this.options.silent) {
+            console.error(p);
+            break;
+          } else throw new Error(p);
+        }
+      }
+    return n;
+  }
+}
+class ze {
+  constructor(t) {
+    this.options = t || se;
+  }
+  code(t, n, e) {
+    const s = (n || "").match(/\S*/)[0];
+    if (this.options.highlight) {
+      const i = this.options.highlight(t, s);
+      i != null && i !== t && ((e = !0), (t = i));
+    }
+    return (
+      (t =
+        t.replace(/\n$/, "") +
+        `
+`),
+      s
+        ? '<pre><code class="' +
+          this.options.langPrefix +
+          B(s) +
+          '">' +
+          (e ? t : B(t, !0)) +
+          `</code></pre>
+`
+        : "<pre><code>" +
+          (e ? t : B(t, !0)) +
+          `</code></pre>
+`
+    );
+  }
+  blockquote(t) {
+    return `<blockquote>
 ${t}</blockquote>
-`}html(t){return t}heading(t,n,e,s){if(this.options.headerIds){const i=this.options.headerPrefix+s.slug(e);return`<h${n} id="${i}">${t}</h${n}>
-`}return`<h${n}>${t}</h${n}>
-`}hr(){return this.options.xhtml?`<hr/>
-`:`<hr>
-`}list(t,n,e){const s=n?"ol":"ul",i=n&&e!==1?' start="'+e+'"':"";return"<"+s+i+`>
-`+t+"</"+s+`>
-`}listitem(t){return`<li>${t}</li>
-`}checkbox(t){return"<input "+(t?'checked="" ':"")+'disabled="" type="checkbox"'+(this.options.xhtml?" /":"")+"> "}paragraph(t){return`<p>${t}</p>
-`}table(t,n){return n&&(n=`<tbody>${n}</tbody>`),`<table>
+`;
+  }
+  html(t) {
+    return t;
+  }
+  heading(t, n, e, s) {
+    if (this.options.headerIds) {
+      const i = this.options.headerPrefix + s.slug(e);
+      return `<h${n} id="${i}">${t}</h${n}>
+`;
+    }
+    return `<h${n}>${t}</h${n}>
+`;
+  }
+  hr() {
+    return this.options.xhtml
+      ? `<hr/>
+`
+      : `<hr>
+`;
+  }
+  list(t, n, e) {
+    const s = n ? "ol" : "ul",
+      i = n && e !== 1 ? ' start="' + e + '"' : "";
+    return (
+      "<" +
+      s +
+      i +
+      `>
+` +
+      t +
+      "</" +
+      s +
+      `>
+`
+    );
+  }
+  listitem(t) {
+    return `<li>${t}</li>
+`;
+  }
+  checkbox(t) {
+    return (
+      "<input " +
+      (t ? 'checked="" ' : "") +
+      'disabled="" type="checkbox"' +
+      (this.options.xhtml ? " /" : "") +
+      "> "
+    );
+  }
+  paragraph(t) {
+    return `<p>${t}</p>
+`;
+  }
+  table(t, n) {
+    return (
+      n && (n = `<tbody>${n}</tbody>`),
+      `<table>
 <thead>
-`+t+`</thead>
-`+n+`</table>
-`}tablerow(t){return`<tr>
+` +
+        t +
+        `</thead>
+` +
+        n +
+        `</table>
+`
+    );
+  }
+  tablerow(t) {
+    return `<tr>
 ${t}</tr>
-`}tablecell(t,n){const e=n.header?"th":"td";return(n.align?`<${e} align="${n.align}">`:`<${e}>`)+t+`</${e}>
-`}strong(t){return`<strong>${t}</strong>`}em(t){return`<em>${t}</em>`}codespan(t){return`<code>${t}</code>`}br(){return this.options.xhtml?"<br/>":"<br>"}del(t){return`<del>${t}</del>`}link(t,n,e){if(t=Oe(this.options.sanitize,this.options.baseUrl,t),t===null)return e;let s='<a href="'+t+'"';return n&&(s+=' title="'+n+'"'),s+=">"+e+"</a>",s}image(t,n,e){if(t=Oe(this.options.sanitize,this.options.baseUrl,t),t===null)return e;let s=`<img src="${t}" alt="${e}"`;return n&&(s+=` title="${n}"`),s+=this.options.xhtml?"/>":">",s}text(t){return t}}class yt{strong(t){return t}em(t){return t}codespan(t){return t}del(t){return t}html(t){return t}text(t){return t}link(t,n,e){return""+e}image(t,n,e){return""+e}br(){return""}}class $t{constructor(){this.seen={}}serialize(t){return t.toLowerCase().trim().replace(/<[!\/a-z].*?>/ig,"").replace(/[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g,"").replace(/\s/g,"-")}getNextSafeSlug(t,n){let e=t,s=0;if(this.seen.hasOwnProperty(e)){s=this.seen[t];do s++,e=t+"-"+s;while(this.seen.hasOwnProperty(e))}return n||(this.seen[t]=s,this.seen[e]=0),e}slug(t,n={}){const e=this.serialize(t);return this.getNextSafeSlug(e,n.dryrun)}}class K{constructor(t){this.options=t||se,this.options.renderer=this.options.renderer||new ze,this.renderer=this.options.renderer,this.renderer.options=this.options,this.textRenderer=new yt,this.slugger=new $t}static parse(t,n){return new K(n).parse(t)}static parseInline(t,n){return new K(n).parseInline(t)}parse(t,n=!0){let e="",s,i,l,o,a,h,p,g,x,c,_,b,d,S,u,k,m,w,R;const L=t.length;for(s=0;s<L;s++){if(c=t[s],this.options.extensions&&this.options.extensions.renderers&&this.options.extensions.renderers[c.type]&&(R=this.options.extensions.renderers[c.type].call({parser:this},c),R!==!1||!["space","hr","heading","code","table","blockquote","list","html","paragraph","text"].includes(c.type))){e+=R||"";continue}switch(c.type){case"space":continue;case"hr":{e+=this.renderer.hr();continue}case"heading":{e+=this.renderer.heading(this.parseInline(c.tokens),c.depth,vt(this.parseInline(c.tokens,this.textRenderer)),this.slugger);continue}case"code":{e+=this.renderer.code(c.text,c.lang,c.escaped);continue}case"table":{for(g="",p="",o=c.header.length,i=0;i<o;i++)p+=this.renderer.tablecell(this.parseInline(c.header[i].tokens),{header:!0,align:c.align[i]});for(g+=this.renderer.tablerow(p),x="",o=c.rows.length,i=0;i<o;i++){for(h=c.rows[i],p="",a=h.length,l=0;l<a;l++)p+=this.renderer.tablecell(this.parseInline(h[l].tokens),{header:!1,align:c.align[l]});x+=this.renderer.tablerow(p)}e+=this.renderer.table(g,x);continue}case"blockquote":{x=this.parse(c.tokens),e+=this.renderer.blockquote(x);continue}case"list":{for(_=c.ordered,b=c.start,d=c.loose,o=c.items.length,x="",i=0;i<o;i++)u=c.items[i],k=u.checked,m=u.task,S="",u.task&&(w=this.renderer.checkbox(k),d?u.tokens.length>0&&u.tokens[0].type==="paragraph"?(u.tokens[0].text=w+" "+u.tokens[0].text,u.tokens[0].tokens&&u.tokens[0].tokens.length>0&&u.tokens[0].tokens[0].type==="text"&&(u.tokens[0].tokens[0].text=w+" "+u.tokens[0].tokens[0].text)):u.tokens.unshift({type:"text",text:w}):S+=w),S+=this.parse(u.tokens,d),x+=this.renderer.listitem(S,m,k);e+=this.renderer.list(x,_,b);continue}case"html":{e+=this.renderer.html(c.text);continue}case"paragraph":{e+=this.renderer.paragraph(this.parseInline(c.tokens));continue}case"text":{for(x=c.tokens?this.parseInline(c.tokens):c.text;s+1<L&&t[s+1].type==="text";)c=t[++s],x+=`
-`+(c.tokens?this.parseInline(c.tokens):c.text);e+=n?this.renderer.paragraph(x):x;continue}default:{const I='Token with "'+c.type+'" type was not found.';if(this.options.silent){console.error(I);return}else throw new Error(I)}}}return e}parseInline(t,n){n=n||this.renderer;let e="",s,i,l;const o=t.length;for(s=0;s<o;s++){if(i=t[s],this.options.extensions&&this.options.extensions.renderers&&this.options.extensions.renderers[i.type]&&(l=this.options.extensions.renderers[i.type].call({parser:this},i),l!==!1||!["escape","html","link","image","strong","em","codespan","br","del","text"].includes(i.type))){e+=l||"";continue}switch(i.type){case"escape":{e+=n.text(i.text);break}case"html":{e+=n.html(i.text);break}case"link":{e+=n.link(i.href,i.title,this.parseInline(i.tokens,n));break}case"image":{e+=n.image(i.href,i.title,i.text);break}case"strong":{e+=n.strong(this.parseInline(i.tokens,n));break}case"em":{e+=n.em(this.parseInline(i.tokens,n));break}case"codespan":{e+=n.codespan(i.text);break}case"br":{e+=n.br();break}case"del":{e+=n.del(this.parseInline(i.tokens,n));break}case"text":{e+=n.text(i.text);break}default:{const a='Token with "'+i.type+'" type was not found.';if(this.options.silent){console.error(a);return}else throw new Error(a)}}}return e}}class de{constructor(t){this.options=t||se}preprocess(t){return t}postprocess(t){return t}}Ae(de,"passThroughHooks",new Set(["preprocess","postprocess"]));function fn(r,t,n){return e=>{if(e.message+=`
-Please report this to https://github.com/markedjs/marked.`,r){const s="<p>An error occurred:</p><pre>"+B(e.message+"",!0)+"</pre>";if(t)return Promise.resolve(s);if(n){n(null,s);return}return s}if(t)return Promise.reject(e);if(n){n(e);return}throw e}}function zt(r,t){return(n,e,s)=>{typeof e=="function"&&(s=e,e=null);const i={...e};e={...v.defaults,...i};const l=fn(e.silent,e.async,s);if(typeof n>"u"||n===null)return l(new Error("marked(): input parameter is undefined or null"));if(typeof n!="string")return l(new Error("marked(): input parameter is of type "+Object.prototype.toString.call(n)+", string expected"));if(un(e),e.hooks&&(e.hooks.options=e),s){const o=e.highlight;let a;try{e.hooks&&(n=e.hooks.preprocess(n)),a=r(n,e)}catch(g){return l(g)}const h=function(g){let x;if(!g)try{e.walkTokens&&v.walkTokens(a,e.walkTokens),x=t(a,e),e.hooks&&(x=e.hooks.postprocess(x))}catch(c){g=c}return e.highlight=o,g?l(g):s(null,x)};if(!o||o.length<3||(delete e.highlight,!a.length))return h();let p=0;v.walkTokens(a,function(g){g.type==="code"&&(p++,setTimeout(()=>{o(g.text,g.lang,function(x,c){if(x)return h(x);c!=null&&c!==g.text&&(g.text=c,g.escaped=!0),p--,p===0&&h()})},0))}),p===0&&h();return}if(e.async)return Promise.resolve(e.hooks?e.hooks.preprocess(n):n).then(o=>r(o,e)).then(o=>e.walkTokens?Promise.all(v.walkTokens(o,e.walkTokens)).then(()=>o):o).then(o=>t(o,e)).then(o=>e.hooks?e.hooks.postprocess(o):o).catch(l);try{e.hooks&&(n=e.hooks.preprocess(n));const o=r(n,e);e.walkTokens&&v.walkTokens(o,e.walkTokens);let a=t(o,e);return e.hooks&&(a=e.hooks.postprocess(a)),a}catch(o){return l(o)}}}function v(r,t,n){return zt(X.lex,K.parse)(r,t,n)}v.options=v.setOptions=function(r){return v.defaults={...v.defaults,...r},Wt(v.defaults),v};v.getDefaults=bt;v.defaults=se;v.use=function(...r){const t=v.defaults.extensions||{renderers:{},childTokens:{}};r.forEach(n=>{const e={...n};if(e.async=v.defaults.async||e.async||!1,n.extensions&&(n.extensions.forEach(s=>{if(!s.name)throw new Error("extension name required");if(s.renderer){const i=t.renderers[s.name];i?t.renderers[s.name]=function(...l){let o=s.renderer.apply(this,l);return o===!1&&(o=i.apply(this,l)),o}:t.renderers[s.name]=s.renderer}if(s.tokenizer){if(!s.level||s.level!=="block"&&s.level!=="inline")throw new Error("extension level must be 'block' or 'inline'");t[s.level]?t[s.level].unshift(s.tokenizer):t[s.level]=[s.tokenizer],s.start&&(s.level==="block"?t.startBlock?t.startBlock.push(s.start):t.startBlock=[s.start]:s.level==="inline"&&(t.startInline?t.startInline.push(s.start):t.startInline=[s.start]))}s.childTokens&&(t.childTokens[s.name]=s.childTokens)}),e.extensions=t),n.renderer){const s=v.defaults.renderer||new ze;for(const i in n.renderer){const l=s[i];s[i]=(...o)=>{let a=n.renderer[i].apply(s,o);return a===!1&&(a=l.apply(s,o)),a}}e.renderer=s}if(n.tokenizer){const s=v.defaults.tokenizer||new $e;for(const i in n.tokenizer){const l=s[i];s[i]=(...o)=>{let a=n.tokenizer[i].apply(s,o);return a===!1&&(a=l.apply(s,o)),a}}e.tokenizer=s}if(n.hooks){const s=v.defaults.hooks||new de;for(const i in n.hooks){const l=s[i];de.passThroughHooks.has(i)?s[i]=o=>{if(v.defaults.async)return Promise.resolve(n.hooks[i].call(s,o)).then(h=>l.call(s,h));const a=n.hooks[i].call(s,o);return l.call(s,a)}:s[i]=(...o)=>{let a=n.hooks[i].apply(s,o);return a===!1&&(a=l.apply(s,o)),a}}e.hooks=s}if(n.walkTokens){const s=v.defaults.walkTokens;e.walkTokens=function(i){let l=[];return l.push(n.walkTokens.call(this,i)),s&&(l=l.concat(s.call(this,i))),l}}v.setOptions(e)})};v.walkTokens=function(r,t){let n=[];for(const e of r)switch(n=n.concat(t.call(v,e)),e.type){case"table":{for(const s of e.header)n=n.concat(v.walkTokens(s.tokens,t));for(const s of e.rows)for(const i of s)n=n.concat(v.walkTokens(i.tokens,t));break}case"list":{n=n.concat(v.walkTokens(e.items,t));break}default:v.defaults.extensions&&v.defaults.extensions.childTokens&&v.defaults.extensions.childTokens[e.type]?v.defaults.extensions.childTokens[e.type].forEach(function(s){n=n.concat(v.walkTokens(e[s],t))}):e.tokens&&(n=n.concat(v.walkTokens(e.tokens,t)))}return n};v.parseInline=zt(X.lexInline,K.parseInline);v.Parser=K;v.parser=K.parse;v.Renderer=ze;v.TextRenderer=yt;v.Lexer=X;v.lexer=X.lex;v.Tokenizer=$e;v.Slugger=$t;v.Hooks=de;v.parse=v;v.options;v.setOptions;v.use;v.walkTokens;v.parseInline;K.parse;X.lex;function gn(r){let t;return{c(){t=A("div"),this.h()},l(n){t=j(n,"DIV",{class:!0});var e=E(t);e.forEach(T),this.h()},h(){$(t,"class","md-output svelte-19wf98v")},m(n,e){H(n,t,e),t.innerHTML=r[0]},p(n,[e]){e&1&&(t.innerHTML=n[0])},i:je,o:je,d(n){n&&T(t)}}}function dn(r,t,n){let e,{source:s}=t;return v.use({renderer:{link(i,l,o){let a=`<a rel="external" href="${encodeURI(i)}" class="link"`;return l&&(a+=' title="'+l+'"'),a+=">"+o+"</a>",a}}}),r.$$set=i=>{"source"in i&&n(1,s=i.source)},r.$$.update=()=>{r.$$.dirty&2&&n(0,e=v.parse(s,{smartLists:!0,smartypants:!0}))},[e,s]}class mn extends me{constructor(t){super(),ke(this,t,dn,gn,_e,{source:1})}}function Ve(r,t,n){const e=r.slice();return e[4]=t[n],e}function Ue(r){let t,n=r[4]+"",e;return{c(){t=A("span"),e=F(n),this.h()},l(s){t=j(s,"SPAN",{class:!0});var i=E(t);e=J(i,n),i.forEach(T),this.h()},h(){$(t,"class","topic-tag svelte-dzqbq1")},m(s,i){H(s,t,i),z(t,e)},p(s,i){i&1&&n!==(n=s[4]+"")&&le(e,n)},d(s){s&&T(t)}}}function Ze(r){let t,n,e,s,i;return e=new Xe({props:{class:"w-4 h-4 ml-1"}}),{c(){t=A("a"),n=F(`View on GitHub
-          `),Y(e.$$.fragment),this.h()},l(l){t=j(l,"A",{href:!0,target:!0,rel:!0,class:!0});var o=E(t);n=J(o,`View on GitHub
-          `),ee(e.$$.fragment,o),o.forEach(T),this.h()},h(){$(t,"href",s="https://github.com/"+r[0].repo),$(t,"target","_blank"),$(t,"rel","noopener noreferrer"),$(t,"class","inline-flex items-center text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-blue-300 svelte-dzqbq1")},m(l,o){H(l,t,o),z(t,n),te(e,t,null),i=!0},p(l,o){(!i||o&1&&s!==(s="https://github.com/"+l[0].repo))&&$(t,"href",s)},i(l){i||(C(e.$$.fragment,l),i=!0)},o(l){P(e.$$.fragment,l),i=!1},d(l){l&&T(t),ne(e)}}}function kn(r){let t,n,e,s,i,l,o,a,h,p,g=r[0].title+"",x,c,_,b=r[0].date+"",d,S,u,k=r[0].lead+"",m,w,R,L,I,W,ie,re=r[0].topics,M=[];for(let D=0;D<re.length;D+=1)M[D]=Ue(Ve(r,re,D));let O=r[0].repo&&Ze(r);return{c(){t=A("div"),n=A("div"),e=A("div"),s=A("img"),o=U(),a=A("div"),h=A("div"),p=A("h3"),x=F(g),c=U(),_=A("span"),d=F(b),S=U(),u=A("p"),m=F(k),w=U(),R=A("div");for(let D=0;D<M.length;D+=1)M[D].c();L=U(),O&&O.c(),this.h()},l(D){t=j(D,"DIV",{class:!0});var N=E(t);n=j(N,"DIV",{class:!0});var Q=E(n);e=j(Q,"DIV",{class:!0});var V=E(e);s=j(V,"IMG",{src:!0,alt:!0,class:!0}),V.forEach(T),o=Z(Q),a=j(Q,"DIV",{class:!0});var G=E(a);h=j(G,"DIV",{class:!0});var ce=E(h);p=j(ce,"H3",{class:!0});var Se=E(p);x=J(Se,g),Se.forEach(T),c=Z(ce),_=j(ce,"SPAN",{class:!0});var Te=E(_);d=J(Te,b),Te.forEach(T),ce.forEach(T),S=Z(G),u=j(G,"P",{class:!0});var Re=E(u);m=J(Re,k),Re.forEach(T),w=Z(G),R=j(G,"DIV",{class:!0});var Ie=E(R);for(let be=0;be<M.length;be+=1)M[be].l(Ie);Ie.forEach(T),L=Z(G),O&&O.l(G),G.forEach(T),Q.forEach(T),N.forEach(T),this.h()},h(){var D;pe(s.src,i=(D=r[1][`../../projects/${r[0].image}`])==null?void 0:D.default)||$(s,"src",i),$(s,"alt",l=r[0].title+" preview"),$(s,"class","w-full h-full object-cover svelte-dzqbq1"),$(e,"class","aspect-video rounded-lg overflow-hidden mb-4 svelte-dzqbq1"),$(p,"class","text-xl font-semibold text-black dark:text-blue-300 max-w-[75%] svelte-dzqbq1"),$(_,"class","text-sm text-neutral-500 flex-shrink-0 svelte-dzqbq1"),$(h,"class","flex justify-between items-start mb-2 gap-4 svelte-dzqbq1"),$(u,"class","text-neutral-600 dark:text-neutral-300 mb-4 svelte-dzqbq1"),$(R,"class","flex flex-wrap gap-2 mb-4 svelte-dzqbq1"),$(a,"class","flex-1 svelte-dzqbq1"),$(n,"class","flex flex-col h-full svelte-dzqbq1"),$(t,"class","project-tile cursor-pointer svelte-dzqbq1")},m(D,N){H(D,t,N),z(t,n),z(n,e),z(e,s),z(n,o),z(n,a),z(a,h),z(h,p),z(p,x),z(h,c),z(h,_),z(_,d),z(a,S),z(a,u),z(u,m),z(a,w),z(a,R);for(let Q=0;Q<M.length;Q+=1)M[Q]&&M[Q].m(R,null);z(a,L),O&&O.m(a,null),I=!0,W||(ie=we(t,"click",function(){xe(r[2])&&r[2].apply(this,arguments)}),W=!0)},p(D,[N]){var Q;if(r=D,(!I||N&3&&!pe(s.src,i=(Q=r[1][`../../projects/${r[0].image}`])==null?void 0:Q.default))&&$(s,"src",i),(!I||N&1&&l!==(l=r[0].title+" preview"))&&$(s,"alt",l),(!I||N&1)&&g!==(g=r[0].title+"")&&le(x,g),(!I||N&1)&&b!==(b=r[0].date+"")&&le(d,b),(!I||N&1)&&k!==(k=r[0].lead+"")&&le(m,k),N&1){re=r[0].topics;let V;for(V=0;V<re.length;V+=1){const G=Ve(r,re,V);M[V]?M[V].p(G,N):(M[V]=Ue(G),M[V].c(),M[V].m(R,null))}for(;V<M.length;V+=1)M[V].d(1);M.length=re.length}r[0].repo?O?(O.p(r,N),N&1&&C(O,1)):(O=Ze(r),O.c(),C(O,1),O.m(a,null)):O&&(oe(),P(O,1,1,()=>{O=null}),ae())},i(D){I||(C(O),I=!0)},o(D){P(O),I=!1},d(D){D&&T(t),ye(M,D),O&&O.d(),W=!1,ie()}}}function _n(r,t,n){let{id:e}=t,{data:s}=t,{images:i}=t,{onClick:l}=t;return r.$$set=o=>{"id"in o&&n(3,e=o.id),"data"in o&&n(0,s=o.data),"images"in o&&n(1,i=o.images),"onClick"in o&&n(2,l=o.onClick)},[s,i,l,e]}class bn extends me{constructor(t){super(),ke(this,t,_n,kn,_e,{id:3,data:0,images:1,onClick:2})}}function Ne(r){let t,n,e,s,i,l,o,a,h,p,g,x;l=new Lt({props:{size:24}});const c=r[3].default,_=Rt(c,r,r[2],null);return{c(){t=A("div"),n=A("div"),e=U(),s=A("div"),i=A("button"),Y(l.$$.fragment),o=U(),a=A("div"),_&&_.c(),this.h()},l(b){t=j(b,"DIV",{class:!0});var d=E(t);n=j(d,"DIV",{class:!0}),E(n).forEach(T),e=Z(d),s=j(d,"DIV",{class:!0});var S=E(s);i=j(S,"BUTTON",{class:!0});var u=E(i);ee(l.$$.fragment,u),u.forEach(T),o=Z(S),a=j(S,"DIV",{class:!0});var k=E(a);_&&_.l(k),k.forEach(T),S.forEach(T),d.forEach(T),this.h()},h(){$(n,"class","absolute inset-0 bg-black/50 backdrop-blur-sm"),$(i,"class","absolute top-4 right-4 p-2 rounded-lg text-neutral-400 hover:text-black dark:hover:text-white transition-colors"),$(a,"class","p-6 sm:p-8"),$(s,"class","relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-neutral-900 rounded-2xl shadow-xl"),$(t,"class","fixed inset-0 z-50 flex items-center justify-center px-4 py-8")},m(b,d){H(b,t,d),z(t,n),z(t,e),z(t,s),z(s,i),te(l,i,null),z(s,o),z(s,a),_&&_.m(a,null),p=!0,g||(x=[we(n,"click",function(){xe(r[1])&&r[1].apply(this,arguments)}),we(i,"click",function(){xe(r[1])&&r[1].apply(this,arguments)})],g=!0)},p(b,d){r=b,_&&_.p&&(!p||d&4)&&It(_,c,r,r[2],p?jt(c,r[2],d,null):At(r[2]),null)},i(b){p||(C(l.$$.fragment,b),C(_,b),Et(()=>{p&&(h||(h=Ee(t,Ce,{duration:200},!0)),h.run(1))}),p=!0)},o(b){P(l.$$.fragment,b),P(_,b),h||(h=Ee(t,Ce,{duration:200},!1)),h.run(0),p=!1},d(b){b&&T(t),ne(l),_&&_.d(b),b&&h&&h.end(),g=!1,qt(x)}}}function wn(r){let t,n,e=r[0]&&Ne(r);return{c(){e&&e.c(),t=fe()},l(s){e&&e.l(s),t=fe()},m(s,i){e&&e.m(s,i),H(s,t,i),n=!0},p(s,[i]){s[0]?e?(e.p(s,i),i&1&&C(e,1)):(e=Ne(s),e.c(),C(e,1),e.m(t.parentNode,t)):e&&(oe(),P(e,1,1,()=>{e=null}),ae())},i(s){n||(C(e),n=!0)},o(s){P(e),n=!1},d(s){e&&e.d(s),s&&T(t)}}}function xn(r,t,n){let{$$slots:e={},$$scope:s}=t,{isOpen:i=!1}=t,{onClose:l}=t;return r.$$set=o=>{"isOpen"in o&&n(0,i=o.isOpen),"onClose"in o&&n(1,l=o.onClose),"$$scope"in o&&n(2,s=o.$$scope)},[i,l,s,e]}class vn extends me{constructor(t){super(),ke(this,t,xn,wn,_e,{isOpen:0,onClose:1})}}function He(r,t,n){const e=r.slice();return e[11]=t[n],e}function Qe(r,t,n){const e=r.slice();e[14]=t[n];const s=e[2][e[14]];return e[15]=s,e}function Ge(r){let t,n;function e(){return r[8](r[14])}return t=new bn({props:{id:ve(r[14])||"",data:r[15],images:r[3],onClick:e}}),{c(){Y(t.$$.fragment)},l(s){ee(t.$$.fragment,s)},m(s,i){te(t,s,i),n=!0},p(s,i){r=s;const l={};i&2&&(l.id=ve(r[14])||""),i&2&&(l.data=r[15]),i&2&&(l.onClick=e),t.$set(l)},i(s){n||(C(t.$$.fragment,s),n=!0)},o(s){P(t.$$.fragment,s),n=!1},d(s){ne(t,s)}}}function Fe(r){let t,n,e=r[0].title+"",s,i,l,o,a,h,p,g,x,c,_,b,d,S=r[0].topics,u=[];for(let m=0;m<S.length;m+=1)u[m]=Je(He(r,S,m));_=new mn({props:{source:r[0].content}});let k=r[0].repo&&We(r);return{c(){t=A("div"),n=A("h2"),s=F(e),i=U(),l=A("div");for(let m=0;m<u.length;m+=1)u[m].c();o=U(),a=A("div"),h=A("img"),x=U(),c=A("div"),Y(_.$$.fragment),b=U(),k&&k.c(),this.h()},l(m){t=j(m,"DIV",{class:!0});var w=E(t);n=j(w,"H2",{class:!0});var R=E(n);s=J(R,e),R.forEach(T),i=Z(w),l=j(w,"DIV",{class:!0});var L=E(l);for(let ie=0;ie<u.length;ie+=1)u[ie].l(L);L.forEach(T),o=Z(w),a=j(w,"DIV",{class:!0});var I=E(a);h=j(I,"IMG",{src:!0,alt:!0,class:!0}),I.forEach(T),x=Z(w),c=j(w,"DIV",{class:!0});var W=E(c);ee(_.$$.fragment,W),W.forEach(T),b=Z(w),k&&k.l(w),w.forEach(T),this.h()},h(){var m;$(n,"class","text-2xl font-bold text-black dark:text-blue-300 svelte-1kfgzdq"),$(l,"class","flex flex-wrap gap-2 svelte-1kfgzdq"),pe(h.src,p=(m=r[3][`../../projects/${r[0].image}`])==null?void 0:m.default)||$(h,"src",p),$(h,"alt",g=r[0].title),$(h,"class","w-full h-full object-cover svelte-1kfgzdq"),$(a,"class","aspect-video rounded-lg overflow-hidden svelte-1kfgzdq"),$(c,"class","prose dark:prose-invert max-w-none svelte-1kfgzdq"),$(t,"class","space-y-6 svelte-1kfgzdq")},m(m,w){H(m,t,w),z(t,n),z(n,s),z(t,i),z(t,l);for(let R=0;R<u.length;R+=1)u[R]&&u[R].m(l,null);z(t,o),z(t,a),z(a,h),z(t,x),z(t,c),te(_,c,null),z(t,b),k&&k.m(t,null),d=!0},p(m,w){var L;if((!d||w&1)&&e!==(e=m[0].title+"")&&le(s,e),w&1){S=m[0].topics;let I;for(I=0;I<S.length;I+=1){const W=He(m,S,I);u[I]?u[I].p(W,w):(u[I]=Je(W),u[I].c(),u[I].m(l,null))}for(;I<u.length;I+=1)u[I].d(1);u.length=S.length}(!d||w&1&&!pe(h.src,p=(L=m[3][`../../projects/${m[0].image}`])==null?void 0:L.default))&&$(h,"src",p),(!d||w&1&&g!==(g=m[0].title))&&$(h,"alt",g);const R={};w&1&&(R.source=m[0].content),_.$set(R),m[0].repo?k?(k.p(m,w),w&1&&C(k,1)):(k=We(m),k.c(),C(k,1),k.m(t,null)):k&&(oe(),P(k,1,1,()=>{k=null}),ae())},i(m){d||(C(_.$$.fragment,m),C(k),d=!0)},o(m){P(_.$$.fragment,m),P(k),d=!1},d(m){m&&T(t),ye(u,m),ne(_),k&&k.d()}}}function Je(r){let t,n=r[11]+"",e;return{c(){t=A("span"),e=F(n),this.h()},l(s){t=j(s,"SPAN",{class:!0});var i=E(t);e=J(i,n),i.forEach(T),this.h()},h(){$(t,"class","topic-tag svelte-1kfgzdq")},m(s,i){H(s,t,i),z(t,e)},p(s,i){i&1&&n!==(n=s[11]+"")&&le(e,n)},d(s){s&&T(t)}}}function We(r){let t,n,e,s,i;return e=new Xe({props:{class:"w-4 h-4"}}),{c(){t=A("a"),n=F(`View on GitHub
-          `),Y(e.$$.fragment),this.h()},l(l){t=j(l,"A",{href:!0,target:!0,rel:!0,class:!0});var o=E(t);n=J(o,`View on GitHub
-          `),ee(e.$$.fragment,o),o.forEach(T),this.h()},h(){$(t,"href",s="https://github.com/"+r[0].repo),$(t,"target","_blank"),$(t,"rel","noopener noreferrer"),$(t,"class","inline-flex items-center gap-2 px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-lg text-black dark:text-white hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors svelte-1kfgzdq")},m(l,o){H(l,t,o),z(t,n),te(e,t,null),i=!0},p(l,o){(!i||o&1&&s!==(s="https://github.com/"+l[0].repo))&&$(t,"href",s)},i(l){i||(C(e.$$.fragment,l),i=!0)},o(l){P(e.$$.fragment,l),i=!1},d(l){l&&T(t),ne(e)}}}function yn(r){let t,n,e=r[0]&&Fe(r);return{c(){e&&e.c(),t=fe()},l(s){e&&e.l(s),t=fe()},m(s,i){e&&e.m(s,i),H(s,t,i),n=!0},p(s,i){s[0]?e?(e.p(s,i),i&1&&C(e,1)):(e=Fe(s),e.c(),C(e,1),e.m(t.parentNode,t)):e&&(oe(),P(e,1,1,()=>{e=null}),ae())},i(s){n||(C(e),n=!0)},o(s){P(e),n=!1},d(s){e&&e.d(s),s&&T(t)}}}function $n(r){let t,n,e,s,i,l,o,a,h,p,g,x,c,_;t=new Ot({props:{title:"Florian Pfleiderer - Projects",description:"A collection of my software projects and research work."}});let b=r[1],d=[];for(let u=0;u<b.length;u+=1)d[u]=Ge(Qe(r,b,u));const S=u=>P(d[u],1,1,()=>{d[u]=null});return c=new vn({props:{isOpen:!!r[0],onClose:r[5],$$slots:{default:[yn]},$$scope:{ctx:r}}}),{c(){Y(t.$$.fragment),n=U(),e=A("div"),s=A("div"),i=A("h1"),l=F("Projects"),o=U(),a=A("p"),h=F(`A showcase of my work in robotics, computer vision, and software
+`;
+  }
+  tablecell(t, n) {
+    const e = n.header ? "th" : "td";
+    return (
+      (n.align ? `<${e} align="${n.align}">` : `<${e}>`) +
+      t +
+      `</${e}>
+`
+    );
+  }
+  strong(t) {
+    return `<strong>${t}</strong>`;
+  }
+  em(t) {
+    return `<em>${t}</em>`;
+  }
+  codespan(t) {
+    return `<code>${t}</code>`;
+  }
+  br() {
+    return this.options.xhtml ? "<br/>" : "<br>";
+  }
+  del(t) {
+    return `<del>${t}</del>`;
+  }
+  link(t, n, e) {
+    if (((t = Oe(this.options.sanitize, this.options.baseUrl, t)), t === null))
+      return e;
+    let s = '<a href="' + t + '"';
+    return n && (s += ' title="' + n + '"'), (s += ">" + e + "</a>"), s;
+  }
+  image(t, n, e) {
+    if (((t = Oe(this.options.sanitize, this.options.baseUrl, t)), t === null))
+      return e;
+    let s = `<img src="${t}" alt="${e}"`;
+    return (
+      n && (s += ` title="${n}"`), (s += this.options.xhtml ? "/>" : ">"), s
+    );
+  }
+  text(t) {
+    return t;
+  }
+}
+class yt {
+  strong(t) {
+    return t;
+  }
+  em(t) {
+    return t;
+  }
+  codespan(t) {
+    return t;
+  }
+  del(t) {
+    return t;
+  }
+  html(t) {
+    return t;
+  }
+  text(t) {
+    return t;
+  }
+  link(t, n, e) {
+    return "" + e;
+  }
+  image(t, n, e) {
+    return "" + e;
+  }
+  br() {
+    return "";
+  }
+}
+class $t {
+  constructor() {
+    this.seen = {};
+  }
+  serialize(t) {
+    return t
+      .toLowerCase()
+      .trim()
+      .replace(/<[!\/a-z].*?>/gi, "")
+      .replace(
+        /[\u2000-\u206F\u2E00-\u2E7F\\'!"#$%&()*+,./:;<=>?@[\]^`{|}~]/g,
+        ""
+      )
+      .replace(/\s/g, "-");
+  }
+  getNextSafeSlug(t, n) {
+    let e = t,
+      s = 0;
+    if (this.seen.hasOwnProperty(e)) {
+      s = this.seen[t];
+      do s++, (e = t + "-" + s);
+      while (this.seen.hasOwnProperty(e));
+    }
+    return n || ((this.seen[t] = s), (this.seen[e] = 0)), e;
+  }
+  slug(t, n = {}) {
+    const e = this.serialize(t);
+    return this.getNextSafeSlug(e, n.dryrun);
+  }
+}
+class K {
+  constructor(t) {
+    (this.options = t || se),
+      (this.options.renderer = this.options.renderer || new ze()),
+      (this.renderer = this.options.renderer),
+      (this.renderer.options = this.options),
+      (this.textRenderer = new yt()),
+      (this.slugger = new $t());
+  }
+  static parse(t, n) {
+    return new K(n).parse(t);
+  }
+  static parseInline(t, n) {
+    return new K(n).parseInline(t);
+  }
+  parse(t, n = !0) {
+    let e = "",
+      s,
+      i,
+      l,
+      o,
+      a,
+      h,
+      p,
+      g,
+      x,
+      c,
+      _,
+      b,
+      d,
+      S,
+      u,
+      k,
+      m,
+      w,
+      R;
+    const L = t.length;
+    for (s = 0; s < L; s++) {
+      if (
+        ((c = t[s]),
+        this.options.extensions &&
+          this.options.extensions.renderers &&
+          this.options.extensions.renderers[c.type] &&
+          ((R = this.options.extensions.renderers[c.type].call(
+            { parser: this },
+            c
+          )),
+          R !== !1 ||
+            ![
+              "space",
+              "hr",
+              "heading",
+              "code",
+              "table",
+              "blockquote",
+              "list",
+              "html",
+              "paragraph",
+              "text",
+            ].includes(c.type)))
+      ) {
+        e += R || "";
+        continue;
+      }
+      switch (c.type) {
+        case "space":
+          continue;
+        case "hr": {
+          e += this.renderer.hr();
+          continue;
+        }
+        case "heading": {
+          e += this.renderer.heading(
+            this.parseInline(c.tokens),
+            c.depth,
+            vt(this.parseInline(c.tokens, this.textRenderer)),
+            this.slugger
+          );
+          continue;
+        }
+        case "code": {
+          e += this.renderer.code(c.text, c.lang, c.escaped);
+          continue;
+        }
+        case "table": {
+          for (g = "", p = "", o = c.header.length, i = 0; i < o; i++)
+            p += this.renderer.tablecell(this.parseInline(c.header[i].tokens), {
+              header: !0,
+              align: c.align[i],
+            });
+          for (
+            g += this.renderer.tablerow(p), x = "", o = c.rows.length, i = 0;
+            i < o;
+            i++
+          ) {
+            for (h = c.rows[i], p = "", a = h.length, l = 0; l < a; l++)
+              p += this.renderer.tablecell(this.parseInline(h[l].tokens), {
+                header: !1,
+                align: c.align[l],
+              });
+            x += this.renderer.tablerow(p);
+          }
+          e += this.renderer.table(g, x);
+          continue;
+        }
+        case "blockquote": {
+          (x = this.parse(c.tokens)), (e += this.renderer.blockquote(x));
+          continue;
+        }
+        case "list": {
+          for (
+            _ = c.ordered,
+              b = c.start,
+              d = c.loose,
+              o = c.items.length,
+              x = "",
+              i = 0;
+            i < o;
+            i++
+          )
+            (u = c.items[i]),
+              (k = u.checked),
+              (m = u.task),
+              (S = ""),
+              u.task &&
+                ((w = this.renderer.checkbox(k)),
+                d
+                  ? u.tokens.length > 0 && u.tokens[0].type === "paragraph"
+                    ? ((u.tokens[0].text = w + " " + u.tokens[0].text),
+                      u.tokens[0].tokens &&
+                        u.tokens[0].tokens.length > 0 &&
+                        u.tokens[0].tokens[0].type === "text" &&
+                        (u.tokens[0].tokens[0].text =
+                          w + " " + u.tokens[0].tokens[0].text))
+                    : u.tokens.unshift({ type: "text", text: w })
+                  : (S += w)),
+              (S += this.parse(u.tokens, d)),
+              (x += this.renderer.listitem(S, m, k));
+          e += this.renderer.list(x, _, b);
+          continue;
+        }
+        case "html": {
+          e += this.renderer.html(c.text);
+          continue;
+        }
+        case "paragraph": {
+          e += this.renderer.paragraph(this.parseInline(c.tokens));
+          continue;
+        }
+        case "text": {
+          for (
+            x = c.tokens ? this.parseInline(c.tokens) : c.text;
+            s + 1 < L && t[s + 1].type === "text";
+
+          )
+            (c = t[++s]),
+              (x +=
+                `
+` + (c.tokens ? this.parseInline(c.tokens) : c.text));
+          e += n ? this.renderer.paragraph(x) : x;
+          continue;
+        }
+        default: {
+          const I = 'Token with "' + c.type + '" type was not found.';
+          if (this.options.silent) {
+            console.error(I);
+            return;
+          } else throw new Error(I);
+        }
+      }
+    }
+    return e;
+  }
+  parseInline(t, n) {
+    n = n || this.renderer;
+    let e = "",
+      s,
+      i,
+      l;
+    const o = t.length;
+    for (s = 0; s < o; s++) {
+      if (
+        ((i = t[s]),
+        this.options.extensions &&
+          this.options.extensions.renderers &&
+          this.options.extensions.renderers[i.type] &&
+          ((l = this.options.extensions.renderers[i.type].call(
+            { parser: this },
+            i
+          )),
+          l !== !1 ||
+            ![
+              "escape",
+              "html",
+              "link",
+              "image",
+              "strong",
+              "em",
+              "codespan",
+              "br",
+              "del",
+              "text",
+            ].includes(i.type)))
+      ) {
+        e += l || "";
+        continue;
+      }
+      switch (i.type) {
+        case "escape": {
+          e += n.text(i.text);
+          break;
+        }
+        case "html": {
+          e += n.html(i.text);
+          break;
+        }
+        case "link": {
+          e += n.link(i.href, i.title, this.parseInline(i.tokens, n));
+          break;
+        }
+        case "image": {
+          e += n.image(i.href, i.title, i.text);
+          break;
+        }
+        case "strong": {
+          e += n.strong(this.parseInline(i.tokens, n));
+          break;
+        }
+        case "em": {
+          e += n.em(this.parseInline(i.tokens, n));
+          break;
+        }
+        case "codespan": {
+          e += n.codespan(i.text);
+          break;
+        }
+        case "br": {
+          e += n.br();
+          break;
+        }
+        case "del": {
+          e += n.del(this.parseInline(i.tokens, n));
+          break;
+        }
+        case "text": {
+          e += n.text(i.text);
+          break;
+        }
+        default: {
+          const a = 'Token with "' + i.type + '" type was not found.';
+          if (this.options.silent) {
+            console.error(a);
+            return;
+          } else throw new Error(a);
+        }
+      }
+    }
+    return e;
+  }
+}
+class de {
+  constructor(t) {
+    this.options = t || se;
+  }
+  preprocess(t) {
+    return t;
+  }
+  postprocess(t) {
+    return t;
+  }
+}
+Ae(de, "passThroughHooks", new Set(["preprocess", "postprocess"]));
+function fn(r, t, n) {
+  return (e) => {
+    if (
+      ((e.message += `
+Please report this to https://github.com/markedjs/marked.`),
+      r)
+    ) {
+      const s =
+        "<p>An error occurred:</p><pre>" + B(e.message + "", !0) + "</pre>";
+      if (t) return Promise.resolve(s);
+      if (n) {
+        n(null, s);
+        return;
+      }
+      return s;
+    }
+    if (t) return Promise.reject(e);
+    if (n) {
+      n(e);
+      return;
+    }
+    throw e;
+  };
+}
+function zt(r, t) {
+  return (n, e, s) => {
+    typeof e == "function" && ((s = e), (e = null));
+    const i = { ...e };
+    e = { ...v.defaults, ...i };
+    const l = fn(e.silent, e.async, s);
+    if (typeof n > "u" || n === null)
+      return l(new Error("marked(): input parameter is undefined or null"));
+    if (typeof n != "string")
+      return l(
+        new Error(
+          "marked(): input parameter is of type " +
+            Object.prototype.toString.call(n) +
+            ", string expected"
+        )
+      );
+    if ((un(e), e.hooks && (e.hooks.options = e), s)) {
+      const o = e.highlight;
+      let a;
+      try {
+        e.hooks && (n = e.hooks.preprocess(n)), (a = r(n, e));
+      } catch (g) {
+        return l(g);
+      }
+      const h = function (g) {
+        let x;
+        if (!g)
+          try {
+            e.walkTokens && v.walkTokens(a, e.walkTokens),
+              (x = t(a, e)),
+              e.hooks && (x = e.hooks.postprocess(x));
+          } catch (c) {
+            g = c;
+          }
+        return (e.highlight = o), g ? l(g) : s(null, x);
+      };
+      if (!o || o.length < 3 || (delete e.highlight, !a.length)) return h();
+      let p = 0;
+      v.walkTokens(a, function (g) {
+        g.type === "code" &&
+          (p++,
+          setTimeout(() => {
+            o(g.text, g.lang, function (x, c) {
+              if (x) return h(x);
+              c != null && c !== g.text && ((g.text = c), (g.escaped = !0)),
+                p--,
+                p === 0 && h();
+            });
+          }, 0));
+      }),
+        p === 0 && h();
+      return;
+    }
+    if (e.async)
+      return Promise.resolve(e.hooks ? e.hooks.preprocess(n) : n)
+        .then((o) => r(o, e))
+        .then((o) =>
+          e.walkTokens
+            ? Promise.all(v.walkTokens(o, e.walkTokens)).then(() => o)
+            : o
+        )
+        .then((o) => t(o, e))
+        .then((o) => (e.hooks ? e.hooks.postprocess(o) : o))
+        .catch(l);
+    try {
+      e.hooks && (n = e.hooks.preprocess(n));
+      const o = r(n, e);
+      e.walkTokens && v.walkTokens(o, e.walkTokens);
+      let a = t(o, e);
+      return e.hooks && (a = e.hooks.postprocess(a)), a;
+    } catch (o) {
+      return l(o);
+    }
+  };
+}
+function v(r, t, n) {
+  return zt(X.lex, K.parse)(r, t, n);
+}
+v.options = v.setOptions = function (r) {
+  return (v.defaults = { ...v.defaults, ...r }), Wt(v.defaults), v;
+};
+v.getDefaults = bt;
+v.defaults = se;
+v.use = function (...r) {
+  const t = v.defaults.extensions || { renderers: {}, childTokens: {} };
+  r.forEach((n) => {
+    const e = { ...n };
+    if (
+      ((e.async = v.defaults.async || e.async || !1),
+      n.extensions &&
+        (n.extensions.forEach((s) => {
+          if (!s.name) throw new Error("extension name required");
+          if (s.renderer) {
+            const i = t.renderers[s.name];
+            i
+              ? (t.renderers[s.name] = function (...l) {
+                  let o = s.renderer.apply(this, l);
+                  return o === !1 && (o = i.apply(this, l)), o;
+                })
+              : (t.renderers[s.name] = s.renderer);
+          }
+          if (s.tokenizer) {
+            if (!s.level || (s.level !== "block" && s.level !== "inline"))
+              throw new Error("extension level must be 'block' or 'inline'");
+            t[s.level]
+              ? t[s.level].unshift(s.tokenizer)
+              : (t[s.level] = [s.tokenizer]),
+              s.start &&
+                (s.level === "block"
+                  ? t.startBlock
+                    ? t.startBlock.push(s.start)
+                    : (t.startBlock = [s.start])
+                  : s.level === "inline" &&
+                    (t.startInline
+                      ? t.startInline.push(s.start)
+                      : (t.startInline = [s.start])));
+          }
+          s.childTokens && (t.childTokens[s.name] = s.childTokens);
+        }),
+        (e.extensions = t)),
+      n.renderer)
+    ) {
+      const s = v.defaults.renderer || new ze();
+      for (const i in n.renderer) {
+        const l = s[i];
+        s[i] = (...o) => {
+          let a = n.renderer[i].apply(s, o);
+          return a === !1 && (a = l.apply(s, o)), a;
+        };
+      }
+      e.renderer = s;
+    }
+    if (n.tokenizer) {
+      const s = v.defaults.tokenizer || new $e();
+      for (const i in n.tokenizer) {
+        const l = s[i];
+        s[i] = (...o) => {
+          let a = n.tokenizer[i].apply(s, o);
+          return a === !1 && (a = l.apply(s, o)), a;
+        };
+      }
+      e.tokenizer = s;
+    }
+    if (n.hooks) {
+      const s = v.defaults.hooks || new de();
+      for (const i in n.hooks) {
+        const l = s[i];
+        de.passThroughHooks.has(i)
+          ? (s[i] = (o) => {
+              if (v.defaults.async)
+                return Promise.resolve(n.hooks[i].call(s, o)).then((h) =>
+                  l.call(s, h)
+                );
+              const a = n.hooks[i].call(s, o);
+              return l.call(s, a);
+            })
+          : (s[i] = (...o) => {
+              let a = n.hooks[i].apply(s, o);
+              return a === !1 && (a = l.apply(s, o)), a;
+            });
+      }
+      e.hooks = s;
+    }
+    if (n.walkTokens) {
+      const s = v.defaults.walkTokens;
+      e.walkTokens = function (i) {
+        let l = [];
+        return (
+          l.push(n.walkTokens.call(this, i)),
+          s && (l = l.concat(s.call(this, i))),
+          l
+        );
+      };
+    }
+    v.setOptions(e);
+  });
+};
+v.walkTokens = function (r, t) {
+  let n = [];
+  for (const e of r)
+    switch (((n = n.concat(t.call(v, e))), e.type)) {
+      case "table": {
+        for (const s of e.header) n = n.concat(v.walkTokens(s.tokens, t));
+        for (const s of e.rows)
+          for (const i of s) n = n.concat(v.walkTokens(i.tokens, t));
+        break;
+      }
+      case "list": {
+        n = n.concat(v.walkTokens(e.items, t));
+        break;
+      }
+      default:
+        v.defaults.extensions &&
+        v.defaults.extensions.childTokens &&
+        v.defaults.extensions.childTokens[e.type]
+          ? v.defaults.extensions.childTokens[e.type].forEach(function (s) {
+              n = n.concat(v.walkTokens(e[s], t));
+            })
+          : e.tokens && (n = n.concat(v.walkTokens(e.tokens, t)));
+    }
+  return n;
+};
+v.parseInline = zt(X.lexInline, K.parseInline);
+v.Parser = K;
+v.parser = K.parse;
+v.Renderer = ze;
+v.TextRenderer = yt;
+v.Lexer = X;
+v.lexer = X.lex;
+v.Tokenizer = $e;
+v.Slugger = $t;
+v.Hooks = de;
+v.parse = v;
+v.options;
+v.setOptions;
+v.use;
+v.walkTokens;
+v.parseInline;
+K.parse;
+X.lex;
+function gn(r) {
+  let t;
+  return {
+    c() {
+      (t = A("div")), this.h();
+    },
+    l(n) {
+      t = j(n, "DIV", { class: !0 });
+      var e = E(t);
+      e.forEach(T), this.h();
+    },
+    h() {
+      $(t, "class", "md-output svelte-19wf98v");
+    },
+    m(n, e) {
+      H(n, t, e), (t.innerHTML = r[0]);
+    },
+    p(n, [e]) {
+      e & 1 && (t.innerHTML = n[0]);
+    },
+    i: je,
+    o: je,
+    d(n) {
+      n && T(t);
+    },
+  };
+}
+function dn(r, t, n) {
+  let e,
+    { source: s } = t;
+  return (
+    v.use({
+      renderer: {
+        link(i, l, o) {
+          let a = `<a rel="external" href="${encodeURI(i)}" class="link"`;
+          return l && (a += ' title="' + l + '"'), (a += ">" + o + "</a>"), a;
+        },
+      },
+    }),
+    (r.$$set = (i) => {
+      "source" in i && n(1, (s = i.source));
+    }),
+    (r.$$.update = () => {
+      r.$$.dirty & 2 &&
+        n(0, (e = v.parse(s, { smartLists: !0, smartypants: !0 })));
+    }),
+    [e, s]
+  );
+}
+class mn extends me {
+  constructor(t) {
+    super(), ke(this, t, dn, gn, _e, { source: 1 });
+  }
+}
+function Ve(r, t, n) {
+  const e = r.slice();
+  return (e[4] = t[n]), e;
+}
+function Ue(r) {
+  let t,
+    n = r[4] + "",
+    e;
+  return {
+    c() {
+      (t = A("span")), (e = F(n)), this.h();
+    },
+    l(s) {
+      t = j(s, "SPAN", { class: !0 });
+      var i = E(t);
+      (e = J(i, n)), i.forEach(T), this.h();
+    },
+    h() {
+      $(t, "class", "topic-tag svelte-dzqbq1");
+    },
+    m(s, i) {
+      H(s, t, i), z(t, e);
+    },
+    p(s, i) {
+      i & 1 && n !== (n = s[4] + "") && le(e, n);
+    },
+    d(s) {
+      s && T(t);
+    },
+  };
+}
+function Ze(r) {
+  let t, n, e, s, i;
+  return (
+    (e = new Xe({ props: { class: "w-4 h-4 ml-1" } })),
+    {
+      c() {
+        (t = A("a")),
+          (n = F(`View on GitHub
+          `)),
+          Y(e.$$.fragment),
+          this.h();
+      },
+      l(l) {
+        t = j(l, "A", { href: !0, target: !0, rel: !0, class: !0 });
+        var o = E(t);
+        (n = J(
+          o,
+          `View on GitHub
+          `
+        )),
+          ee(e.$$.fragment, o),
+          o.forEach(T),
+          this.h();
+      },
+      h() {
+        $(t, "href", (s = "https://github.com/" + r[0].repo)),
+          $(t, "target", "_blank"),
+          $(t, "rel", "noopener noreferrer"),
+          $(
+            t,
+            "class",
+            "inline-flex items-center text-sm text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-blue-300 svelte-dzqbq1"
+          );
+      },
+      m(l, o) {
+        H(l, t, o), z(t, n), te(e, t, null), (i = !0);
+      },
+      p(l, o) {
+        (!i || (o & 1 && s !== (s = "https://github.com/" + l[0].repo))) &&
+          $(t, "href", s);
+      },
+      i(l) {
+        i || (C(e.$$.fragment, l), (i = !0));
+      },
+      o(l) {
+        P(e.$$.fragment, l), (i = !1);
+      },
+      d(l) {
+        l && T(t), ne(e);
+      },
+    }
+  );
+}
+function kn(r) {
+  let t,
+    n,
+    e,
+    s,
+    i,
+    l,
+    o,
+    a,
+    h,
+    p,
+    g = r[0].title + "",
+    x,
+    c,
+    _,
+    b = r[0].date + "",
+    d,
+    S,
+    u,
+    k = r[0].lead + "",
+    m,
+    w,
+    R,
+    L,
+    I,
+    W,
+    ie,
+    re = r[0].topics,
+    M = [];
+  for (let D = 0; D < re.length; D += 1) M[D] = Ue(Ve(r, re, D));
+  let O = r[0].repo && Ze(r);
+  return {
+    c() {
+      (t = A("div")),
+        (n = A("div")),
+        (e = A("div")),
+        (s = A("img")),
+        (o = U()),
+        (a = A("div")),
+        (h = A("div")),
+        (p = A("h3")),
+        (x = F(g)),
+        (c = U()),
+        (_ = A("span")),
+        (d = F(b)),
+        (S = U()),
+        (u = A("p")),
+        (m = F(k)),
+        (w = U()),
+        (R = A("div"));
+      for (let D = 0; D < M.length; D += 1) M[D].c();
+      (L = U()), O && O.c(), this.h();
+    },
+    l(D) {
+      t = j(D, "DIV", { class: !0 });
+      var N = E(t);
+      n = j(N, "DIV", { class: !0 });
+      var Q = E(n);
+      e = j(Q, "DIV", { class: !0 });
+      var V = E(e);
+      (s = j(V, "IMG", { src: !0, alt: !0, class: !0 })),
+        V.forEach(T),
+        (o = Z(Q)),
+        (a = j(Q, "DIV", { class: !0 }));
+      var G = E(a);
+      h = j(G, "DIV", { class: !0 });
+      var ce = E(h);
+      p = j(ce, "H3", { class: !0 });
+      var Se = E(p);
+      (x = J(Se, g)),
+        Se.forEach(T),
+        (c = Z(ce)),
+        (_ = j(ce, "SPAN", { class: !0 }));
+      var Te = E(_);
+      (d = J(Te, b)),
+        Te.forEach(T),
+        ce.forEach(T),
+        (S = Z(G)),
+        (u = j(G, "P", { class: !0 }));
+      var Re = E(u);
+      (m = J(Re, k)),
+        Re.forEach(T),
+        (w = Z(G)),
+        (R = j(G, "DIV", { class: !0 }));
+      var Ie = E(R);
+      for (let be = 0; be < M.length; be += 1) M[be].l(Ie);
+      Ie.forEach(T),
+        (L = Z(G)),
+        O && O.l(G),
+        G.forEach(T),
+        Q.forEach(T),
+        N.forEach(T),
+        this.h();
+    },
+    h() {
+      var D;
+      pe(
+        s.src,
+        (i =
+          (D = r[1][`../../projects/${r[0].image}`]) == null
+            ? void 0
+            : D.default)
+      ) || $(s, "src", i),
+        $(s, "alt", (l = r[0].title + " preview")),
+        $(s, "class", "w-full h-full object-cover svelte-dzqbq1"),
+        $(
+          e,
+          "class",
+          "aspect-video rounded-lg overflow-hidden mb-4 svelte-dzqbq1"
+        ),
+        $(
+          p,
+          "class",
+          "text-xl font-semibold text-black dark:text-blue-300 max-w-[75%] svelte-dzqbq1"
+        ),
+        $(_, "class", "text-sm text-neutral-500 flex-shrink-0 svelte-dzqbq1"),
+        $(
+          h,
+          "class",
+          "flex justify-between items-start mb-2 gap-4 svelte-dzqbq1"
+        ),
+        $(
+          u,
+          "class",
+          "text-neutral-600 dark:text-neutral-300 mb-4 svelte-dzqbq1"
+        ),
+        $(R, "class", "flex flex-wrap gap-2 mb-4 svelte-dzqbq1"),
+        $(a, "class", "flex-1 svelte-dzqbq1"),
+        $(n, "class", "flex flex-col h-full svelte-dzqbq1"),
+        $(t, "class", "project-tile cursor-pointer svelte-dzqbq1");
+    },
+    m(D, N) {
+      H(D, t, N),
+        z(t, n),
+        z(n, e),
+        z(e, s),
+        z(n, o),
+        z(n, a),
+        z(a, h),
+        z(h, p),
+        z(p, x),
+        z(h, c),
+        z(h, _),
+        z(_, d),
+        z(a, S),
+        z(a, u),
+        z(u, m),
+        z(a, w),
+        z(a, R);
+      for (let Q = 0; Q < M.length; Q += 1) M[Q] && M[Q].m(R, null);
+      z(a, L),
+        O && O.m(a, null),
+        (I = !0),
+        W ||
+          ((ie = we(t, "click", function () {
+            xe(r[2]) && r[2].apply(this, arguments);
+          })),
+          (W = !0));
+    },
+    p(D, [N]) {
+      var Q;
+      if (
+        ((r = D),
+        (!I ||
+          (N & 3 &&
+            !pe(
+              s.src,
+              (i =
+                (Q = r[1][`../../projects/${r[0].image}`]) == null
+                  ? void 0
+                  : Q.default)
+            ))) &&
+          $(s, "src", i),
+        (!I || (N & 1 && l !== (l = r[0].title + " preview"))) &&
+          $(s, "alt", l),
+        (!I || N & 1) && g !== (g = r[0].title + "") && le(x, g),
+        (!I || N & 1) && b !== (b = r[0].date + "") && le(d, b),
+        (!I || N & 1) && k !== (k = r[0].lead + "") && le(m, k),
+        N & 1)
+      ) {
+        re = r[0].topics;
+        let V;
+        for (V = 0; V < re.length; V += 1) {
+          const G = Ve(r, re, V);
+          M[V] ? M[V].p(G, N) : ((M[V] = Ue(G)), M[V].c(), M[V].m(R, null));
+        }
+        for (; V < M.length; V += 1) M[V].d(1);
+        M.length = re.length;
+      }
+      r[0].repo
+        ? O
+          ? (O.p(r, N), N & 1 && C(O, 1))
+          : ((O = Ze(r)), O.c(), C(O, 1), O.m(a, null))
+        : O &&
+          (oe(),
+          P(O, 1, 1, () => {
+            O = null;
+          }),
+          ae());
+    },
+    i(D) {
+      I || (C(O), (I = !0));
+    },
+    o(D) {
+      P(O), (I = !1);
+    },
+    d(D) {
+      D && T(t), ye(M, D), O && O.d(), (W = !1), ie();
+    },
+  };
+}
+function _n(r, t, n) {
+  let { id: e } = t,
+    { data: s } = t,
+    { images: i } = t,
+    { onClick: l } = t;
+  return (
+    (r.$$set = (o) => {
+      "id" in o && n(3, (e = o.id)),
+        "data" in o && n(0, (s = o.data)),
+        "images" in o && n(1, (i = o.images)),
+        "onClick" in o && n(2, (l = o.onClick));
+    }),
+    [s, i, l, e]
+  );
+}
+class bn extends me {
+  constructor(t) {
+    super(), ke(this, t, _n, kn, _e, { id: 3, data: 0, images: 1, onClick: 2 });
+  }
+}
+function Ne(r) {
+  let t, n, e, s, i, l, o, a, h, p, g, x;
+  l = new Lt({ props: { size: 24 } });
+  const c = r[3].default,
+    _ = Rt(c, r, r[2], null);
+  return {
+    c() {
+      (t = A("div")),
+        (n = A("div")),
+        (e = U()),
+        (s = A("div")),
+        (i = A("button")),
+        Y(l.$$.fragment),
+        (o = U()),
+        (a = A("div")),
+        _ && _.c(),
+        this.h();
+    },
+    l(b) {
+      t = j(b, "DIV", { class: !0 });
+      var d = E(t);
+      (n = j(d, "DIV", { class: !0 })),
+        E(n).forEach(T),
+        (e = Z(d)),
+        (s = j(d, "DIV", { class: !0 }));
+      var S = E(s);
+      i = j(S, "BUTTON", { class: !0 });
+      var u = E(i);
+      ee(l.$$.fragment, u),
+        u.forEach(T),
+        (o = Z(S)),
+        (a = j(S, "DIV", { class: !0 }));
+      var k = E(a);
+      _ && _.l(k), k.forEach(T), S.forEach(T), d.forEach(T), this.h();
+    },
+    h() {
+      $(n, "class", "absolute inset-0 bg-black/50 backdrop-blur-sm"),
+        $(
+          i,
+          "class",
+          "absolute top-4 right-4 p-2 rounded-lg text-neutral-400 hover:text-black dark:hover:text-white transition-colors"
+        ),
+        $(a, "class", "p-6 sm:p-8"),
+        $(
+          s,
+          "class",
+          "relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-neutral-900 rounded-2xl shadow-xl"
+        ),
+        $(
+          t,
+          "class",
+          "fixed inset-0 z-50 flex items-center justify-center px-4 py-8"
+        );
+    },
+    m(b, d) {
+      H(b, t, d),
+        z(t, n),
+        z(t, e),
+        z(t, s),
+        z(s, i),
+        te(l, i, null),
+        z(s, o),
+        z(s, a),
+        _ && _.m(a, null),
+        (p = !0),
+        g ||
+          ((x = [
+            we(n, "click", function () {
+              xe(r[1]) && r[1].apply(this, arguments);
+            }),
+            we(i, "click", function () {
+              xe(r[1]) && r[1].apply(this, arguments);
+            }),
+          ]),
+          (g = !0));
+    },
+    p(b, d) {
+      (r = b),
+        _ &&
+          _.p &&
+          (!p || d & 4) &&
+          It(_, c, r, r[2], p ? jt(c, r[2], d, null) : At(r[2]), null);
+    },
+    i(b) {
+      p ||
+        (C(l.$$.fragment, b),
+        C(_, b),
+        Et(() => {
+          p && (h || (h = Ee(t, Ce, { duration: 200 }, !0)), h.run(1));
+        }),
+        (p = !0));
+    },
+    o(b) {
+      P(l.$$.fragment, b),
+        P(_, b),
+        h || (h = Ee(t, Ce, { duration: 200 }, !1)),
+        h.run(0),
+        (p = !1);
+    },
+    d(b) {
+      b && T(t), ne(l), _ && _.d(b), b && h && h.end(), (g = !1), qt(x);
+    },
+  };
+}
+function wn(r) {
+  let t,
+    n,
+    e = r[0] && Ne(r);
+  return {
+    c() {
+      e && e.c(), (t = fe());
+    },
+    l(s) {
+      e && e.l(s), (t = fe());
+    },
+    m(s, i) {
+      e && e.m(s, i), H(s, t, i), (n = !0);
+    },
+    p(s, [i]) {
+      s[0]
+        ? e
+          ? (e.p(s, i), i & 1 && C(e, 1))
+          : ((e = Ne(s)), e.c(), C(e, 1), e.m(t.parentNode, t))
+        : e &&
+          (oe(),
+          P(e, 1, 1, () => {
+            e = null;
+          }),
+          ae());
+    },
+    i(s) {
+      n || (C(e), (n = !0));
+    },
+    o(s) {
+      P(e), (n = !1);
+    },
+    d(s) {
+      e && e.d(s), s && T(t);
+    },
+  };
+}
+function xn(r, t, n) {
+  let { $$slots: e = {}, $$scope: s } = t,
+    { isOpen: i = !1 } = t,
+    { onClose: l } = t;
+  return (
+    (r.$$set = (o) => {
+      "isOpen" in o && n(0, (i = o.isOpen)),
+        "onClose" in o && n(1, (l = o.onClose)),
+        "$$scope" in o && n(2, (s = o.$$scope));
+    }),
+    [i, l, s, e]
+  );
+}
+class vn extends me {
+  constructor(t) {
+    super(), ke(this, t, xn, wn, _e, { isOpen: 0, onClose: 1 });
+  }
+}
+function He(r, t, n) {
+  const e = r.slice();
+  return (e[11] = t[n]), e;
+}
+function Qe(r, t, n) {
+  const e = r.slice();
+  e[14] = t[n];
+  const s = e[2][e[14]];
+  return (e[15] = s), e;
+}
+function Ge(r) {
+  let t, n;
+  function e() {
+    return r[8](r[14]);
+  }
+  return (
+    (t = new bn({
+      props: { id: ve(r[14]) || "", data: r[15], images: r[3], onClick: e },
+    })),
+    {
+      c() {
+        Y(t.$$.fragment);
+      },
+      l(s) {
+        ee(t.$$.fragment, s);
+      },
+      m(s, i) {
+        te(t, s, i), (n = !0);
+      },
+      p(s, i) {
+        r = s;
+        const l = {};
+        i & 2 && (l.id = ve(r[14]) || ""),
+          i & 2 && (l.data = r[15]),
+          i & 2 && (l.onClick = e),
+          t.$set(l);
+      },
+      i(s) {
+        n || (C(t.$$.fragment, s), (n = !0));
+      },
+      o(s) {
+        P(t.$$.fragment, s), (n = !1);
+      },
+      d(s) {
+        ne(t, s);
+      },
+    }
+  );
+}
+function Fe(r) {
+  let t,
+    n,
+    e = r[0].title + "",
+    s,
+    i,
+    l,
+    o,
+    a,
+    h,
+    p,
+    g,
+    x,
+    c,
+    _,
+    b,
+    d,
+    S = r[0].topics,
+    u = [];
+  for (let m = 0; m < S.length; m += 1) u[m] = Je(He(r, S, m));
+  _ = new mn({ props: { source: r[0].content } });
+  let k = r[0].repo && We(r);
+  return {
+    c() {
+      (t = A("div")), (n = A("h2")), (s = F(e)), (i = U()), (l = A("div"));
+      for (let m = 0; m < u.length; m += 1) u[m].c();
+      (o = U()),
+        (a = A("div")),
+        (h = A("img")),
+        (x = U()),
+        (c = A("div")),
+        Y(_.$$.fragment),
+        (b = U()),
+        k && k.c(),
+        this.h();
+    },
+    l(m) {
+      t = j(m, "DIV", { class: !0 });
+      var w = E(t);
+      n = j(w, "H2", { class: !0 });
+      var R = E(n);
+      (s = J(R, e)), R.forEach(T), (i = Z(w)), (l = j(w, "DIV", { class: !0 }));
+      var L = E(l);
+      for (let ie = 0; ie < u.length; ie += 1) u[ie].l(L);
+      L.forEach(T), (o = Z(w)), (a = j(w, "DIV", { class: !0 }));
+      var I = E(a);
+      (h = j(I, "IMG", { src: !0, alt: !0, class: !0 })),
+        I.forEach(T),
+        (x = Z(w)),
+        (c = j(w, "DIV", { class: !0 }));
+      var W = E(c);
+      ee(_.$$.fragment, W),
+        W.forEach(T),
+        (b = Z(w)),
+        k && k.l(w),
+        w.forEach(T),
+        this.h();
+    },
+    h() {
+      var m;
+      $(
+        n,
+        "class",
+        "text-2xl font-bold text-black dark:text-blue-300 svelte-1kfgzdq"
+      ),
+        $(l, "class", "flex flex-wrap gap-2 svelte-1kfgzdq"),
+        pe(
+          h.src,
+          (p =
+            (m = r[3][`../../projects/${r[0].image}`]) == null
+              ? void 0
+              : m.default)
+        ) || $(h, "src", p),
+        $(h, "alt", (g = r[0].title)),
+        $(h, "class", "w-full h-full object-cover svelte-1kfgzdq"),
+        $(a, "class", "aspect-video rounded-lg overflow-hidden svelte-1kfgzdq"),
+        $(c, "class", "prose dark:prose-invert max-w-none svelte-1kfgzdq"),
+        $(t, "class", "space-y-6 svelte-1kfgzdq");
+    },
+    m(m, w) {
+      H(m, t, w), z(t, n), z(n, s), z(t, i), z(t, l);
+      for (let R = 0; R < u.length; R += 1) u[R] && u[R].m(l, null);
+      z(t, o),
+        z(t, a),
+        z(a, h),
+        z(t, x),
+        z(t, c),
+        te(_, c, null),
+        z(t, b),
+        k && k.m(t, null),
+        (d = !0);
+    },
+    p(m, w) {
+      var L;
+      if (((!d || w & 1) && e !== (e = m[0].title + "") && le(s, e), w & 1)) {
+        S = m[0].topics;
+        let I;
+        for (I = 0; I < S.length; I += 1) {
+          const W = He(m, S, I);
+          u[I] ? u[I].p(W, w) : ((u[I] = Je(W)), u[I].c(), u[I].m(l, null));
+        }
+        for (; I < u.length; I += 1) u[I].d(1);
+        u.length = S.length;
+      }
+      (!d ||
+        (w & 1 &&
+          !pe(
+            h.src,
+            (p =
+              (L = m[3][`../../projects/${m[0].image}`]) == null
+                ? void 0
+                : L.default)
+          ))) &&
+        $(h, "src", p),
+        (!d || (w & 1 && g !== (g = m[0].title))) && $(h, "alt", g);
+      const R = {};
+      w & 1 && (R.source = m[0].content),
+        _.$set(R),
+        m[0].repo
+          ? k
+            ? (k.p(m, w), w & 1 && C(k, 1))
+            : ((k = We(m)), k.c(), C(k, 1), k.m(t, null))
+          : k &&
+            (oe(),
+            P(k, 1, 1, () => {
+              k = null;
+            }),
+            ae());
+    },
+    i(m) {
+      d || (C(_.$$.fragment, m), C(k), (d = !0));
+    },
+    o(m) {
+      P(_.$$.fragment, m), P(k), (d = !1);
+    },
+    d(m) {
+      m && T(t), ye(u, m), ne(_), k && k.d();
+    },
+  };
+}
+function Je(r) {
+  let t,
+    n = r[11] + "",
+    e;
+  return {
+    c() {
+      (t = A("span")), (e = F(n)), this.h();
+    },
+    l(s) {
+      t = j(s, "SPAN", { class: !0 });
+      var i = E(t);
+      (e = J(i, n)), i.forEach(T), this.h();
+    },
+    h() {
+      $(t, "class", "topic-tag svelte-1kfgzdq");
+    },
+    m(s, i) {
+      H(s, t, i), z(t, e);
+    },
+    p(s, i) {
+      i & 1 && n !== (n = s[11] + "") && le(e, n);
+    },
+    d(s) {
+      s && T(t);
+    },
+  };
+}
+function We(r) {
+  let t, n, e, s, i;
+  return (
+    (e = new Xe({ props: { class: "w-4 h-4" } })),
+    {
+      c() {
+        (t = A("a")),
+          (n = F(`View on GitHub
+          `)),
+          Y(e.$$.fragment),
+          this.h();
+      },
+      l(l) {
+        t = j(l, "A", { href: !0, target: !0, rel: !0, class: !0 });
+        var o = E(t);
+        (n = J(
+          o,
+          `View on GitHub
+          `
+        )),
+          ee(e.$$.fragment, o),
+          o.forEach(T),
+          this.h();
+      },
+      h() {
+        $(t, "href", (s = "https://github.com/" + r[0].repo)),
+          $(t, "target", "_blank"),
+          $(t, "rel", "noopener noreferrer"),
+          $(
+            t,
+            "class",
+            "inline-flex items-center gap-2 px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-lg text-black dark:text-white hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors svelte-1kfgzdq"
+          );
+      },
+      m(l, o) {
+        H(l, t, o), z(t, n), te(e, t, null), (i = !0);
+      },
+      p(l, o) {
+        (!i || (o & 1 && s !== (s = "https://github.com/" + l[0].repo))) &&
+          $(t, "href", s);
+      },
+      i(l) {
+        i || (C(e.$$.fragment, l), (i = !0));
+      },
+      o(l) {
+        P(e.$$.fragment, l), (i = !1);
+      },
+      d(l) {
+        l && T(t), ne(e);
+      },
+    }
+  );
+}
+function yn(r) {
+  let t,
+    n,
+    e = r[0] && Fe(r);
+  return {
+    c() {
+      e && e.c(), (t = fe());
+    },
+    l(s) {
+      e && e.l(s), (t = fe());
+    },
+    m(s, i) {
+      e && e.m(s, i), H(s, t, i), (n = !0);
+    },
+    p(s, i) {
+      s[0]
+        ? e
+          ? (e.p(s, i), i & 1 && C(e, 1))
+          : ((e = Fe(s)), e.c(), C(e, 1), e.m(t.parentNode, t))
+        : e &&
+          (oe(),
+          P(e, 1, 1, () => {
+            e = null;
+          }),
+          ae());
+    },
+    i(s) {
+      n || (C(e), (n = !0));
+    },
+    o(s) {
+      P(e), (n = !1);
+    },
+    d(s) {
+      e && e.d(s), s && T(t);
+    },
+  };
+}
+function $n(r) {
+  let t, n, e, s, i, l, o, a, h, p, g, x, c, _;
+  t = new Ot({
+    props: {
+      title: "Florian Pfleiderer - Projects",
+      description: "A collection of my software projects and research work.",
+    },
+  });
+  let b = r[1],
+    d = [];
+  for (let u = 0; u < b.length; u += 1) d[u] = Ge(Qe(r, b, u));
+  const S = (u) =>
+    P(d[u], 1, 1, () => {
+      d[u] = null;
+    });
+  return (
+    (c = new vn({
+      props: {
+        isOpen: !!r[0],
+        onClose: r[5],
+        $$slots: { default: [yn] },
+        $$scope: { ctx: r },
+      },
+    })),
+    {
+      c() {
+        Y(t.$$.fragment),
+          (n = U()),
+          (e = A("div")),
+          (s = A("div")),
+          (i = A("h1")),
+          (l = F("Projects")),
+          (o = U()),
+          (a = A("p")),
+          (h =
+            F(`A showcase of my work in robotics, computer vision, and software
       engineering. These projects represent my journey through various
       technologies and challenges, from autonomous systems to digital signal
-      processing.`),p=U(),g=A("div");for(let u=0;u<d.length;u+=1)d[u].c();x=U(),Y(c.$$.fragment),this.h()},l(u){ee(t.$$.fragment,u),n=Z(u),e=j(u,"DIV",{class:!0});var k=E(e);s=j(k,"DIV",{class:!0});var m=E(s);i=j(m,"H1",{class:!0});var w=E(i);l=J(w,"Projects"),w.forEach(T),o=Z(m),a=j(m,"P",{class:!0});var R=E(a);h=J(R,`A showcase of my work in robotics, computer vision, and software
+      processing.`)),
+          (p = U()),
+          (g = A("div"));
+        for (let u = 0; u < d.length; u += 1) d[u].c();
+        (x = U()), Y(c.$$.fragment), this.h();
+      },
+      l(u) {
+        ee(t.$$.fragment, u), (n = Z(u)), (e = j(u, "DIV", { class: !0 }));
+        var k = E(e);
+        s = j(k, "DIV", { class: !0 });
+        var m = E(s);
+        i = j(m, "H1", { class: !0 });
+        var w = E(i);
+        (l = J(w, "Projects")),
+          w.forEach(T),
+          (o = Z(m)),
+          (a = j(m, "P", { class: !0 }));
+        var R = E(a);
+        (h = J(
+          R,
+          `A showcase of my work in robotics, computer vision, and software
       engineering. These projects represent my journey through various
       technologies and challenges, from autonomous systems to digital signal
-      processing.`),R.forEach(T),m.forEach(T),p=Z(k),g=j(k,"DIV",{class:!0});var L=E(g);for(let I=0;I<d.length;I+=1)d[I].l(L);L.forEach(T),k.forEach(T),x=Z(u),ee(c.$$.fragment,u),this.h()},h(){$(i,"class","text-3xl font-bold mb-4 svelte-1kfgzdq"),$(a,"class","text-neutral-600 dark:text-neutral-400 max-w-2xl svelte-1kfgzdq"),$(s,"class","mb-12 svelte-1kfgzdq"),$(g,"class","grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 svelte-1kfgzdq"),$(e,"class","max-w-6xl mx-auto px-4 py-12 svelte-1kfgzdq")},m(u,k){te(t,u,k),H(u,n,k),H(u,e,k),z(e,s),z(s,i),z(i,l),z(s,o),z(s,a),z(a,h),z(e,p),z(e,g);for(let m=0;m<d.length;m+=1)d[m]&&d[m].m(g,null);H(u,x,k),te(c,u,k),_=!0},p(u,[k]){if(k&30){b=u[1];let w;for(w=0;w<b.length;w+=1){const R=Qe(u,b,w);d[w]?(d[w].p(R,k),C(d[w],1)):(d[w]=Ge(R),d[w].c(),C(d[w],1),d[w].m(g,null))}for(oe(),w=b.length;w<d.length;w+=1)S(w);ae()}const m={};k&1&&(m.isOpen=!!u[0]),k&262145&&(m.$$scope={dirty:k,ctx:u}),c.$set(m)},i(u){if(!_){C(t.$$.fragment,u);for(let k=0;k<b.length;k+=1)C(d[k]);C(c.$$.fragment,u),_=!0}},o(u){P(t.$$.fragment,u),d=d.filter(Boolean);for(let k=0;k<d.length;k+=1)P(d[k]);P(c.$$.fragment,u),_=!1},d(u){ne(t,u),u&&T(n),u&&T(e),ye(d,u),u&&T(x),ne(c,u)}}}function ve(r){var t;return(t=r.match(/\.\.\/projects\/(.*)\.md$/))==null?void 0:t[1]}function zn(r,t,n){let e,s,i;Ct(r,Dt,c=>n(10,i=c));const l=Object.assign({"../../projects/01_digital_synthesizer.md":Mt,"../../projects/02_cyws3d.md":Vt,"../../projects/03_arhs.md":Zt}),o=Object.assign({"../../projects/arhs.png":Ht,"../../projects/cyws3d.png":Gt,"../../projects/simplesynth.png":Jt});qe(()=>{const c=i.url.hash.slice(1);c&&setTimeout(()=>{var _;i.url.hash.slice(1)===c&&((_=document.getElementById(c))==null||_.scrollIntoView())},500)});let a=null;qe(async()=>{const _=await(await fetch("https://api.github.com/users/florianpfleiderer/repos?per_page=100")).json();n(6,a={});for(const b of _)n(6,a[b.full_name]=b.stargazers_count,a)});let h=null;function p(c){const _=l[c];if(_){const b=new URL(window.location.href),d=ve(c);d&&(b.hash=d,history.pushState({},"",b.toString()),n(0,h=_))}}function g(){n(0,h=null),history.pushState({},"",window.location.pathname)}const x=c=>p(c);return r.$$.update=()=>{r.$$.dirty&192&&[...s].sort((c,_)=>{const b=(a==null?void 0:a[l[c].repo])??0;return((a==null?void 0:a[l[_].repo])??0)-b})},n(1,e=Object.keys(l).sort((c,_)=>new Date(l[_].date).getTime()-new Date(l[c].date).getTime())),n(7,s=Object.keys(l).sort((c,_)=>{const b=l[c].title.toLowerCase(),d=l[_].title.toLowerCase();return b<d?-1:b>d?1:0})),[h,e,l,o,p,g,a,s,x]}class qn extends me{constructor(t){super(),ke(this,t,zn,$n,_e,{})}}export{qn as component};
+      processing.`
+        )),
+          R.forEach(T),
+          m.forEach(T),
+          (p = Z(k)),
+          (g = j(k, "DIV", { class: !0 }));
+        var L = E(g);
+        for (let I = 0; I < d.length; I += 1) d[I].l(L);
+        L.forEach(T), k.forEach(T), (x = Z(u)), ee(c.$$.fragment, u), this.h();
+      },
+      h() {
+        $(i, "class", "text-3xl font-bold mb-4 svelte-1kfgzdq"),
+          $(
+            a,
+            "class",
+            "text-neutral-600 dark:text-neutral-400 max-w-2xl svelte-1kfgzdq"
+          ),
+          $(s, "class", "mb-12 svelte-1kfgzdq"),
+          $(
+            g,
+            "class",
+            "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 svelte-1kfgzdq"
+          ),
+          $(e, "class", "max-w-6xl mx-auto px-4 py-12 svelte-1kfgzdq");
+      },
+      m(u, k) {
+        te(t, u, k),
+          H(u, n, k),
+          H(u, e, k),
+          z(e, s),
+          z(s, i),
+          z(i, l),
+          z(s, o),
+          z(s, a),
+          z(a, h),
+          z(e, p),
+          z(e, g);
+        for (let m = 0; m < d.length; m += 1) d[m] && d[m].m(g, null);
+        H(u, x, k), te(c, u, k), (_ = !0);
+      },
+      p(u, [k]) {
+        if (k & 30) {
+          b = u[1];
+          let w;
+          for (w = 0; w < b.length; w += 1) {
+            const R = Qe(u, b, w);
+            d[w]
+              ? (d[w].p(R, k), C(d[w], 1))
+              : ((d[w] = Ge(R)), d[w].c(), C(d[w], 1), d[w].m(g, null));
+          }
+          for (oe(), w = b.length; w < d.length; w += 1) S(w);
+          ae();
+        }
+        const m = {};
+        k & 1 && (m.isOpen = !!u[0]),
+          k & 262145 && (m.$$scope = { dirty: k, ctx: u }),
+          c.$set(m);
+      },
+      i(u) {
+        if (!_) {
+          C(t.$$.fragment, u);
+          for (let k = 0; k < b.length; k += 1) C(d[k]);
+          C(c.$$.fragment, u), (_ = !0);
+        }
+      },
+      o(u) {
+        P(t.$$.fragment, u), (d = d.filter(Boolean));
+        for (let k = 0; k < d.length; k += 1) P(d[k]);
+        P(c.$$.fragment, u), (_ = !1);
+      },
+      d(u) {
+        ne(t, u), u && T(n), u && T(e), ye(d, u), u && T(x), ne(c, u);
+      },
+    }
+  );
+}
+function ve(r) {
+  var t;
+  return (t = r.match(/\.\.\/projects\/(.*)\.md$/)) == null ? void 0 : t[1];
+}
+function zn(r, t, n) {
+  let e, s, i;
+  Ct(r, Dt, (c) => n(10, (i = c)));
+  const l = Object.assign({
+      "../../projects/01_digital_synthesizer.md": Mt,
+      "../../projects/02_cyws3d.md": Vt,
+      "../../projects/03_arhs.md": Zt,
+    }),
+    o = Object.assign({
+      "../../projects/arhs.png": Ht,
+      "../../projects/cyws3d.png": Gt,
+      "../../projects/simplesynth.png": Jt,
+    });
+  qe(() => {
+    const c = i.url.hash.slice(1);
+    c &&
+      setTimeout(() => {
+        var _;
+        i.url.hash.slice(1) === c &&
+          ((_ = document.getElementById(c)) == null || _.scrollIntoView());
+      }, 500);
+  });
+  let a = null;
+  qe(async () => {
+    const _ = await (
+      await fetch(
+        "https://api.github.com/users/florianpfleiderer/repos?per_page=100"
+      )
+    ).json();
+    n(6, (a = {}));
+    for (const b of _) n(6, (a[b.full_name] = b.stargazers_count), a);
+  });
+  let h = null;
+  function p(c) {
+    const _ = l[c];
+    if (_) {
+      const b = new URL(window.location.href),
+        d = ve(c);
+      d &&
+        ((b.hash = d), history.pushState({}, "", b.toString()), n(0, (h = _)));
+    }
+  }
+  function g() {
+    n(0, (h = null)), history.pushState({}, "", window.location.pathname);
+  }
+  const x = (c) => p(c);
+  return (
+    (r.$$.update = () => {
+      r.$$.dirty & 192 &&
+        [...s].sort((c, _) => {
+          const b = (a == null ? void 0 : a[l[c].repo]) ?? 0;
+          return ((a == null ? void 0 : a[l[_].repo]) ?? 0) - b;
+        });
+    }),
+    n(
+      1,
+      (e = Object.keys(l).sort(
+        (c, _) => new Date(l[_].date).getTime() - new Date(l[c].date).getTime()
+      ))
+    ),
+    n(
+      7,
+      (s = Object.keys(l).sort((c, _) => {
+        const b = l[c].title.toLowerCase(),
+          d = l[_].title.toLowerCase();
+        return b < d ? -1 : b > d ? 1 : 0;
+      }))
+    ),
+    [h, e, l, o, p, g, a, s, x]
+  );
+}
+class qn extends me {
+  constructor(t) {
+    super(), ke(this, t, zn, $n, _e, {});
+  }
+}
+export { qn as component };
