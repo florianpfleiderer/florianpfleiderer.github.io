@@ -9,7 +9,9 @@
     class="relative backdrop-blur-sm bg-white/5 dark:bg-black/5 p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 overflow-hidden"
   >
     <!-- Gradient overlay (visible in dark mode, similar to your landing page) -->
-    <div class="absolute inset-0 pointer-events-none opacity-0 dark:opacity-100">
+    <div
+      class="absolute inset-0 pointer-events-none opacity-0 dark:opacity-100"
+    >
       <div
         class="w-full h-full"
         style="
@@ -21,10 +23,12 @@
             rgba(249, 115, 22, 0.15) 100%
           );
         "
-      ></div>
+      />
     </div>
 
-    <h1 class="text-2xl font-bold text-center text-gray-800 dark:text-white mb-4 relative">
+    <h1
+      class="text-2xl font-bold text-center text-gray-800 dark:text-white mb-4 relative"
+    >
       Chat with Me
     </h1>
     <p class="text-center text-gray-600 dark:text-gray-400 mb-6 relative">
