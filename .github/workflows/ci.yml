@@ -56,6 +56,9 @@ jobs:
 
       - run: npm run build
 
+      - name: Set up environment variables
+        run: echo "GPT_API_KEY=${{ secrets.GPT_API_KEY }}" >> $GITHUB_ENV
+
       - uses: JamesIves/github-pages-deploy-action@4.1.8
         with:
           branch: gh-pages

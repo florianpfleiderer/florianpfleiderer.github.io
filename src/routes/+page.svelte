@@ -2,6 +2,7 @@
   import { ArrowUpRight } from "lucide-svelte";
   import Seo from "$lib/components/Seo.svelte";
   import ThemeToggle from "$lib/components/ThemeToggle.svelte";
+  import Chat from "$lib/components/Chat.svelte";
 
   const featuredProjects = [
     {
