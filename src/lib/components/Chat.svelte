@@ -52,9 +52,7 @@
 
 <style lang="postcss">
   .chat-container {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
+    @apply bg-white dark:bg-neutral-900/50 rounded-xl p-6 border border-neutral-200 dark:border-neutral-800 shadow-lg;
     max-height: 400px;
     overflow-y: auto;
   }
