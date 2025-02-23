@@ -62,7 +62,7 @@
       <ThemeToggle />
 
       <a
-        href="mailto:your.email@example.com"
+        href="mailto:florian@pfleiderer.at"
         class="header-icon-button"
         aria-label="Email"
       >
