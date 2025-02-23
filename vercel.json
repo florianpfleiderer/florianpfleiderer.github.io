@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "vite.config.ts",
-      "use": "@sveltejs/adapter-static"
+      "use": "@sveltejs/adapter-vercel"
     }
   ],
   "routes": [
