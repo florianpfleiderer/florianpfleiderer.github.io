@@ -15,4 +15,4 @@ features include a modern responsive interface built with React components,
 RESTful API endpoints for data management, and a containerized development
 environment using Docker Compose. The project demonstrates the integration of
 modern web technologies and DevOps practices in a practical business
-application. 
+application.

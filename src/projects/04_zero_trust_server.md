@@ -14,4 +14,4 @@ time-based one-time passwords (TOTP), to ensure secure access to server
 resources. Key features include mutual TLS authentication, TOTP verification,
 and comprehensive logging of all access attempts. The implementation
 demonstrates modern security practices and provides a practical example of Zero
-Trust architecture in action. 
+Trust architecture in action.
