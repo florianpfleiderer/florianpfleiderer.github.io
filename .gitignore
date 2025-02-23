@@ -4,6 +4,7 @@
 
 # build files from local preview
 build/
+.vercel/
 
 ### Node ###
 # Logs
