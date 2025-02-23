@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount } from "svelte";
 
   let posts: any[] = [];
-  
+
   onMount(async () => {
     try {
       const response = await fetch(`/api/instagram`); // You'd need to create this endpoint
       posts = await response.json();
     } catch (error) {
-      console.error('Failed to fetch Instagram posts:', error);
+      console.error("Failed to fetch Instagram posts:", error);
     }
   });
 </script>
@@ -28,4 +28,4 @@
       />
     </a>
   {/each}
-</div> 
+</div>

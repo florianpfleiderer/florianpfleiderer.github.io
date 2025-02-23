@@ -2,7 +2,16 @@
 title: Robot Change Detection Pipeline
 date: July 2024
 repo: florianpfleiderer/CYWS-3D-pipeline
-topics: ["Robotics", "Computer-Vision", "PyTorch", "SLAM", "ROS", "Point-Cloud", "Deep-Learning"]
+topics:
+  [
+    "Robotics",
+    "Computer-Vision",
+    "PyTorch",
+    "SLAM",
+    "ROS",
+    "Point-Cloud",
+    "Deep-Learning",
+  ]
 lead: advancing change detection in robotic environments using deep learning
 image: cyws3d.png
 ---
@@ -18,4 +27,5 @@ environmental changes. The implementation integrates seamlessly with existing
 robotics frameworks and provides real-time performance, making it particularly
 valuable for autonomous home assistance applications. The project demonstrates
 substantial improvements in detection accuracy and processing speed compared to
-conventional methods, with comprehensive evaluation on standard robotics datasets.
+conventional methods, with comprehensive evaluation on standard robotics
+datasets.

@@ -1,6 +1,14 @@
 <script lang="ts">
   import Seo from "$lib/components/Seo.svelte";
-  import { ArrowUpRight, MapPin, Briefcase, GraduationCap, Camera, Code, Bot } from "lucide-svelte";
+  import {
+    ArrowUpRight,
+    MapPin,
+    Briefcase,
+    GraduationCap,
+    Camera,
+    Code,
+    Bot,
+  } from "lucide-svelte";
 </script>
 
 <Seo
@@ -13,8 +21,8 @@
   <div class="mb-12">
     <h1 class="text-3xl font-bold mb-4">About Me</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
-      MSc student in Computer Science at the University of St. Andrews, focused on robotics,
-      computer vision, and software engineering.
+      MSc student in Computer Science at the University of St. Andrews, focused
+      on robotics, computer vision, and software engineering.
     </p>
   </div>
 
@@ -25,22 +33,30 @@
       <!-- Introduction Card -->
       <div class="prose dark:prose-invert max-w-none">
         <p class="text-lg">
-          Hi! I'm Florian, a Computer Science student passionate about robotics and artificial intelligence. 
-          My journey in technology has led me to explore various domains, from autonomous systems to 
-          digital signal processing.
+          Hi! I'm Florian, a Computer Science student passionate about robotics
+          and artificial intelligence. My journey in technology has led me to
+          explore various domains, from autonomous systems to digital signal
+          processing.
         </p>
       </div>
 
       <!-- Current Focus -->
-      <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 space-y-4">
-        <h2 class="text-xl font-semibold text-black dark:text-blue-300">Current Focus</h2>
+      <div
+        class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 space-y-4"
+      >
+        <h2 class="text-xl font-semibold text-black dark:text-blue-300">
+          Current Focus
+        </h2>
         <div class="space-y-3">
           <div class="flex items-start gap-3">
-            <GraduationCap class="w-5 h-5 mt-1 text-neutral-600 dark:text-neutral-400" />
+            <GraduationCap
+              class="w-5 h-5 mt-1 text-neutral-600 dark:text-neutral-400"
+            />
             <div>
               <h3 class="font-medium">MSc in Computer Science</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
-                University of St. Andrews, specializing in Robotics and Computer Vision
+                University of St. Andrews, specializing in Robotics and Computer
+                Vision
               </p>
             </div>
           </div>
@@ -58,7 +74,9 @@
 
       <!-- Technical Interests -->
       <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6">
-        <h2 class="text-xl font-semibold text-black dark:text-blue-300 mb-4">Technical Areas</h2>
+        <h2 class="text-xl font-semibold text-black dark:text-blue-300 mb-4">
+          Technical Areas
+        </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div class="space-y-2">
             <h3 class="font-medium">Robotics & Automation</h3>
@@ -83,7 +101,9 @@
     <!-- Right Column: Photo and Quick Info -->
     <div class="space-y-6">
       <!-- Profile Photo -->
-      <div class="rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800">
+      <div
+        class="rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800"
+      >
         <img
           src="/assets/imgs/profile.png"
           alt="Florian Pfleiderer"
@@ -92,12 +112,16 @@
       </div>
 
       <!-- Quick Info Card -->
-      <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 space-y-4">
+      <div
+        class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 space-y-4"
+      >
         <div class="flex items-center gap-2">
           <MapPin class="w-4 h-4 text-neutral-600 dark:text-neutral-400" />
-          <span class="text-neutral-600 dark:text-neutral-400">St. Andrews, Scotland</span>
+          <span class="text-neutral-600 dark:text-neutral-400"
+            >St. Andrews, Scotland</span
+          >
         </div>
-        
+
         <!-- Social Links -->
         <div class="space-y-2">
           <a
@@ -119,4 +143,4 @@
 
 <style lang="postcss">
   /* Add any specific styles here */
-</style> 
+</style>
