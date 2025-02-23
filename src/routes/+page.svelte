@@ -63,8 +63,8 @@
               Writing
               <ArrowUpRight size={18} class="inline" />
             </a>
-            <a href="/chat" class="action-button-outline">
-              Chat
+            <a href="/about" class="action-button-outline">
+              About
               <ArrowUpRight size={18} class="inline" />
             </a>
           </div>
