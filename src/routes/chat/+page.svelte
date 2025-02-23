@@ -3,10 +3,19 @@
 </script>
 
 <div class="chat-page flex items-center justify-center min-h-screen">
-  <div class="chat-container bg-white dark:bg-neutral-800 rounded-xl shadow-lg p-6 max-w-md w-full">
-    <h1 class="text-2xl font-bold text-center text-gray-800 dark:text-white mb-4">Chat with Me</h1>
-    <p class="text-center text-gray-600 dark:text-gray-400 mb-6">Feel free to ask me anything!</p>
-    <Chat /> <!-- Display the Chat component -->
+  <div
+    class="chat-container bg-white dark:bg-neutral-800 rounded-xl shadow-lg p-6 max-w-md w-full"
+  >
+    <h1
+      class="text-2xl font-bold text-center text-gray-800 dark:text-white mb-4"
+    >
+      Chat with Me
+    </h1>
+    <p class="text-center text-gray-600 dark:text-gray-400 mb-6">
+      Feel free to ask me anything!
+    </p>
+    <Chat />
+    <!-- Display the Chat component -->
   </div>
 </div>
 
@@ -34,4 +43,4 @@
   p {
     @apply text-center text-gray-600 dark:text-gray-400 mb-6;
   }
-</style> 
+</style>

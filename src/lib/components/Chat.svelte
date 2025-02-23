@@ -1,21 +1,21 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { writable } from 'svelte/store';
+  import { onMount } from "svelte";
+  import { writable } from "svelte/store";
 
   const messages = writable<{ user: string; bot: string }[]>([]);
-  let userInput = '';
+  let userInput = "";
 
   async function sendMessage() {
     if (!userInput.trim()) return;
 
     // Add user message to the chat
-    messages.update((msgs) => [...msgs, { user: userInput, bot: '' }]);
+    messages.update((msgs) => [...msgs, { user: userInput, bot: "" }]);
 
     // Call OpenAI API
-    const response = await fetch('/api/chat', {
-      method: 'POST',
+    const response = await fetch("/api/chat", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({ message: userInput }),
     });
@@ -29,7 +29,7 @@
       return [...msgs.slice(0, -1), lastMessage];
     });
 
-    userInput = ''; // Clear input
+    userInput = ""; // Clear input
   }
 </script>
 
@@ -43,7 +43,7 @@
   <input
     type="text"
     bind:value={userInput}
-    on:keydown={(e) => e.key === 'Enter' && sendMessage()}
+    on:keydown={(e) => e.key === "Enter" && sendMessage()}
     placeholder="Type your message..."
     class="input"
   />
@@ -77,4 +77,4 @@
   .send-button {
     padding: 8px;
   }
-</style> 
+</style>

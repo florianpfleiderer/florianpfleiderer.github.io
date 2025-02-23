@@ -1,5 +1,5 @@
-import type { RequestHandler } from '@sveltejs/kit';
-import OpenAI from 'openai';
+import type { RequestHandler } from "@sveltejs/kit";
+import OpenAI from "openai";
 
 const openai = new OpenAI({
   apiKey: process.env.GPT_API_KEY,
@@ -17,13 +17,16 @@ export const POST: RequestHandler = async ({ request }) => {
     const reply = completion.choices[0].message.content;
 
     return new Response(JSON.stringify({ reply }), {
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
     });
   } catch (error) {
-    console.error('Error fetching from OpenAI:', error);
-    return new Response(JSON.stringify({ error: 'Failed to fetch response from OpenAI' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    console.error("Error fetching from OpenAI:", error);
+    return new Response(
+      JSON.stringify({ error: "Failed to fetch response from OpenAI" }),
+      {
+        status: 500,
+        headers: { "Content-Type": "application/json" },
+      }
+    );
   }
-}; 
+};
