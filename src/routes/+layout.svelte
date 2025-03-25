@@ -3,7 +3,7 @@
   import "../app.css";
   import { page } from "$app/stores";
   import { browser, dev } from "$app/environment";
-  import { inject } from '@vercel/analytics';
+  import { injectAnalytics } from '@vercel/analytics/sveltekit';
 
   import { fly } from "svelte/transition";
 
@@ -18,10 +18,8 @@
 
   $: showHeader = $page.url.pathname !== "/";
 
-  // Initialize Vercel Analytics
-  if (browser) {
-    inject();
-  }
+  // Initialize Vercel Analytics with SvelteKit integration
+  injectAnalytics();
 </script>
 
 <svelte:head>
