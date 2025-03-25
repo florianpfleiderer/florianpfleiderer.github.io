@@ -15,7 +15,7 @@
   "dependencies": {
     "@fontsource/newsreader": "^4.5.10",
     "@realfavicongenerator/generate-favicon": "^0.4.12",
-    "@realfavicongenerator/image-adapter-node": "^0.4.12",
+    "@realfavicongenerator/image-adapter-node": "^0.4.16",
     "@vercel/analytics": "^1.5.0",
     "lucide-svelte": "^0.475.0",
     "marked": "^15.0.7",
