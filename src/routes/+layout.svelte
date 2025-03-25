@@ -3,6 +3,7 @@
   import "../app.css";
   import { page } from "$app/stores";
   import { browser, dev } from "$app/environment";
+  import { inject } from '@vercel/analytics';
 
   import { fly } from "svelte/transition";
 
@@ -16,6 +17,11 @@
     browser && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   $: showHeader = $page.url.pathname !== "/";
+
+  // Initialize Vercel Analytics
+  if (browser) {
+    inject();
+  }
 </script>
 
 <svelte:head>
