@@ -19,7 +19,7 @@
   $: showHeader = $page.url.pathname !== "/";
 
   // Initialize Vercel Analytics with SvelteKit integration
-  injectAnalytics();
+  injectAnalytics({ mode: dev ? 'development' : 'production' });
 </script>
 
 <svelte:head>
