@@ -104,15 +104,15 @@
               Robotics
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              ROS, Motion Planning, SLAM
+              Reinforcement Learning, Control Theory, SLAM
             </p>
           </div>
           <div class="skill-card">
             <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Machine Vision
+              Machine Learning
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              OpenCV, PyTorch, TensorFlow
+              CNNs, RNNs, Transformers
             </p>
           </div>
           <div class="skill-card">
