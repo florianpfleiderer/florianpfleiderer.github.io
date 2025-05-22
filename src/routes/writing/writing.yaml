@@ -1,15 +1,4 @@
-papers:
-  - title:
-      Reinforcement Learning - The Development Towards General Purpose Robotics
-      Since 2020
-    date: 2025-02
-    summary: >
-      This paper provides an overview of the development of reinforcement
-      learning in robotics since 2020, focusing on the transition from
-      simulation to real-world applications. It discusses the challenges and
-      opportunities of reinforcement learning in robotics and provides an
-      outlook on future research directions.
-    link: /assets/pdf/rl_essay.pdf
+academic:
   - title:
       Model Optimisation and Comparison for Improved Change Detection in
       Autonomous Systems
@@ -22,12 +11,26 @@ papers:
       pipelines, thus improving unsupervised home assistance applications.
     link: /assets/pdf/BA.pdf
 
+essays:
+  - title:
+      Reinforcement Learning - The Development Towards General Purpose Robotics
+      Since 2020
+    date: 2025-02
+    summary: >
+      This paper provides an overview of the development of reinforcement
+      learning in robotics since 2020, focusing on the transition from
+      simulation to real-world applications. It discusses the challenges and
+      opportunities of reinforcement learning in robotics and provides an
+      outlook on future research directions.
+    link: /assets/pdf/rl_essay.pdf
+
   - title: Is unregulated AI research a good idea?
     date: 2024-05
     summary: >
       Evaluation on the evolution of unregulated AI research and its risks.
     link: /assets/pdf/AI_research.pdf
 
+technical_reports:
   - title: Overview of navigation based on camera
     date: 2023-04
     summary: >

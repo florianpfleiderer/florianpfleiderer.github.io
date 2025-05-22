@@ -20,39 +20,35 @@
     </p>
   </div>
 
-  <!-- Academic Papers Section -->
+  <!-- Academic Section -->
   <section class="mb-16">
     <h2 class="text-2xl font-semibold text-black dark:text-blue-300 mb-6">
-      Academic Papers
+      Academic
     </h2>
     <div class="space-y-1">
-      <WritingList data={writing.papers} />
+      <WritingList data={writing.academic} />
+    </div>
+  </section>
+
+  <!-- Essays Section -->
+  <section class="mb-16">
+    <h2 class="text-2xl font-semibold text-black dark:text-blue-300 mb-6">
+      Essays
+    </h2>
+    <div class="space-y-1">
+      <WritingList data={writing.essays} />
     </div>
   </section>
 
   <!-- Technical Reports Section -->
-  {#if writing.reports?.length > 0}
-    <section class="mb-16">
-      <h2 class="text-2xl font-semibold text-black dark:text-blue-300 mb-6">
-        Technical Reports
-      </h2>
-      <div class="space-y-1">
-        <WritingList data={writing.reports} />
-      </div>
-    </section>
-  {/if}
-
-  <!-- Blog Posts Section -->
-  {#if writing.posts?.length > 0}
-    <section>
-      <h2 class="text-2xl font-semibold text-black dark:text-blue-300 mb-6">
-        Blog Posts
-      </h2>
-      <div class="space-y-1">
-        <WritingList data={writing.posts} />
-      </div>
-    </section>
-  {/if}
+  <section>
+    <h2 class="text-2xl font-semibold text-black dark:text-blue-300 mb-6">
+      Technical Reports
+    </h2>
+    <div class="space-y-1">
+      <WritingList data={writing.technical_reports} />
+    </div>
+  </section>
 </div>
 
 <style lang="postcss">
