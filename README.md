@@ -10,8 +10,7 @@ This repository contains the source code for my personal website hosted at [flor
 
 ## Deployment
 
-The website is hosted on Vercel, meaning:
-- **Automatic Deployment:** Pushing changes to the main branch triggers a new build and deployment of the site.
+The website is hosted on Vercel.
 
 
 ## License
