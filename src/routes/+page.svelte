@@ -45,9 +45,8 @@
           <p
             class="text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed"
           >
-            Currently pursuing Computer Science at the University of St.
-            Andrews, with a focus on Robotics, Machine Vision, and Software
-            Engineering.
+            Currently pursuing a Master Degree in Computer Science at the University of St.
+            Andrews, with a focus on model-based reinforcement learning, control systems, and data-intensive computing. My interests lie in building intelligent, autonomous systems that integrate learning-based decision-making with robust perception and control, bridging robotics, machine learning, and scalable software architectures.
           </p>
         </div>
 
@@ -101,10 +100,10 @@
         <div class="grid grid-cols-2 gap-4 lg:gap-6 relative">
           <div class="skill-card">
             <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Robotics
+              Robotics & Control
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              Reinforcement Learning, Control Theory, SLAM
+              Model-Based RL, Motion Planning, Control Theory, SLAM
             </p>
           </div>
           <div class="skill-card">
@@ -112,23 +111,23 @@
               Machine Learning
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              CNNs, RNNs, Transformers
+              CNNs, Transformers, Model-Based RL, Reinforcement Learning Algorithms
             </p>
           </div>
           <div class="skill-card">
             <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Software Engineering
+              Perception & Vision
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              C++, Python, Rust
+              Object Detection, Depth Estimation, Visual Tracking, RGB-D Sensing
             </p>
           </div>
           <div class="skill-card">
             <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Security
+              Software Systems
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              Cryptography, Authentication
+              Docker, C++, Python, Embedded Systems, Multi-Core Systems
             </p>
           </div>
         </div>
