@@ -21,8 +21,8 @@
   <div class="mb-12">
     <h1 class="text-3xl font-bold mb-4">About Me</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
-      MSc student in Computer Science at the University of St. Andrews, focused
-      on robotics, computer vision, and software engineering.
+      Currently pursuing a Master Degree in Computer Science at the University of St.
+            Andrews, with a focus on model-based reinforcement learning, control systems, and real-time embedded robotics.
     </p>
   </div>
 
@@ -33,10 +33,7 @@
       <!-- Introduction Card -->
       <div class="prose dark:prose-invert max-w-none">
         <p class="text-lg">
-          Hi! I'm Florian, a Computer Science student passionate about robotics
-          and artificial intelligence. My journey in technology has led me to
-          explore various domains, from autonomous systems to digital signal
-          processing.
+          Hi, I'm Florian. I'm a Computer Science student with a background in Electrical Engineering, currently focused on robotics and machine learning. I got into robotics through hands-on work in embedded systems and control, building everything from real-time racing software to autonomous robots. Over time, this evolved into a deeper interest in decision-making and model-based reinforcement learning. I enjoy working at the intersection of perception, control, and learning — where algorithms meet hardware in the real world.
         </p>
       </div>
 
@@ -55,8 +52,7 @@
             <div>
               <h3 class="font-medium">MSc in Computer Science</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
-                University of St. Andrews, specializing in Robotics and Computer
-                Vision
+                University of St. Andrews, specialising in Machine Learning
               </p>
             </div>
           </div>
@@ -65,37 +61,14 @@
             <div>
               <h3 class="font-medium">Research Interests</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
-                Autonomous Systems, Computer Vision, Machine Learning
+                Autonomous Systems, Robotics, Machine Learning
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Technical Interests -->
-      <div class="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6">
-        <h2 class="text-xl font-semibold text-black dark:text-blue-300 mb-4">
-          Technical Areas
-        </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div class="space-y-2">
-            <h3 class="font-medium">Robotics & Automation</h3>
-            <ul class="text-neutral-600 dark:text-neutral-400 space-y-1">
-              <li>• ROS Framework</li>
-              <li>• Motion Planning</li>
-              <li>• SLAM</li>
-            </ul>
-          </div>
-          <div class="space-y-2">
-            <h3 class="font-medium">Software Development</h3>
-            <ul class="text-neutral-600 dark:text-neutral-400 space-y-1">
-              <li>• C++ / Python / Rust</li>
-              <li>• System Architecture</li>
-              <li>• Security & Authentication</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
     </div>
 
     <!-- Right Column: Photo and Quick Info -->

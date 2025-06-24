@@ -46,7 +46,7 @@
             class="text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed"
           >
             Currently pursuing a Master Degree in Computer Science at the University of St.
-            Andrews, with a focus on model-based reinforcement learning, control systems, and data-intensive computing. My interests lie in building intelligent, autonomous systems that integrate learning-based decision-making with robust perception and control, bridging robotics, machine learning, and scalable software architectures.
+            Andrews, with a focus on model-based reinforcement learning, control systems, and real-time embedded robotics. My academic work explores learning-based decision-making for autonomous systems, combining machine learning with low-level control and perception.
           </p>
         </div>
 
