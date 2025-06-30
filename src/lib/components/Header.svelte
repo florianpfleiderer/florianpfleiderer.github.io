@@ -8,7 +8,7 @@
     { name: "home", href: "/" },
     { name: "projects", href: "/projects" },
     { name: "writing", href: "/writing" },
-    { name: "resume", href: "/resume" },
+    // { name: "resume", href: "/resume" },
     { name: "about", href: "/about" },
   ];
 
