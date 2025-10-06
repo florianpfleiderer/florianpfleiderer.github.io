@@ -15,7 +15,7 @@
 
 <Seo
   title="Florian Pfleiderer"
-  description="MSc Student & Robotics Enthusiast"
+  description="MSc in Computer Science & Robotics Enthusiast"
 />
 
 <div class="landing-page min-h-[calc(100vh-6rem)]">
@@ -45,8 +45,7 @@
           <p
             class="text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed"
           >
-            Currently pursuing a Master Degree in Computer Science at the University of St.
-            Andrews, with a focus on model-based reinforcement learning, control systems, and real-time embedded robotics. My academic work explores learning-based decision-making for autonomous systems, combining machine learning with low-level control and perception.
+            Computer Science MSc graduate from the University of St Andrews with expertise in reinforcement learning, control systems, and embedded robotics. Skilled in building intelligent, real-time decision-making for autonomous systems.
           </p>
         </div>
 
@@ -94,7 +93,7 @@
         <h2
           class="text-xl lg:text-2xl font-semibold text-black dark:text-blue-200 mb-4 lg:mb-6 relative"
         >
-          Core Competencies
+          Technical Skills
         </h2>
 
         <div class="grid grid-cols-2 gap-4 lg:gap-6 relative">
@@ -103,7 +102,7 @@
               Robotics & Control
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              Model-Based RL, Motion Planning, Control Theory, SLAM
+              Model-Based Control, Motion Planning, Control Theory, SLAM
             </p>
           </div>
           <div class="skill-card">
@@ -111,7 +110,7 @@
               Machine Learning
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              CNNs, Transformers, Model-Based RL, Reinforcement Learning Algorithms
+              CNNs, RNNs, Transformers, Deep Reinforcement Learning
             </p>
           </div>
           <div class="skill-card">
@@ -127,7 +126,7 @@
               Software Systems
             </h3>
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              Docker, C++, Python, Embedded Systems, Multi-Core Systems
+              C++, Python, Embedded Systems, Multi-Core Systems, Docker
             </p>
           </div>
         </div>
