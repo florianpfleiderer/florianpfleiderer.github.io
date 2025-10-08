@@ -36,3 +36,50 @@ technical_reports:
     summary: >
       Summary on the state of autonomous navigation based on camera.
     link: /assets/pdf/MV_Pfleiderer.pdf
+
+  - title: Secure File Server – Python & Flask Implementation
+    date: 2024-11
+    summary: >
+      Design and implementation of a secure file server with mutual TLS,
+      cryptographic key management, and file-sharing features. Addresses threats
+      like eavesdropping, MITM, and server compromise with layered security
+      mechanisms.
+    link: /assets/pdf/CS4203_P2_Report.pdf
+
+  - title: Machine Learning on the "Pump It Up" Dataset
+    date: 2025-02
+    summary: >
+      Preprocessing pipelines and model evaluation on a water pump dataset,
+      using Random Forests, Gradient Boosting, Neural Networks, and others.
+      Includes hyperparameter optimisation with Optuna, showing Gradient
+      Boosting methods as most effective.
+    link: /assets/pdf/CS5011_P1_report.pdf
+
+
+  - title: SparkDataApp – PySpark Console Data Analysis Tool
+    date: 2025-03
+    summary: >
+      A PySpark-based console application for analysing UK school attendance
+      data. Provides querying, filtering, missing-value imputation, and
+      visualisation options, with user-friendly features for interactive data
+      exploration and saving results.
+    link: /assets/pdf/CS5052_P1_report.pdf
+
+  - title: Parallel Skeletons in Erlang – Matrix Multiplication
+    date: 2025-04
+    summary: >
+      Implementation of farm and pipeline algorithmic skeletons in Erlang for
+      parallelising matrix multiplication. Benchmarks highlight effects of
+      chunking, load balancing, and scheduler efficiency, with comparisons to
+      the Skel library.
+    link: /assets/pdf/CS4204_P2_report.pdf
+
+  - title: Search Algorithms for Flight Route Planning
+    date: 2025-04
+    summary: >
+      Implementation and comparison of search algorithms (BFS, DFS, UCS, A*,
+      SMA*, Bidirectional A*) for optimal flight route planning in a polar-grid
+      simulation. Evaluates space/time complexity, optimality, and memory-bounded
+      strategies.
+    link: /assets/pdf/CS5011_P2_report.pdf
+
