@@ -10,6 +10,20 @@ academic:
       definitions, serving as an indicator for objects missed by existing
       pipelines, thus improving unsupervised home assistance applications.
     link: /assets/pdf/BA.pdf
+  - title:
+      Transformer-based World Models in Cloth Manipulation
+    date: 2025-08
+    summary: >
+      This MSc thesis explores the application of Transformer-based state-space
+      models (TSSM) for robotic cloth manipulation, specifically the fabric
+      flattening task. Building on PlaNet-ClothPick, which uses recurrent models,
+      the research investigates whether Transformers can improve prediction and
+      planning in model-based reinforcement learning (MBRL). Results show that
+      the Transformer model produces sharper reconstructions, better preserves
+      cloth boundaries, improves reward prediction accuracy, and enhances
+      planning performance compared to recurrent baselines. This work establishes
+      Transformers as a promising tool for deformable object manipulation.
+    link: /assets/pdf/MA.pdf
 
 essays:
   - title:
