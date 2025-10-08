@@ -4,7 +4,7 @@ academic:
       Autonomous Systems
     date: 2024-07
     summary: >
-      This thesis enhances change detection in indoor mobile robots by directly
+      This BSc thesis enhances change detection in indoor mobile robots by directly
       applying the CYWS-3D model to camera data, eliminating the reconstruction
       step. This approach addresses issues with occluded objects and search area
       definitions, serving as an indicator for objects missed by existing
