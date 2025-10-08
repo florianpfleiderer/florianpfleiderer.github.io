@@ -10,6 +10,7 @@ academic:
       definitions, serving as an indicator for objects missed by existing
       pipelines, thus improving unsupervised home assistance applications.
     link: /assets/pdf/BA.pdf
+
   - title:
       Transformer-based World Models in Cloth Manipulation
     date: 2025-08
@@ -44,12 +45,13 @@ essays:
       Evaluation on the evolution of unregulated AI research and its risks.
     link: /assets/pdf/AI_research.pdf
 
-technical_reports:
   - title: Overview of navigation based on camera
     date: 2023-04
     summary: >
       Summary on the state of autonomous navigation based on camera.
     link: /assets/pdf/MV_Pfleiderer.pdf
+
+technical_reports:
 
   - title: Secure File Server – Python & Flask Implementation
     date: 2024-11
