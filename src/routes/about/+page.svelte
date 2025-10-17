@@ -65,13 +65,7 @@ I got into robotics through hands-on experience in embedded systems and control,
       <div>
         <h3 class="font-medium">Research Interests</h3>
         <p class="text-neutral-600 dark:text-neutral-400">
-          Model-Based Reinforcement Learning · Learning-Based Control · Robotic Manipulation · Perception and Planning · 
-          <a href="https://arxiv.org/abs/1803.10122" class="underline hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer">
-            World Models (paper)
-          </a> · 
-          <a href="https://www.nvidia.com/en-us/glossary/world-models/" class="underline hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer">
-            World Models (NVIDIA)
-          </a>
+          World Models · Model-Based Reinforcement Learning · Learning-Based Control · Robotic Manipulation
         </p>
       </div>
     </div>
