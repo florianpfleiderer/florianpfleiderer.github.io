@@ -64,7 +64,7 @@
 
           <!-- Research Interests -->
           <div class="flex items-start gap-3">
-            <Bot class="w-5 h-5 mt-1 text-neutral-600 dark:text-neutral-400" />
+            <Bot class="w-6 h-6 mt-0.5 text-neutral-600 dark:text-neutral-400" />
             <div>
               <h3 class="font-medium">Research Interests</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
@@ -81,7 +81,7 @@
 
           <!-- Technical Background -->
           <div class="flex items-start gap-3">
-            <Cpu class="w-5 h-5 mt-1 text-neutral-600 dark:text-neutral-400" />
+            <Cpu class="w-6 h-6 mt-0.5 text-neutral-600 dark:text-neutral-400" />
             <div>
               <h3 class="font-medium">Technical Background</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
@@ -92,7 +92,7 @@
 
           <!-- Hobbies -->
           <div class="flex items-start gap-3">
-            <Music2 class="w-5 h-5 mt-1 text-neutral-600 dark:text-neutral-400" />
+            <Music2 class="w-6 h-6 mt-0.5 text-neutral-600 dark:text-neutral-400" />
             <div>
               <h3 class="font-medium">Hobbies</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
@@ -100,6 +100,7 @@
               </p>
             </div>
           </div>
+
 
         </div>
       </div>
