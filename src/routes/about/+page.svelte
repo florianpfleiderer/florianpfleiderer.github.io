@@ -68,11 +68,11 @@
             <div>
               <h3 class="font-medium">Research Interests</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
-                <a href="https://arxiv.org/abs/1803.10122" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-600 dark:hover:text-blue-400">
+                <!-- <a href="https://arxiv.org/abs/1803.10122" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-600 dark:hover:text-blue-400">
                   World Models (paper)
-                </a> · 
+                </a> · -->
                 <a href="https://www.nvidia.com/en-us/glossary/world-models/" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-600 dark:hover:text-blue-400">
-                  World Models (NVIDIA)
+                  World Models
                 </a> · 
                 Model-Based Reinforcement Learning · Learning-Based Control · Robotic Manipulation · Perception and Planning
               </p>
