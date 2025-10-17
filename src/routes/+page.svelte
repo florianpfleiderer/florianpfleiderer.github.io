@@ -34,18 +34,17 @@
           </h1>
 
           <p class="text-xl lg:text-2xl">
-            <span class="text-neutral-400">is a</span>
-            <span class="text-black dark:text-blue-300">MSc student</span>
-            <span class="text-neutral-400">and</span>
+            <span class="text-black dark:text-blue-300">Computer Science MSc graduate</span>
+            <span class="text-neutral-400">passionate about</span>
             <span class="text-black dark:text-blue-300"
-              >robotics enthusiast</span
+              >robotics and intelligent systems</span
             >
           </p>
 
           <p
             class="text-base lg:text-lg text-black dark:text-white max-w-xl leading-relaxed"
           >
-            Computer Science MSc graduate from the University of St Andrews with expertise in reinforcement learning, control systems, and embedded robotics. Skilled in building intelligent, real-time decision-making for autonomous systems.
+            Driven by initiative and a strong desire to contribute meaningfully in intelligent robotics, I enjoy tackling complex problems that connect AI, perception, and control. I strive to bring structure, precision, and clarity to evolving challenges in fast-paced, interdisciplinary environments.
           </p>
         </div>
 
