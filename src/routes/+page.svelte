@@ -106,7 +106,7 @@
         <div class="skill-card">
           <h3 class="text-lg font-medium text-black dark:text-blue-300">Robotics & Control</h3>
           <p class="text-sm text-neutral-600 dark:text-neutral-400">
-            ROS, ROS2, Model Predictive Control, Motion Planning, Sensor Fusion, Reinforcement Learning, Gazebo, SoftGym
+            ROS, Model Predictive Control, Motion Planning, Sensor Fusion, Reinforcement Learning
           </p>
         </div>
 
@@ -120,7 +120,7 @@
         <div class="skill-card">
           <h3 class="text-lg font-medium text-black dark:text-blue-300">Embedded Systems</h3>
           <p class="text-sm text-neutral-600 dark:text-neutral-400">
-            Embedded C/C++, Microcontrollers, Real-Time Programming, CAN Bus, TCP/IP, UART, Secure Communication
+            Microcontrollers, Real-Time Programming, CAN Bus, TCP/IP, UART, Secure Communication
           </p>
         </div>
       </div>
