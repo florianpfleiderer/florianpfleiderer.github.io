@@ -96,39 +96,35 @@
         </h2>
 
         <div class="grid grid-cols-2 gap-4 lg:gap-6 relative">
-          <div class="skill-card">
-            <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Robotics & Control
-            </h3>
-            <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              Model-Based Control, Motion Planning, Control Theory, SLAM
-            </p>
-          </div>
-          <div class="skill-card">
-            <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Machine Learning
-            </h3>
-            <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              CNNs, RNNs, Transformers, Deep Reinforcement Learning
-            </p>
-          </div>
-          <div class="skill-card">
-            <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Perception & Vision
-            </h3>
-            <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              Object Detection, Depth Estimation, Visual Tracking, RGB-D Sensing
-            </p>
-          </div>
-          <div class="skill-card">
-            <h3 class="text-lg font-medium text-black dark:text-blue-300">
-              Software Systems
-            </h3>
-            <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              C++, Python, Embedded Systems, Multi-Core Systems, Docker
-            </p>
-          </div>
+        <div class="skill-card">
+          <h3 class="text-lg font-medium text-black dark:text-blue-300">Programming</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-400">
+            C++, Python, Rust, MATLAB, Git, CMake, Docker, Linux
+          </p>
         </div>
+
+        <div class="skill-card">
+          <h3 class="text-lg font-medium text-black dark:text-blue-300">Robotics & Control</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-400">
+            ROS, ROS2, Model Predictive Control, Motion Planning, Sensor Fusion, Reinforcement Learning, Gazebo, SoftGym
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="text-lg font-medium text-black dark:text-blue-300">AI & Perception</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-400">
+            PyTorch, OpenCV, Open3D, CNNs, RNNs, Vision Transformers, Probabilistic Methods, Bayesian Networks
+          </p>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="text-lg font-medium text-black dark:text-blue-300">Embedded Systems</h3>
+          <p class="text-sm text-neutral-600 dark:text-neutral-400">
+            Embedded C/C++, Microcontrollers, Real-Time Programming, CAN Bus, TCP/IP, UART, Secure Communication
+          </p>
+        </div>
+      </div>
+
       </div>
     </section>
   </div>
