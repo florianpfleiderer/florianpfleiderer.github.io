@@ -99,7 +99,7 @@
         <div class="skill-card">
           <h3 class="text-lg font-medium text-black dark:text-blue-300">Programming</h3>
           <p class="text-sm text-neutral-600 dark:text-neutral-400">
-            C++, Python, Rust, MATLAB, Git, CMake, Docker, Linux
+            C/C++, Python, Rust, MATLAB, Git, CMake, Docker, Linux, OOP, Software Architectures
           </p>
         </div>
 
