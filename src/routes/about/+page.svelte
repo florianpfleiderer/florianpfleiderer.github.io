@@ -15,7 +15,7 @@
 
 <Seo
   title="Florian Pfleiderer - About"
-  description="Learn more about Florian Pfleiderer — Computer Science MSc graduate specialising in model-based reinforcement learning, control, and robotic perception."
+  description="Learn more about Florian Pfleiderer — Robotics Software Engineer specialising in model-based reinforcement learning, control, and robotic perception."
 />
 
 <div class="max-w-4xl mx-auto px-4 py-12">
@@ -23,7 +23,8 @@
   <div class="mb-12">
     <h1 class="text-3xl font-bold mb-4">About Me</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
-      Computer Science MSc graduate from the University of St Andrews, following a BSc in Electrical Engineering at TU Wien, specialising in model-based reinforcement learning, robotic control, and intelligent perception systems.
+      <!--Computer Science MSc graduate from the University of St Andrews, following a BSc in Electrical Engineering at TU Wien,--> 
+      Robotics Software Engineer specialising in reinforcement learning, robotic control, and intelligent perception systems.
     </p>
   </div>
 
@@ -34,7 +35,7 @@
       <!-- Introduction Card -->
       <div class="prose dark:prose-invert max-w-none">
         <p class="text-lg">
-          Hi, I'm Florian. I'm a Computer Science graduate with a background in Electrical Engineering, passionate about robotics and learning-based control. My work bridges AI, control, and perception — building robotic systems that can reason, adapt, and interact intelligently with their environment.
+          Hi, I'm Florian. I'm a robotics software engineer with a background in Electrical Engineering, passionate about robotics and learning-based control. My work bridges AI, control, and perception — building robotic systems that can reason, adapt, and interact intelligently with their environment.
         </p>
 
         <p class="text-lg">
@@ -57,6 +58,7 @@
               <h3 class="font-medium">Education</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
                 MSc Computer Science (Completed) — University of St Andrews<br />
+                BSc Electrical Engineering (Completed) - TU Wien<br />
                 Specialised in Machine Learning and Robotics
               </p>
             </div>
