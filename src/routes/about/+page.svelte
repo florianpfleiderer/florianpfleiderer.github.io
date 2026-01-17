@@ -35,7 +35,7 @@
       <!-- Introduction Card -->
       <div class="prose dark:prose-invert max-w-none">
         <p class="text-lg">
-          Hi, I'm Florian. I'm a robotics software engineer with a background in Electrical Engineering, passionate about robotics and learning-based control. My work bridges AI, control, and perception — building robotic systems that can reason, adapt, and interact intelligently with their environment.
+          Hi, I'm Florian. I'm a robotics software engineer with a background in Computer Science and Electrical Engineering, passionate about robotics and learning-based control. My work bridges AI, control, and perception — building robotic systems that can reason, adapt, and interact intelligently with their environment.
         </p>
 
         <p class="text-lg">
