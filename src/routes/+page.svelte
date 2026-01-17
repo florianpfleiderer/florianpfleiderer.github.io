@@ -15,7 +15,7 @@
 
 <Seo
   title="Florian Pfleiderer"
-  description="MSc in Computer Science & Robotics Enthusiast"
+  description="Robotics Software Engineer"
 />
 
 <div class="landing-page min-h-[calc(100vh-6rem)]">
@@ -35,9 +35,13 @@
 
           <p class="text-xl lg:text-2xl">
             <span class="text-black dark:text-blue-300">Robotic software engineer</span>
-            <span class="text-neutral-400">passionate about</span>
+            <span class="text-neutral-400">@</span>
             <span class="text-black dark:text-blue-300"
-              >robotics and intelligent systems</span
+              >
+              <a href="https://www.agile-robots.com/en/" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-600 dark:hover:text-blue-400">
+                  Agile Robots SE
+              </a>
+              </span
             >
           </p>
 
