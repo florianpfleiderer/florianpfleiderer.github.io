@@ -34,7 +34,7 @@
           </h1>
 
           <p class="text-xl lg:text-2xl">
-            <span class="text-black dark:text-blue-300">Computer Science MSc graduate</span>
+            <span class="text-black dark:text-blue-300">Robotic software engineer</span>
             <span class="text-neutral-400">passionate about</span>
             <span class="text-black dark:text-blue-300"
               >robotics and intelligent systems</span
