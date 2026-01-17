@@ -96,7 +96,7 @@
             <div>
               <h3 class="font-medium">Hobbies</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
-                Outside of robotics, I’m passionate about sports. I enjoy Tennis, Skiing, but I’m also an active DJ — exploring the creative side of rhythm and sound.
+                Outside of robotics, I’m passionate about sports. I enjoy Tennis, Skiing, but I’m also an active DJ.
               </p>
             </div>
           </div>
