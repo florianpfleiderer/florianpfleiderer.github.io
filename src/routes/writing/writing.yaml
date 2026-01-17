@@ -1,17 +1,5 @@
 academic:
   - title:
-      Model Optimisation and Comparison for Improved Change Detection in
-      Autonomous Systems
-    date: 2024-07
-    summary: >
-      This BSc thesis enhances change detection in indoor mobile robots by directly
-      applying the CYWS-3D model to camera data, eliminating the reconstruction
-      step. This approach addresses issues with occluded objects and search area
-      definitions, serving as an indicator for objects missed by existing
-      pipelines, thus improving unsupervised home assistance applications.
-    link: /assets/pdf/BA.pdf
-
-  - title:
       Transformer-based World Models in Cloth Manipulation
     date: 2025-08
     summary: >
@@ -25,6 +13,18 @@ academic:
       planning performance compared to recurrent baselines. This work establishes
       Transformers as a promising tool for deformable object manipulation.
     link: /assets/pdf/MA.pdf
+  
+  - title:
+      Model Optimisation and Comparison for Improved Change Detection in
+      Autonomous Systems
+    date: 2024-07
+    summary: >
+      This BSc thesis enhances change detection in indoor mobile robots by directly
+      applying the CYWS-3D model to camera data, eliminating the reconstruction
+      step. This approach addresses issues with occluded objects and search area
+      definitions, serving as an indicator for objects missed by existing
+      pipelines, thus improving unsupervised home assistance applications.
+    link: /assets/pdf/BA.pdf
 
 essays:
   - title:
@@ -53,24 +53,23 @@ essays:
 
 technical_reports:
 
-  - title: Secure File Server – Python & Flask Implementation
-    date: 2024-11
+  - title: Search Algorithms for Flight Route Planning
+    date: 2025-04
     summary: >
-      Design and implementation of a secure file server with mutual TLS,
-      cryptographic key management, and file-sharing features. Addresses threats
-      like eavesdropping, MITM, and server compromise with layered security
-      mechanisms.
-    link: /assets/pdf/CS4203_P2_Report.pdf
-
-  - title: Machine Learning on the "Pump It Up" Dataset
-    date: 2025-02
+      Implementation and comparison of search algorithms (BFS, DFS, UCS, A*,
+      SMA*, Bidirectional A*) for optimal flight route planning in a polar-grid
+      simulation. Evaluates space/time complexity, optimality, and memory-bounded
+      strategies.
+    link: /assets/pdf/CS5011_P2_report.pdf
+  
+  - title: Parallel Skeletons in Erlang – Matrix Multiplication
+    date: 2025-04
     summary: >
-      Preprocessing pipelines and model evaluation on a water pump dataset,
-      using Random Forests, Gradient Boosting, Neural Networks, and others.
-      Includes hyperparameter optimisation with Optuna, showing Gradient
-      Boosting methods as most effective.
-    link: /assets/pdf/CS5011_P1_report.pdf
-
+      Implementation of farm and pipeline algorithmic skeletons in Erlang for
+      parallelising matrix multiplication. Benchmarks highlight effects of
+      chunking, load balancing, and scheduler efficiency, with comparisons to
+      the Skel library.
+    link: /assets/pdf/CS4204_P2_report.pdf
 
   - title: SparkDataApp – PySpark Console Data Analysis Tool
     date: 2025-03
@@ -81,21 +80,20 @@ technical_reports:
       exploration and saving results.
     link: /assets/pdf/CS5052_P1_report.pdf
 
-  - title: Parallel Skeletons in Erlang – Matrix Multiplication
-    date: 2025-04
+  - title: Machine Learning on the "Pump It Up" Dataset
+    date: 2025-02
     summary: >
-      Implementation of farm and pipeline algorithmic skeletons in Erlang for
-      parallelising matrix multiplication. Benchmarks highlight effects of
-      chunking, load balancing, and scheduler efficiency, with comparisons to
-      the Skel library.
-    link: /assets/pdf/CS4204_P2_report.pdf
+      Preprocessing pipelines and model evaluation on a water pump dataset,
+      using Random Forests, Gradient Boosting, Neural Networks, and others.
+      Includes hyperparameter optimisation with Optuna, showing Gradient
+      Boosting methods as most effective.
+    link: /assets/pdf/CS5011_P1_report.pdf
 
-  - title: Search Algorithms for Flight Route Planning
-    date: 2025-04
+  - title: Secure File Server – Python & Flask Implementation
+    date: 2024-11
     summary: >
-      Implementation and comparison of search algorithms (BFS, DFS, UCS, A*,
-      SMA*, Bidirectional A*) for optimal flight route planning in a polar-grid
-      simulation. Evaluates space/time complexity, optimality, and memory-bounded
-      strategies.
-    link: /assets/pdf/CS5011_P2_report.pdf
-
+      Design and implementation of a secure file server with mutual TLS,
+      cryptographic key management, and file-sharing features. Addresses threats
+      like eavesdropping, MITM, and server compromise with layered security
+      mechanisms.
+    link: /assets/pdf/CS4203_P2_Report.pdf
