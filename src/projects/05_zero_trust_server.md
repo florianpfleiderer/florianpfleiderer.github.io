@@ -1,6 +1,6 @@
 ---
 title: Zero Trust Server Implementation
-date: March 2024
+date: November 2024
 repo: florianpfleiderer/ZeroTrustServer
 topics: ["Security", "Zero-Trust", "Authentication"]
 lead: implementing a zero trust architecture for secure server access

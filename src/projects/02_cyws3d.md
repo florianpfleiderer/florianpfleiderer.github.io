@@ -1,7 +1,7 @@
 ---
 title: Robot Change Detection Pipeline
 date: July 2024
-repo: florianpfleiderer/CYWS-3D-pipeline
+repo: florianpfleiderer/CYWS3D-pipeline
 topics:
   [
     "Robotics",
