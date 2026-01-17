@@ -58,7 +58,7 @@
               <h3 class="font-medium">Education</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
                 MSc Computer Science (Completed) — University of St Andrews<br />
-                BSc Electrical Engineering (Completed) - TU Wien<br />
+                BSc Electrical Engineering (Completed) — TU Wien<br />
                 Specialised in Machine Learning and Robotics
               </p>
             </div>
@@ -87,7 +87,7 @@
             <div>
               <h3 class="font-medium">Technical Background</h3>
               <p class="text-neutral-600 dark:text-neutral-400">
-                Control Systems · C++ · Python · ROS · Model Predictive Control (MPC) · AI-Driven Control Architectures · Simulation (Gazebo, SoftGym) · Embedded Systems
+                C++ · Python · ROS · Control Systems · Model Predictive Control (MPC) · AI-Driven Control Architectures · Simulation (Gazebo, SoftGym) · Embedded Systems
               </p>
             </div>
           </div>
