@@ -15,7 +15,7 @@
 
 <Seo
   title="Florian Pfleiderer - About"
-  description="Learn more about Florian Pfleiderer — Robotics Software Engineer specialising in model-based reinforcement learning, control, and robotic perception."
+  description="Learn more about Florian Pfleiderer — Robotics Software Engineer. Building learning-based control systems that run reliably on real robots in uncertain environments."
 />
 
 <div class="max-w-4xl mx-auto px-4 py-12">
