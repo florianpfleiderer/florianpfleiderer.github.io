@@ -24,7 +24,7 @@
     <h1 class="text-3xl font-bold mb-4">About Me</h1>
     <p class="text-neutral-600 dark:text-neutral-400 max-w-2xl">
       <!--Computer Science MSc graduate from the University of St Andrews, following a BSc in Electrical Engineering at TU Wien,--> 
-      Robotics Software Engineer specialising in reinforcement learning, robotic control, and intelligent perception systems.
+      Robotics Software Engineer. Building learning-based control systems that run reliably on real robots in uncertain environments.
     </p>
   </div>
 
